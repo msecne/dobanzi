@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator economii banci</title>
+  <!-- Add viewport meta tag for responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Use Roboto font from Google Fonts */
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      /* Use linear gradient for background color */
+      background: linear-gradient(to right, #74ebd5, #acb6e5);
+    }
+
+    form {
+      margin-bottom: 1em;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 95%;
+      margin: 1em auto;
+    }
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    td.extra-info {
+      white-space: pre-line;
+      /* Preserve line breaks */
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    /* Use flexbox to align and center the elements */
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    form,
+    table {
+      width: 80%;
+    }
+
+    form div {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    form label {
+      margin-right: 25px;
+    }
+
+    form input,
+    form select {
+      margin-bottom: 10px;
+    }
+
+    input[type=number],
+    input[type=range],
+    output,
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    input[type=checkbox] {
+      width: auto;
+      transform: scale(1.5);
+      margin-right: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    button {
+      background-color: orange;
+      color: white;
+      cursor: pointer;
+    }
+
+    input:hover,
+    button:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    input:focus,
+    button:focus {
+      outline: none;
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Add a class for the button container */
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    /* Add margin to the left button */
+    .button-container button:first-child {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Calculator economii banci</h1>
+    <form>
+      <div style="display: flex;">
+        <label for="amount">Valoarea depozitului:</label>
+        <input type="number" id="amount" min="0" required>
+      </div>
+      <div style="display: flex;">
+        <label for="months">Numarul de luni:</label>
+        <input type="range" id="months" min="1" max="60" step="1" value="1"
+          oninput="document.getElementById('monthsOutput').value = this.value"
+          onload="document.getElementById('monthsOutput').value = this.value" required>
+        <output id="monthsOutput">1</output>
+      </div>
+      <div style="display: flex;">
+        <label for="can_withdraw">Optiune de retragere a banilor:</label>
+        <input type="checkbox" id="can_withdraw">
+      </div>
+      <!-- Add the button container -->
+      <div class="button-container">
+        <button type="submit">Calculeaza</button>
+        <button type="button" id="view_raw_data">Vezi datele brute</button>
+      </div>
+    </form>
+  </div>
+  <table id="results">
+    <!-- Results will be inserted here -->
+  </table>
+  <script>
+    var data; // This will hold the data from the JSON file
+    // Fetch the data from the JSON file
+
+    fetch('deposits.json').then(response => response.json()).then(json => data = json);
+
+    // Get the form element
+    const form = document.querySelector('form');
+
+    // Add a listener for the "submit" event
+    form.addEventListener('submit', function (event) {
+      // Prevent the default form submission behavior
+      event.preventDefault();
+
+      // Call the calculate function
+      calculate();
+    });
+
+    // Get the "View raw data" button element
+    const viewRawDataButton = document.getElementById('view_raw_data');
+
+    // Add a listener for the "click" event
+    viewRawDataButton.addEventListener('click', function (event) {
+      // Prevent the default button click behavior
+      event.preventDefault();
+
+      // Sort the data by deposit_interest_rate in descending order
+      data.sort((a, b) => b.deposit_interest_rate - a.deposit_interest_rate);
+
+      // Display the raw data
+      var table = document.getElementById('results');
+      table.innerHTML = '<tr><th>Numele bancii</th><th>Rata dobanzii</th><th>Perioada minima</th><th>Suma minima</th><th>Suma maxima</th><th>Permite retrageri</th><th>Extra detalii</th><th>Link oferta</th></tr>' + data.map(item => '<tr><td>' + item.bank_name + '</td><td>' + item.deposit_interest_rate + '</td><td>' + item.min_period + '</td><td>' + item.min_amount + '</td><td>' + item.max_amount + '</td><td>' + item.can_withdraw + '</td><td class="extra-info">' + (item.extra_info ? item.extra_info.replace(/\\n/g, '\n') : 'Nimic') + '</td><td>' + (item.bank_url ? item.bank_url : 'Nimic') + '</td></tr>').join('');
+    });
+
+    function calculate() {
+      var amount = document.getElementById('amount').value;
+      var months = document.getElementById('months').value;
+      var can_withdraw = document.getElementById('can_withdraw').checked ? 'true' : 'false';
+      // Filter and sort the data
+      var results = data.filter(item => item.min_period <= months && item.min_amount <= amount && item.max_amount >= amount && item.can_withdraw === can_withdraw);
+      results.sort((a, b) => ((b.deposit_interest_rate / 100 / 12) * amount * months) - ((a.deposit_interest_rate / 100 / 12) * amount * months));
+      // Display the results
+      var table = document.getElementById('results');
+      table.innerHTML = '<tr><th>Numele bancii</th><th>Rata dobanzii</th><th>Dobanda obtinuta</th><th>Total brut</th><th>Total net (-10%)</th><th>Extra detalii</th></tr>' + results.map(item => {
+        var interest_for_min_period = (item.deposit_interest_rate / 100 / 12) * amount * Math.min(months, item.min_period);
+        var interest_for_remaining_period = (item.interest_after_min / 100 / 12) * amount * Math.max(0, months - item.min_period);
+        var interest = interest_for_min_period + interest_for_remaining_period;
+        var total = parseFloat(amount) + interest;
+        var afterTaxes = total - (total * 0.10);
+        var extraInfo = item.extra_info ? item.extra_info.replace(/\\n/g, '\n') : 'Nimic';
+        var bankName = item.bank_name;
+        if (item.bank_url) {
+          bankName = '<a href="' + item.bank_url + '">' + item.bank_name + '</a>';
+        }
+        return '<tr><td>' + bankName + '</td><td>' + item.deposit_interest_rate + '</td><td>' + interest.toFixed(2) + '</td><td>' + total.toFixed(2) + '</td><td>' + afterTaxes.toFixed(2) + '</td><td class="extra-info">' + extraInfo + '</td></tr>';
+      }).join('');
+    }
+
+  </script>
+</body>
+
+</html>
