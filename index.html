@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Calculator economii banci</title>
+  <title>Calculator economii & depozite banci</title>
   <!-- Add viewport meta tag for responsiveness -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
@@ -118,18 +118,28 @@
     }
 
     /* Add margin to the left button */
-    .button-container button:first-child {
+    .button-container button {
       margin-right: 10px;
+    }
+
+    #results {
+      width: 90%;
+      margin: 0 auto;
     }
   </style>
 </head>
 
 <body>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript" charset="utf8"
+    src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
   <div class="container">
-    <h1>Calculator economii banci</h1>
+    <h1>Calculator economii & depozite banci</h1>
     <form>
       <div style="display: flex;">
-        <label for="amount">Valoarea depozitului:</label>
+        <label for="amount">Valoarea contului/depozitului:</label>
         <input type="number" id="amount" min="0" required>
       </div>
       <div style="display: flex;">
@@ -147,6 +157,7 @@
       <div class="button-container">
         <button type="submit">Calculeaza</button>
         <button type="button" id="view_raw_data">Vezi datele brute</button>
+        <button type="button" id="view_history">Vezi istoric</button>
       </div>
     </form>
   </div>
@@ -171,6 +182,12 @@
       calculate();
     });
 
+    document.getElementById('view_history').addEventListener('click', function () {
+      event.preventDefault();
+
+      displayInterestHistory(data);  // Call the function with your data
+    });
+
     // Get the "View raw data" button element
     const viewRawDataButton = document.getElementById('view_raw_data');
 
@@ -180,11 +197,43 @@
       event.preventDefault();
 
       // Sort the data by deposit_interest_rate in descending order
-      data.sort((a, b) => b.deposit_interest_rate - a.deposit_interest_rate);
+      data.sort((a, b) => b.deposit_interest_rate.value - a.deposit_interest_rate.value);
+
+      // If DataTables has been initialized, destroy the old instance
+      if ($.fn.dataTable.isDataTable('#results')) {
+        $('#results').DataTable().destroy();
+      }
 
       // Display the raw data
       var table = document.getElementById('results');
-      table.innerHTML = '<tr><th>Numele bancii</th><th>Rata dobanzii</th><th>Perioada minima</th><th>Suma minima</th><th>Suma maxima</th><th>Permite retrageri</th><th>Extra detalii</th><th>Link oferta</th></tr>' + data.map(item => '<tr><td>' + item.bank_name + '</td><td>' + item.deposit_interest_rate + '</td><td>' + item.min_period + '</td><td>' + item.min_amount + '</td><td>' + item.max_amount + '</td><td>' + item.can_withdraw + '</td><td class="extra-info">' + (item.extra_info ? item.extra_info.replace(/\\n/g, '\n') : 'Nimic') + '</td><td>' + (item.bank_url ? item.bank_url : 'Nimic') + '</td></tr>').join('');
+      table.innerHTML = '<thead><tr><th>Numele bancii</th><th>Rata dobanzii</th><th>Perioada minima</th><th>Suma minima</th><th>Suma maxima</th><th>Permite retrageri</th><th>Extra detalii</th><th>Link oferta</th></tr></thead><tbody>' + data.map(item => '<tr><td>' + item.bank_name + '</td><td>' + item.deposit_interest_rate.value + '</td><td>' + item.min_period + '</td><td>' + item.min_amount + '</td><td>' + item.max_amount + '</td><td>' + item.can_withdraw + '</td><td class="extra-info">' + (item.extra_info ? item.extra_info.replace(/\\n/g, '\n') : 'Nimic') + '</td><td>' + (item.bank_url ? item.bank_url : 'Nimic') + '</td></tr>').join('') + '</tbody>';
+
+      table.style.width = '95vw';
+
+      // Initialize DataTables
+      var dataTable = $('#results').DataTable({
+        dom: 'lrtip', // Exclude 'f'
+        pageLength: 1000000 // Set to a large number
+      });
+
+      // Add a text input to each header cell
+      $('#results thead th').each(function () {
+        var title = $(this).text();
+        $(this).html(title + '<br><input type="text" placeholder="Search " style="width:60%;" />');
+      });
+
+      // Apply the search
+      dataTable.columns().every(function () {
+        var that = this;
+
+        $('input', this.header()).on('keyup change clear', function () {
+          if (that.search() !== this.value) {
+            that
+              .search(this.value)
+              .draw();
+          }
+        });
+      });
     });
 
     function calculate() {
@@ -192,24 +241,85 @@
       var months = document.getElementById('months').value;
       var can_withdraw = document.getElementById('can_withdraw').checked ? 'true' : 'false';
       // Filter and sort the data
-      var results = data.filter(item => item.min_period <= months && item.min_amount <= amount && item.max_amount >= amount && item.can_withdraw === can_withdraw);
-      results.sort((a, b) => ((b.deposit_interest_rate / 100 / 12) * amount * months) - ((a.deposit_interest_rate / 100 / 12) * amount * months));
+      var results = data.filter(item => item.min_period <= months && item.max_period >= months && item.min_amount <= amount && item.max_amount >= amount && item.can_withdraw === can_withdraw);
+      results.sort((a, b) => ((b.deposit_interest_rate.value / 100 / 12) * amount * months) - ((a.deposit_interest_rate.value / 100 / 12) * amount * months));
       // Display the results
       var table = document.getElementById('results');
+      if ($.fn.dataTable.isDataTable('#results')) {
+        $('#results').DataTable().destroy();
+      }
       table.innerHTML = '<tr><th>Numele bancii</th><th>Rata dobanzii</th><th>Dobanda obtinuta</th><th>Total brut</th><th>Total net (-10%)</th><th>Extra detalii</th></tr>' + results.map(item => {
-        var interest_for_min_period = (item.deposit_interest_rate / 100 / 12) * amount * Math.min(months, item.min_period);
+        var interest_for_min_period = (item.deposit_interest_rate.value / 100 / 12) * amount * Math.min(months, item.min_period);
         var interest_for_remaining_period = (item.interest_after_min / 100 / 12) * amount * Math.max(0, months - item.min_period);
         var interest = interest_for_min_period + interest_for_remaining_period;
         var total = parseFloat(amount) + interest;
-        var afterTaxes = total - (total * 0.10);
+        var afterTaxes = total - (interest * 0.10);
         var extraInfo = item.extra_info ? item.extra_info.replace(/\\n/g, '\n') : 'Nimic';
         var bankName = item.bank_name;
         if (item.bank_url) {
           bankName = '<a href="' + item.bank_url + '">' + item.bank_name + '</a>';
         }
-        return '<tr><td>' + bankName + '</td><td>' + item.deposit_interest_rate + '</td><td>' + interest.toFixed(2) + '</td><td>' + total.toFixed(2) + '</td><td>' + afterTaxes.toFixed(2) + '</td><td class="extra-info">' + extraInfo + '</td></tr>';
+        return '<tr><td>' + bankName + '</td><td>' + item.deposit_interest_rate.value + '</td><td>' + interest.toFixed(2) + '</td><td>' + total.toFixed(2) + '</td><td>' + afterTaxes.toFixed(2) + '</td><td class="extra-info">' + extraInfo + '</td></tr>';
       }).join('');
     }
+
+
+    google.charts.load('current', { 'packages': ['corechart'] });
+
+
+    function displayInterestHistory(data) {
+      // Create a new table
+      var table = document.getElementById('results');
+      if ($.fn.dataTable.isDataTable('#results')) {
+        $('#results').DataTable().destroy();
+      }
+      table.innerHTML = `
+        <tr>
+            <th>Numele bancii</th>
+            <th>Suma minima</th>
+            <th>Suma maxima</th>
+            <th>Permite retrageri</th>
+            <th>Evolutia dobanzii</th>
+        </tr>
+    `;
+      document.body.appendChild(table);
+
+      // Create a row for each entry in the data
+      data.forEach((item, index) => {
+        var row = table.insertRow();
+        row.innerHTML = `
+            <td>${item.bank_name}</td>
+            <td>${item.min_amount}</td>
+            <td>${item.max_amount}</td>
+            <td>${item.can_withdraw}</td>
+            <td><div id="chart${index}"></div></td>
+        `;
+
+        // Prepare the data for the graph
+        var graphData = new google.visualization.DataTable();
+        graphData.addColumn('string', 'Date');
+        graphData.addColumn('number', 'Interest rate');
+        item.deposit_interest_rate.history.forEach(change => {
+          graphData.addRow([change.date, change.value]);
+        });
+        graphData.addRow([new Date().toISOString().split('T')[0], item.deposit_interest_rate.value]);
+
+        // Set the options for the graph
+        var options = {
+          width: 400,
+          height: 300,
+          legend: { position: 'none' },
+          hAxis: { textPosition: 'none' },
+          vAxis: { textPosition: 'none' },
+          pointSize: 5,
+        };
+
+        // Create and draw the graph
+        var chart = new google.visualization.LineChart(document.getElementById('chart' + index));
+        chart.draw(graphData, options);
+      });
+    }
+
 
   </script>
 </body>
