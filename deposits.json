@@ -2,9 +2,18 @@
     {
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/contul-de-economii",
-        "deposit_interest_rate": 2.0,
+        "deposit_interest_rate": {
+            "value": 2.0,
+            "history": [
+                {
+                    "value": 1.5,
+                    "date": "2023-09-15"
+                }
+            ]
+        },
         "interest_after_min": 2.0,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -13,9 +22,13 @@
     {
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/planul-de-economii",
-        "deposit_interest_rate": 5.5,
+        "deposit_interest_rate": {
+            "value": 5.5,
+            "history": []
+        },
         "interest_after_min": 5.5,
         "min_period": 12,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -24,9 +37,13 @@
     {
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/planul-de-economii",
-        "deposit_interest_rate": 6.0,
+        "deposit_interest_rate": {
+            "value": 6.0,
+            "history": []
+        },
         "interest_after_min": 6.0,
         "min_period": 12,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -35,9 +52,13 @@
     {
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-cont-economii",
-        "deposit_interest_rate": 3.0,
+        "deposit_interest_rate": {
+            "value": 3.0,
+            "history": []
+        },
         "interest_after_min": 3.0,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 4999,
         "can_withdraw": "true",
@@ -46,9 +67,13 @@
     {
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-cont-economii",
-        "deposit_interest_rate": 3.25,
+        "deposit_interest_rate": {
+            "value": 3.25,
+            "history": []
+        },
         "interest_after_min": 3.25,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 5000,
         "max_amount": 24999,
         "can_withdraw": "true",
@@ -57,9 +82,13 @@
     {
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-cont-economii",
-        "deposit_interest_rate": 3.50,
+        "deposit_interest_rate": {
+            "value": 3.50,
+            "history": []
+        },
         "interest_after_min": 3.50,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 25000,
         "max_amount": 100000,
         "can_withdraw": "true",
@@ -68,9 +97,13 @@
     {
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-cont-economii",
-        "deposit_interest_rate": 0.10,
+        "deposit_interest_rate": {
+            "value": 0.10,
+            "history": []
+        },
         "interest_after_min": 0.10,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 100000,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -79,20 +112,28 @@
     {
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-depuneri-ulterioare",
-        "deposit_interest_rate": 6.20,
+        "deposit_interest_rate": {
+            "value": 6.20,
+            "history": []
+        },
         "interest_after_min": 6.20,
         "min_period": 12,
+        "max_period": 999,
         "min_amount": 500,
         "max_amount": 200000,
         "can_withdraw": "false",
-        "extra_info": "Nu se pot retrage banii fara a pierde dobanda\nCont cu depuneri ulterioare\nDobanda se acorda la finalul perioadei de 12 luni\nsuma minimă constituire: 500 de lei\nsuma maximă constituire: 200.000 lei\nsuma minimă depunere ulterioară lunara: 100 de lei"
+        "extra_info": "Nu se pot retrage banii fara a pierde dobanda\nCont cu depuneri ulterioare\nTrebuie facut online\nDobanda se acorda la finalul perioadei de 12 luni\nsuma minimă constituire: 500 de lei\nsuma maximă constituire: 200.000 lei\nsuma minimă depunere ulterioară lunara: 100 de lei"
     },
     {
         "bank_name": "Credit Europe Bank",
         "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Contul-de-economii",
-        "deposit_interest_rate": 5.0,
+        "deposit_interest_rate": {
+            "value": 5.0,
+            "history": []
+        },
         "interest_after_min": 5.0,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -101,9 +142,13 @@
     {
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/cont-flexibil/",
-        "deposit_interest_rate": 3.5,
+        "deposit_interest_rate": {
+            "value": 3.5,
+            "history": []
+        },
         "interest_after_min": 3.5,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 50000,
         "can_withdraw": "true",
@@ -112,9 +157,13 @@
     {
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/cont-flexibil/",
-        "deposit_interest_rate": 4.0,
+        "deposit_interest_rate": {
+            "value": 4.0,
+            "history": []
+        },
         "interest_after_min": 4.0,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 50001,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -123,9 +172,13 @@
     {
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/retail/economisire/depozitul-star.html",
-        "deposit_interest_rate": 0.4,
+        "deposit_interest_rate": {
+            "value": 0.4,
+            "history": []
+        },
         "interest_after_min": 0.4,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -134,9 +187,13 @@
     {
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/persoane-fizice/conturi-de-economii/economus/",
-        "deposit_interest_rate": 5.0,
+        "deposit_interest_rate": {
+            "value": 5.0,
+            "history": []
+        },
         "interest_after_min": 5.0,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -145,20 +202,28 @@
     {
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/persoane-fizice/conturi-de-economii/bonus-economus/",
-        "deposit_interest_rate": 6.5,
+        "deposit_interest_rate": {
+            "value": 6.5,
+            "history": []
+        },
         "interest_after_min": 5.0,
         "min_period": 6,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 35000,
         "can_withdraw": "true",
-        "extra_info": "Dobanda bonus se da dupa 6 luni\nMaxim 35000 lei per cont cu tot cu dobanda\nSe pot deschide mai multe conturi bonus economus\nE nevoie de un plan de economisire lunara de min 50 lei, insa se pot adauga ulterior si alti bani oricand"
+        "extra_info": "Dobanda bonus se da dupa 6 luni\nMaxim 35000 lei per cont\nSe pot deschide mai multe conturi bonus economus\nE nevoie de un plan de economisire lunara de min 50 lei, insa se pot adauga ulterior si alti bani oricand"
     },
     {
         "bank_name": "ING",
         "bank_url": "https://ing.ro/persoane-fizice/economii-si-investitii/ing-economii-si-depozite-la-termen",
-        "deposit_interest_rate": 2.0,
+        "deposit_interest_rate": {
+            "value": 2.0,
+            "history": []
+        },
         "interest_after_min": 2.0,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -167,9 +232,13 @@
     {
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/planul-de-acumulare.html",
-        "deposit_interest_rate": 5.25,
+        "deposit_interest_rate": {
+            "value": 5.25,
+            "history": []
+        },
         "interest_after_min": 5.25,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 150,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -178,9 +247,13 @@
     {
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/cont-economii",
-        "deposit_interest_rate": 2.50,
+        "deposit_interest_rate": {
+            "value": 2.50,
+            "history": []
+        },
         "interest_after_min": 2.50,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -189,9 +262,13 @@
     {
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/cont-de-economii",
-        "deposit_interest_rate": 1.15,
+        "deposit_interest_rate": {
+            "value": 1.15,
+            "history": []
+        },
         "interest_after_min": 1.15,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 100,
         "max_amount": 49999,
         "can_withdraw": "true",
@@ -200,9 +277,13 @@
     {
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/cont-de-economii",
-        "deposit_interest_rate": 1.30,
+        "deposit_interest_rate": {
+            "value": 1.30,
+            "history": []
+        },
         "interest_after_min": 1.30,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 50000,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -211,9 +292,13 @@
     {
         "bank_name": "Patria",
         "bank_url": "https://www.patriabank.ro/persoane-fizice/economii/cont-de-economii",
-        "deposit_interest_rate": 0.50,
+        "deposit_interest_rate": {
+            "value": 0.50,
+            "history": []
+        },
         "interest_after_min": 0.50,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 4999,
         "can_withdraw": "true",
@@ -222,9 +307,13 @@
     {
         "bank_name": "Patria",
         "bank_url": "https://www.patriabank.ro/persoane-fizice/economii/cont-de-economii",
-        "deposit_interest_rate": 0.75,
+        "deposit_interest_rate": {
+            "value": 0.75,
+            "history": []
+        },
         "interest_after_min": 0.75,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -233,9 +322,13 @@
     {
         "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Lista%20Preturi_PF_RO_24_05_2023_v1.pdf",
-        "deposit_interest_rate": 3.0,
+        "deposit_interest_rate": {
+            "value": 3.0,
+            "history": []
+        },
         "interest_after_min": 3.0,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -244,9 +337,13 @@
     {
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/cont-de-economii/",
-        "deposit_interest_rate": 3.0,
+        "deposit_interest_rate": {
+            "value": 3.0,
+            "history": []
+        },
         "interest_after_min": 3.0,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 50000,
         "can_withdraw": "true",
@@ -255,9 +352,13 @@
     {
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/cont-de-economii/",
-        "deposit_interest_rate": 3.5,
+        "deposit_interest_rate": {
+            "value": 3.5,
+            "history": []
+        },
         "interest_after_min": 3.5,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 50000,
         "max_amount": 250000,
         "can_withdraw": "true",
@@ -266,9 +367,13 @@
     {
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/cont-de-economii/",
-        "deposit_interest_rate": 4.0,
+        "deposit_interest_rate": {
+            "value": 4.0,
+            "history": []
+        },
         "interest_after_min": 4.0,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 250000,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -277,9 +382,13 @@
     {
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
-        "deposit_interest_rate": 6.20,
+        "deposit_interest_rate": {
+            "value": 6.20,
+            "history": []
+        },
         "interest_after_min": 6.20,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -288,20 +397,28 @@
     {
         "bank_name": "TechVentures",
         "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_08.09.2023.pdf",
-        "deposit_interest_rate": 1.20,
+        "deposit_interest_rate": {
+            "value": 1.20,
+            "history": []
+        },
         "interest_after_min": 1.20,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 999999,
-        "can_withdraw": "false",
+        "can_withdraw": "true",
         "extra_info": "Cont standard de economii"
     },
     {
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/cont-de-economii",
-        "deposit_interest_rate": 4.00,
+        "deposit_interest_rate": {
+            "value": 4.00,
+            "history": []
+        },
         "interest_after_min": 4.00,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1000,
         "max_amount": 9999,
         "can_withdraw": "true",
@@ -310,9 +427,13 @@
     {
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/cont-de-economii",
-        "deposit_interest_rate": 4.10,
+        "deposit_interest_rate": {
+            "value": 4.10,
+            "history": []
+        },
         "interest_after_min": 4.10,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 10000,
         "max_amount": 99999,
         "can_withdraw": "true",
@@ -321,9 +442,13 @@
     {
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/cont-de-economii",
-        "deposit_interest_rate": 4.30,
+        "deposit_interest_rate": {
+            "value": 4.30,
+            "history": []
+        },
         "interest_after_min": 4.30,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 100000,
         "max_amount": 499999,
         "can_withdraw": "true",
@@ -332,9 +457,13 @@
     {
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/cont-de-economii",
-        "deposit_interest_rate": 4.50,
+        "deposit_interest_rate": {
+            "value": 4.50,
+            "history": []
+        },
         "interest_after_min": 4.50,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 500000,
         "max_amount": 999999,
         "can_withdraw": "true",
@@ -343,12 +472,1441 @@
     {
         "bank_name": "Unicredit",
         "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/conturi-de-economii.html",
-        "deposit_interest_rate": 2.50,
+        "deposit_interest_rate": {
+            "value": 2.50,
+            "history": []
+        },
         "interest_after_min": 2.50,
         "min_period": 1,
+        "max_period": 999,
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
         "extra_info": "Cont standard de economii"
+    },
+    {
+        "bank_name": "BRD",
+        "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/conturi-de-economii/atucont",
+        "deposit_interest_rate": {
+            "value": 2.00,
+            "history": []
+        },
+        "interest_after_min": 2.00,
+        "min_period": 1,
+        "max_period": 999,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "true",
+        "extra_info": "Cont standard de economii"
+    },
+    {
+        "bank_name": "BRD",
+        "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/conturi-de-economii/economii-pentru-copii",
+        "deposit_interest_rate": {
+            "value": 2.50,
+            "history": []
+        },
+        "interest_after_min": 2.50,
+        "min_period": 12,
+        "max_period": 999,
+        "min_amount": 1,
+        "max_amount": 200000,
+        "can_withdraw": "false",
+        "extra_info": "Cont de economii pentru copii\nLa vârsta de 18 ani, suma economisită se transformă într-un cont Atucont, deschis tot pe numele copilului tău"
+    },
+    {
+        "bank_name": "BCR",
+        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
+        "deposit_interest_rate": {
+            "value": 5.75,
+            "history": []
+        },
+        "interest_after_min": 5.75,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR"
+    },
+    {
+        "bank_name": "BCR",
+        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
+        "deposit_interest_rate": {
+            "value": 4.75,
+            "history": []
+        },
+        "interest_after_min": 4.75,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit"
+    },
+    {
+        "bank_name": "BCR",
+        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR"
+    },
+    {
+        "bank_name": "BCR",
+        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
+        "deposit_interest_rate": {
+            "value": 5.00,
+            "history": []
+        },
+        "interest_after_min": 5.00,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit"
+    },
+    {
+        "bank_name": "BCR",
+        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 12,
+        "max_period": 23,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR"
+    },
+    {
+        "bank_name": "BCR",
+        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
+        "deposit_interest_rate": {
+            "value": 5.50,
+            "history": []
+        },
+        "interest_after_min": 5.50,
+        "min_period": 12,
+        "max_period": 23,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit"
+    },
+    {
+        "bank_name": "BCR",
+        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 24,
+        "max_period": 999,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR"
+    },
+    {
+        "bank_name": "BCR",
+        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
+        "deposit_interest_rate": {
+            "value": 5.00,
+            "history": []
+        },
+        "interest_after_min": 5.00,
+        "min_period": 24,
+        "max_period": 999,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit"
+    },
+    {
+        "bank_name": "CEC",
+        "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
+        "deposit_interest_rate": {
+            "value": 5.20,
+            "history": []
+        },
+        "interest_after_min": 5.20,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 300,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online"
+    },
+    {
+        "bank_name": "CEC",
+        "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 300,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online"
+    },
+    {
+        "bank_name": "CEC",
+        "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
+        "deposit_interest_rate": {
+            "value": 6.20,
+            "history": []
+        },
+        "interest_after_min": 6.20,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 300,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online"
+    },
+    {
+        "bank_name": "CEC",
+        "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
+        "deposit_interest_rate": {
+            "value": 6.90,
+            "history": []
+        },
+        "interest_after_min": 6.90,
+        "min_period": 12,
+        "max_period": 23,
+        "min_amount": 300,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online"
+    },
+    {
+        "bank_name": "CEC",
+        "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": []
+        },
+        "interest_after_min": 7.00,
+        "min_period": 24,
+        "max_period": 35,
+        "min_amount": 300,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online"
+    },
+    {
+        "bank_name": "CEC",
+        "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
+        "deposit_interest_rate": {
+            "value": 7.10,
+            "history": []
+        },
+        "interest_after_min": 7.10,
+        "min_period": 36,
+        "max_period": 999,
+        "min_amount": 1000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online"
+    },
+    {
+        "bank_name": "Credit Europe Bank",
+        "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 300,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online prin monet"
+    },
+    {
+        "bank_name": "Credit Europe Bank",
+        "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.75,
+            "history": []
+        },
+        "interest_after_min": 6.75,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 300,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online prin monet"
+    },
+    {
+        "bank_name": "Credit Europe Bank",
+        "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": []
+        },
+        "interest_after_min": 7.00,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 300,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online prin monet"
+    },
+    {
+        "bank_name": "Credit Europe Bank",
+        "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
+        "deposit_interest_rate": {
+            "value": 7.50,
+            "history": []
+        },
+        "interest_after_min": 7.50,
+        "min_period": 12,
+        "max_period": 23,
+        "min_amount": 300,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online prin monet"
+    },
+    {
+        "bank_name": "Credit Europe Bank",
+        "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": []
+        },
+        "interest_after_min": 7.00,
+        "min_period": 24,
+        "max_period": 999,
+        "min_amount": 300,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online prin monet"
+    },
+    {
+        "bank_name": "Exim",
+        "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
+        "deposit_interest_rate": {
+            "value": 5.00,
+            "history": []
+        },
+        "interest_after_min": 5.00,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Exim",
+        "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
+        "deposit_interest_rate": {
+            "value": 6.25,
+            "history": []
+        },
+        "interest_after_min": 6.25,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Exim",
+        "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 6,
+        "max_period": 8,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Exim",
+        "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
+        "deposit_interest_rate": {
+            "value": 6.75,
+            "history": []
+        },
+        "interest_after_min": 6.75,
+        "min_period": 9,
+        "max_period": 11,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Exim",
+        "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": []
+        },
+        "interest_after_min": 7.00,
+        "min_period": 12,
+        "max_period": 17,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Exim",
+        "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
+        "deposit_interest_rate": {
+            "value": 6.75,
+            "history": []
+        },
+        "interest_after_min": 6.75,
+        "min_period": 18,
+        "max_period": 23,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Exim",
+        "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 24,
+        "max_period": 999,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "First Bank",
+        "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
+        "deposit_interest_rate": {
+            "value": 5.70,
+            "history": []
+        },
+        "interest_after_min": 5.70,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online"
+    },
+    {
+        "bank_name": "First Bank",
+        "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
+        "deposit_interest_rate": {
+            "value": 6.30,
+            "history": []
+        },
+        "interest_after_min": 6.30,
+        "min_period": 3,
+        "max_period": 4,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online"
+    },
+    {
+        "bank_name": "First Bank",
+        "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
+        "deposit_interest_rate": {
+            "value": 7.30,
+            "history": []
+        },
+        "interest_after_min": 7.30,
+        "min_period": 5,
+        "max_period": 5,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online"
+    },
+    {
+        "bank_name": "First Bank",
+        "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
+        "deposit_interest_rate": {
+            "value": 6.55,
+            "history": []
+        },
+        "interest_after_min": 6.55,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online"
+    },
+    {
+        "bank_name": "First Bank",
+        "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": []
+        },
+        "interest_after_min": 7.00,
+        "min_period": 12,
+        "max_period": 23,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online"
+    },
+    {
+        "bank_name": "First Bank",
+        "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
+        "deposit_interest_rate": {
+            "value": 6.45,
+            "history": []
+        },
+        "interest_after_min": 6.45,
+        "min_period": 24,
+        "max_period": 999,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online"
+    },
+    {
+        "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
+        "deposit_interest_rate": {
+            "value": 7.75,
+            "history": []
+        },
+        "interest_after_min": 7.75,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2023"
+    },
+    {
+        "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
+        "deposit_interest_rate": {
+            "value": 8.05,
+            "history": []
+        },
+        "interest_after_min": 8.05,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2023"
+    },
+    {
+        "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
+        "deposit_interest_rate": {
+            "value": 8.50,
+            "history": []
+        },
+        "interest_after_min": 8.50,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2023"
+    },
+    {
+        "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
+        "deposit_interest_rate": {
+            "value": 8.00,
+            "history": []
+        },
+        "interest_after_min": 8.00,
+        "min_period": 12,
+        "max_period": 999,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2023"
+    },
+    {
+        "bank_name": "ING",
+        "bank_url": "https://ing.ro/persoane-fizice/economii-si-investitii/ing-economii-si-depozite-la-termen#depozite-la-termen",
+        "deposit_interest_rate": {
+            "value": 4.75,
+            "history": []
+        },
+        "interest_after_min": 4.75,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "ING",
+        "bank_url": "https://ing.ro/persoane-fizice/economii-si-investitii/ing-economii-si-depozite-la-termen#depozite-la-termen",
+        "deposit_interest_rate": {
+            "value": 5.25,
+            "history": []
+        },
+        "interest_after_min": 5.25,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "ING",
+        "bank_url": "https://ing.ro/persoane-fizice/economii-si-investitii/ing-economii-si-depozite-la-termen#depozite-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 12,
+        "max_period": 999,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
+        "deposit_interest_rate": {
+            "value": 4.75,
+            "history": []
+        },
+        "interest_after_min": 4.75,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
+        "deposit_interest_rate": {
+            "value": 5.25,
+            "history": []
+        },
+        "interest_after_min": 5.25,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": []
+        },
+        "interest_after_min": 7.00,
+        "min_period": 12,
+        "max_period": 17,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 18,
+        "max_period": 999,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Libra",
+        "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
+        "deposit_interest_rate": {
+            "value": 5.25,
+            "history": []
+        },
+        "interest_after_min": 5.25,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Libra",
+        "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
+        "deposit_interest_rate": {
+            "value": 5.35,
+            "history": []
+        },
+        "interest_after_min": 5.35,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Libra",
+        "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
+        "deposit_interest_rate": {
+            "value": 5.50,
+            "history": []
+        },
+        "interest_after_min": 5.50,
+        "min_period": 6,
+        "max_period": 8,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Libra",
+        "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 7,
+        "max_period": 7,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic Blitz"
+    },
+    {
+        "bank_name": "Libra",
+        "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 9,
+        "max_period": 11,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Libra",
+        "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
+        "deposit_interest_rate": {
+            "value": 6.25,
+            "history": []
+        },
+        "interest_after_min": 6.25,
+        "min_period": 12,
+        "max_period": 999,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "OTP",
+        "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
+        "deposit_interest_rate": {
+            "value": 6.15,
+            "history": []
+        },
+        "interest_after_min": 6.15,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 100,
+        "max_amount": 99999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "OTP",
+        "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
+        "deposit_interest_rate": {
+            "value": 6.35,
+            "history": []
+        },
+        "interest_after_min": 6.35,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 100000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "OTP",
+        "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
+        "deposit_interest_rate": {
+            "value": 6.85,
+            "history": []
+        },
+        "interest_after_min": 6.85,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 100,
+        "max_amount": 99999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "OTP",
+        "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
+        "deposit_interest_rate": {
+            "value": 7.05,
+            "history": []
+        },
+        "interest_after_min": 7.05,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 100000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "OTP",
+        "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
+        "deposit_interest_rate": {
+            "value": 7.25,
+            "history": []
+        },
+        "interest_after_min": 7.25,
+        "min_period": 6,
+        "max_period": 999,
+        "min_amount": 100,
+        "max_amount": 99999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "OTP",
+        "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
+        "deposit_interest_rate": {
+            "value": 7.45,
+            "history": []
+        },
+        "interest_after_min": 7.45,
+        "min_period": 6,
+        "max_period": 999,
+        "min_amount": 100000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Patria",
+        "bank_url": "https://www.patriabank.ro/d/1744",
+        "deposit_interest_rate": {
+            "value": 5.75,
+            "history": []
+        },
+        "interest_after_min": 5.75,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Patria",
+        "bank_url": "https://www.patriabank.ro/d/1744",
+        "deposit_interest_rate": {
+            "value": 6.75,
+            "history": []
+        },
+        "interest_after_min": 6.75,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Patria",
+        "bank_url": "https://www.patriabank.ro/d/1744",
+        "deposit_interest_rate": {
+            "value": 7.25,
+            "history": []
+        },
+        "interest_after_min": 7.25,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Patria",
+        "bank_url": "https://www.patriabank.ro/d/1744",
+        "deposit_interest_rate": {
+            "value": 7.75,
+            "history": []
+        },
+        "interest_after_min": 7.75,
+        "min_period": 12,
+        "max_period": 999,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "ProCredit",
+        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Lista%20Preturi_PF_RO_24_05_2023_v1.pdf",
+        "deposit_interest_rate": {
+            "value": 6.30,
+            "history": []
+        },
+        "interest_after_min": 6.30,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "ProCredit",
+        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Lista%20Preturi_PF_RO_24_05_2023_v1.pdf",
+        "deposit_interest_rate": {
+            "value": 7.30,
+            "history": []
+        },
+        "interest_after_min": 7.30,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "ProCredit",
+        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Lista%20Preturi_PF_RO_24_05_2023_v1.pdf",
+        "deposit_interest_rate": {
+            "value": 7.50,
+            "history": []
+        },
+        "interest_after_min": 7.50,
+        "min_period": 12,
+        "max_period": 17,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "ProCredit",
+        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Lista%20Preturi_PF_RO_24_05_2023_v1.pdf",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": []
+        },
+        "interest_after_min": 7.00,
+        "min_period": 18,
+        "max_period": 999,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Raiffeisen",
+        "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
+        "deposit_interest_rate": {
+            "value": 6.10,
+            "history": []
+        },
+        "interest_after_min": 6.10,
+        "min_period": 3,
+        "max_period": 11,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Raiffeisen",
+        "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 12,
+        "max_period": 23,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Raiffeisen",
+        "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
+        "deposit_interest_rate": {
+            "value": 6.20,
+            "history": []
+        },
+        "interest_after_min": 6.20,
+        "min_period": 24,
+        "max_period": 999,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "TBI",
+        "bank_url": "https://tbibank.ro/product/depozitul-online/",
+        "deposit_interest_rate": {
+            "value": 7.10,
+            "history": []
+        },
+        "interest_after_min": 7.10,
+        "min_period": 3,
+        "max_period": 4,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "TBI",
+        "bank_url": "https://tbibank.ro/product/depozitul-online/",
+        "deposit_interest_rate": {
+            "value": 7.70,
+            "history": []
+        },
+        "interest_after_min": 7.70,
+        "min_period": 5,
+        "max_period": 5,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "TBI",
+        "bank_url": "https://tbibank.ro/product/depozitul-online/",
+        "deposit_interest_rate": {
+            "value": 7.75,
+            "history": []
+        },
+        "interest_after_min": 7.75,
+        "min_period": 6,
+        "max_period": 8,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "TBI",
+        "bank_url": "https://tbibank.ro/product/depozitul-online/",
+        "deposit_interest_rate": {
+            "value": 6.95,
+            "history": []
+        },
+        "interest_after_min": 6.95,
+        "min_period": 9,
+        "max_period": 11,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "TBI",
+        "bank_url": "https://tbibank.ro/product/depozitul-online/",
+        "deposit_interest_rate": {
+            "value": 8.05,
+            "history": []
+        },
+        "interest_after_min": 8.05,
+        "min_period": 12,
+        "max_period": 14,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "TBI",
+        "bank_url": "https://tbibank.ro/product/depozitul-online/",
+        "deposit_interest_rate": {
+            "value": 7.45,
+            "history": []
+        },
+        "interest_after_min": 7.45,
+        "min_period": 15,
+        "max_period": 17,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "TBI",
+        "bank_url": "https://tbibank.ro/product/depozitul-online/",
+        "deposit_interest_rate": {
+            "value": 6.95,
+            "history": []
+        },
+        "interest_after_min": 6.95,
+        "min_period": 18,
+        "max_period": 999,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "TechVentures",
+        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_08.09.2023.pdf",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 1000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "TechVentures",
+        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_08.09.2023.pdf",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 1000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "TechVentures",
+        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_08.09.2023.pdf",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": []
+        },
+        "interest_after_min": 7.00,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 1000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "TechVentures",
+        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_08.09.2023.pdf",
+        "deposit_interest_rate": {
+            "value": 7.50,
+            "history": []
+        },
+        "interest_after_min": 7.50,
+        "min_period": 12,
+        "max_period": 17,
+        "min_amount": 1000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "TechVentures",
+        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_08.09.2023.pdf",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": []
+        },
+        "interest_after_min": 7.00,
+        "min_period": 18,
+        "max_period": 999,
+        "min_amount": 1000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Transilvania",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
+        "deposit_interest_rate": {
+            "value": 5.00,
+            "history": []
+        },
+        "interest_after_min": 5.00,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Transilvania",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
+        "deposit_interest_rate": {
+            "value": 5.85,
+            "history": []
+        },
+        "interest_after_min": 5.85,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Transilvania",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Transilvania",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.25,
+            "history": []
+        },
+        "interest_after_min": 6.25,
+        "min_period": 12,
+        "max_period": 23,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Transilvania",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.35,
+            "history": []
+        },
+        "interest_after_min": 6.35,
+        "min_period": 24,
+        "max_period": 35,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Transilvania",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.45,
+            "history": []
+        },
+        "interest_after_min": 6.45,
+        "min_period": 36,
+        "max_period": 999,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Unicredit",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Unicredit",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
+        "deposit_interest_rate": {
+            "value": 6.20,
+            "history": []
+        },
+        "interest_after_min": 6.20,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Unicredit",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 12,
+        "max_period": 999,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "BRD",
+        "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
+        "deposit_interest_rate": {
+            "value": 4.60,
+            "history": []
+        },
+        "interest_after_min": 4.60,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "BRD",
+        "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
+        "deposit_interest_rate": {
+            "value": 5.80,
+            "history": []
+        },
+        "interest_after_min": 5.80,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "BRD",
+        "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "BRD",
+        "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 12,
+        "max_period": 23,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "BRD",
+        "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.20,
+            "history": []
+        },
+        "interest_after_min": 6.20,
+        "min_period": 24,
+        "max_period": 999,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online"
     }
 ]
