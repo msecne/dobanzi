@@ -137,7 +137,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii\nMinim 500 lei\nTrebuie deschis prin aplicatia monet"
+        "extra_info": "Cont standard de economii\nPentru cont curent si aplicatie sunt percepute costuri mari\nMinim 500 lei\nTrebuie deschis prin aplicatia monet"
     },
     {
         "bank_name": "Exim",
@@ -188,10 +188,15 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/persoane-fizice/conturi-de-economii/economus/",
         "deposit_interest_rate": {
-            "value": 5.0,
-            "history": []
+            "value": 3.0,
+            "history": [
+                {
+                    "value": 5.0,
+                    "date": "2023-10-19"
+                }
+            ]
         },
-        "interest_after_min": 5.0,
+        "interest_after_min": 3.0,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 1,
@@ -201,18 +206,23 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/persoane-fizice/conturi-de-economii/bonus-economus/",
+        "bank_url": "https://youtu.be/OLgrkAjUAjM?t=74",
         "deposit_interest_rate": {
-            "value": 6.5,
-            "history": []
+            "value": 3.0,
+            "history": [
+                {
+                    "value": 6.5,
+                    "date": "2023-10-19"
+                }
+            ]
         },
-        "interest_after_min": 5.0,
+        "interest_after_min": 3.0,
         "min_period": 6,
         "max_period": 999,
         "min_amount": 1,
         "max_amount": 35000,
         "can_withdraw": "true",
-        "extra_info": "Dobanda bonus se da dupa 6 luni\nMaxim 35000 lei per cont\nSe pot deschide mai multe conturi bonus economus\nE nevoie de un plan de economisire lunara de min 50 lei, insa se pot adauga ulterior si alti bani oricand"
+        "extra_info": "Bonus economus nu mai exista\nDobanda bonus se da dupa 6 luni\nMaxim 35000 lei per cont\nSe pot deschide mai multe conturi bonus economus\nE nevoie de un plan de economisire lunara de min 50 lei, insa se pot adauga ulterior si alti bani oricand"
     },
     {
         "bank_name": "ING",
@@ -513,6 +523,21 @@
         "max_amount": 200000,
         "can_withdraw": "false",
         "extra_info": "Cont de economii pentru copii\nLa vârsta de 18 ani, suma economisită se transformă într-un cont Atucont, deschis tot pe numele copilului tău"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/conturi-de-economii/alpha-premier",
+        "deposit_interest_rate": {
+            "value": 3.00,
+            "history": []
+        },
+        "interest_after_min": 3.00,
+        "min_period": 1,
+        "max_period": 999,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "true",
+        "extra_info": "Cont standard de economii"
     },
     {
         "bank_name": "BCR",
@@ -1908,5 +1933,185 @@
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-la-termen",
+        "deposit_interest_rate": {
+            "value": 5.60,
+            "history": []
+        },
+        "interest_after_min": 5.60,
+        "min_period": 1,
+        "max_period": 1,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit standard"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-la-termen",
+        "deposit_interest_rate": {
+            "value": 5.90,
+            "history": []
+        },
+        "interest_after_min": 5.90,
+        "min_period": 2,
+        "max_period": 2,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit standard"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.40,
+            "history": []
+        },
+        "interest_after_min": 6.40,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit standard"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit standard"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.70,
+            "history": []
+        },
+        "interest_after_min": 6.70,
+        "min_period": 12,
+        "max_period": 23,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit standard"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-in-lei-pe-2-si-3-ani",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 24,
+        "max_period": 35,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit standard\nDeschis online!"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-in-lei-pe-2-si-3-ani",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 36,
+        "max_period": 999,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit standard\nDeschis online!"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/alpha-progressive",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit dobanda progresiva"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/alpha-progressive",
+        "deposit_interest_rate": {
+            "value": 6.70,
+            "history": []
+        },
+        "interest_after_min": 6.70,
+        "min_period": 12,
+        "max_period": 17,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit dobanda progresiva"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/alpha-progressive",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 18,
+        "max_period": 23,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit dobanda progresiva"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/alpha-progressive",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 24,
+        "max_period": 999,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit dobanda progresiva"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/welcome",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": []
+        },
+        "interest_after_min": 7.00,
+        "min_period": 12,
+        "max_period": 999,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit exclusiv online"
     }
 ]
