@@ -331,7 +331,7 @@
     },
     {
         "bank_name": "ProCredit",
-        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Lista%20Preturi_PF_RO_24_05_2023_v1.pdf",
+        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Dobanzi%20produse%20de%20economisire_PF_RO_01_11_2023.pdf",
         "deposit_interest_rate": {
             "value": 3.0,
             "history": []
@@ -1203,10 +1203,15 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 5.25,
-            "history": []
+            "value": 5.00,
+            "history": [
+                {
+                    "value": 5.25,
+                    "date": "2023-10-30"
+                }
+            ]
         },
-        "interest_after_min": 5.25,
+        "interest_after_min": 5.00,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 100,
@@ -1218,10 +1223,15 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 5.35,
-            "history": []
+            "value": 5.25,
+            "history": [
+                {
+                    "value": 5.35,
+                    "date": "2023-10-30"
+                }
+            ]
         },
-        "interest_after_min": 5.35,
+        "interest_after_min": 5.25,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
@@ -1248,10 +1258,15 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 6.00,
-            "history": []
+            "value": 5.75,
+            "history": [
+                {
+                    "value": 6.00,
+                    "date": "2023-10-30"
+                }
+            ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.75,
         "min_period": 7,
         "max_period": 7,
         "min_amount": 100,
@@ -1263,10 +1278,15 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 6.00,
-            "history": []
+            "value": 5.75,
+            "history": [
+                {
+                    "value": 6.00,
+                    "date": "2023-10-30"
+                }
+            ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.75,
         "min_period": 9,
         "max_period": 11,
         "min_amount": 100,
@@ -1278,10 +1298,15 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 6.25,
-            "history": []
+            "value": 6.00,
+            "history": [
+                {
+                    "value": 6.25,
+                    "date": "2023-10-30"
+                }
+            ]
         },
-        "interest_after_min": 6.25,
+        "interest_after_min": 6.00,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 100,
@@ -1381,12 +1406,17 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/1744",
+        "bank_url": "https://www.patriabank.ro/d/1768",
         "deposit_interest_rate": {
-            "value": 5.75,
-            "history": []
+            "value": 6.00,
+            "history": [
+                {
+                    "value": 5.75,
+                    "date": "2023-10-30"
+                }
+            ]
         },
-        "interest_after_min": 5.75,
+        "interest_after_min": 6.00,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 100,
@@ -1396,7 +1426,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/1744",
+        "bank_url": "https://www.patriabank.ro/d/1768",
         "deposit_interest_rate": {
             "value": 6.75,
             "history": []
@@ -1411,12 +1441,17 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/1744",
+        "bank_url": "https://www.patriabank.ro/d/1768",
         "deposit_interest_rate": {
-            "value": 7.25,
-            "history": []
+            "value": 6.75,
+            "history": [
+                {
+                    "value": 7.25,
+                    "date": "2023-10-30"
+                }
+            ]
         },
-        "interest_after_min": 7.25,
+        "interest_after_min": 6.75,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
@@ -1426,12 +1461,17 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/1744",
+        "bank_url": "https://www.patriabank.ro/d/1768",
         "deposit_interest_rate": {
-            "value": 7.75,
-            "history": []
+            "value": 7.00,
+            "history": [
+                {
+                    "value": 7.75,
+                    "date": "2023-10-30"
+                }
+            ]
         },
-        "interest_after_min": 7.75,
+        "interest_after_min": 7.00,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 100,
@@ -1441,7 +1481,7 @@
     },
     {
         "bank_name": "ProCredit",
-        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Lista%20Preturi_PF_RO_24_05_2023_v1.pdf",
+        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Dobanzi%20produse%20de%20economisire_PF_RO_01_11_2023.pdf",
         "deposit_interest_rate": {
             "value": 6.30,
             "history": []
@@ -1456,7 +1496,7 @@
     },
     {
         "bank_name": "ProCredit",
-        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Lista%20Preturi_PF_RO_24_05_2023_v1.pdf",
+        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Dobanzi%20produse%20de%20economisire_PF_RO_01_11_2023.pdf",
         "deposit_interest_rate": {
             "value": 7.30,
             "history": []
@@ -1471,12 +1511,17 @@
     },
     {
         "bank_name": "ProCredit",
-        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Lista%20Preturi_PF_RO_24_05_2023_v1.pdf",
+        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Dobanzi%20produse%20de%20economisire_PF_RO_01_11_2023.pdf",
         "deposit_interest_rate": {
-            "value": 7.50,
-            "history": []
+            "value": 7.30,
+            "history": [
+                {
+                    "value": 7.50,
+                    "date": "2023-10-30"
+                }
+            ]
         },
-        "interest_after_min": 7.50,
+        "interest_after_min": 7.30,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 100,
@@ -1486,7 +1531,7 @@
     },
     {
         "bank_name": "ProCredit",
-        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Lista%20Preturi_PF_RO_24_05_2023_v1.pdf",
+        "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Dobanzi%20produse%20de%20economisire_PF_RO_01_11_2023.pdf",
         "deposit_interest_rate": {
             "value": 7.00,
             "history": []
