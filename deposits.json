@@ -1318,10 +1318,15 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 6.15,
-            "history": []
+            "value": 5.70,
+            "history": [
+                {
+                    "value": 6.15,
+                    "date": "2023-11-09"
+                }
+            ]
         },
-        "interest_after_min": 6.15,
+        "interest_after_min": 5.70,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 100,
@@ -1333,10 +1338,15 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 6.35,
-            "history": []
+            "value": 5.90,
+            "history": [
+                {
+                    "value": 6.35,
+                    "date": "2023-11-09"
+                }
+            ]
         },
-        "interest_after_min": 6.35,
+        "interest_after_min": 5.90,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 100000,
@@ -1348,10 +1358,15 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 6.85,
-            "history": []
+            "value": 6.30,
+            "history": [
+                {
+                    "value": 6.85,
+                    "date": "2023-11-09"
+                }
+            ]
         },
-        "interest_after_min": 6.85,
+        "interest_after_min": 6.30,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
@@ -1363,10 +1378,15 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 7.05,
-            "history": []
+            "value": 6.50,
+            "history": [
+                {
+                    "value": 7.05,
+                    "date": "2023-11-09"
+                }
+            ]
         },
-        "interest_after_min": 7.05,
+        "interest_after_min": 6.50,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100000,
@@ -1378,10 +1398,15 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 7.25,
-            "history": []
+            "value": 6.70,
+            "history": [
+                {
+                    "value": 7.25,
+                    "date": "2023-11-09"
+                }
+            ]
         },
-        "interest_after_min": 7.25,
+        "interest_after_min": 6.70,
         "min_period": 6,
         "max_period": 999,
         "min_amount": 100,
@@ -1393,10 +1418,15 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 7.45,
-            "history": []
+            "value": 6.90,
+            "history": [
+                {
+                    "value": 7.45,
+                    "date": "2023-11-09"
+                }
+            ]
         },
-        "interest_after_min": 7.45,
+        "interest_after_min": 6.90,
         "min_period": 6,
         "max_period": 999,
         "min_amount": 100000,
