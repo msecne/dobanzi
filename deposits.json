@@ -113,10 +113,15 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-depuneri-ulterioare",
         "deposit_interest_rate": {
-            "value": 6.20,
-            "history": []
+            "value": 5.90,
+            "history": [
+                {
+                    "value": 6.20,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.20,
+        "interest_after_min": 5.90,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 500,
@@ -543,10 +548,15 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 5.75,
-            "history": []
+            "value": 5.40,
+            "history": [
+                {
+                    "value": 5.75,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 5.75,
+        "interest_after_min": 5.40,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
@@ -558,10 +568,15 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 4.75,
-            "history": []
+            "value": 4.40,
+            "history": [
+                {
+                    "value": 4.75,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 4.75,
+        "interest_after_min": 4.40,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
@@ -573,10 +588,15 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 6.00,
-            "history": []
+            "value": 5.60,
+            "history": [
+                {
+                    "value": 6.00,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.60,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
@@ -588,10 +608,15 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 5.00,
-            "history": []
+            "value": 4.60,
+            "history": [
+                {
+                    "value": 5.00,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 4.60,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
@@ -603,10 +628,15 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": []
+            "value": 6.10,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.10,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
@@ -618,10 +648,15 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 5.50,
-            "history": []
+            "value": 5.10,
+            "history": [
+                {
+                    "value": 5.50,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.10,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
@@ -633,10 +668,15 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 6.00,
-            "history": []
+            "value": 5.60,
+            "history": [
+                {
+                    "value": 6.00,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.60,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
@@ -648,10 +688,15 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 5.00,
-            "history": []
+            "value": 4.60,
+            "history": [
+                {
+                    "value": 5.00,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 4.60,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
@@ -678,10 +723,15 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 6.00,
-            "history": []
+            "value": 5.60,
+            "history": [
+                {
+                    "value": 6.00,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.60,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 300,
@@ -693,10 +743,15 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 6.20,
-            "history": []
+            "value": 5.80,
+            "history": [
+                {
+                    "value": 6.20,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.20,
+        "interest_after_min": 5.80,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 300,
@@ -708,10 +763,15 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 6.90,
-            "history": []
+            "value": 6.50,
+            "history": [
+                {
+                    "value": 6.90,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.90,
+        "interest_after_min": 6.50,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 300,
@@ -723,10 +783,15 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 7.00,
-            "history": []
+            "value": 6.50,
+            "history": [
+                {
+                    "value": 7.00,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 6.50,
         "min_period": 24,
         "max_period": 35,
         "min_amount": 300,
@@ -738,10 +803,15 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 7.10,
-            "history": []
+            "value": 6.50,
+            "history": [
+                {
+                    "value": 7.10,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 7.10,
+        "interest_after_min": 6.50,
         "min_period": 36,
         "max_period": 999,
         "min_amount": 1000,
@@ -843,10 +913,15 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 6.25,
-            "history": []
+            "value": 5.90,
+            "history": [
+                {
+                    "value": 6.25,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.25,
+        "interest_after_min": 5.90,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
@@ -858,10 +933,16 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": []
+            "value": 6.25,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2023-12-06"
+                }
+            ]
+
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.25,
         "min_period": 6,
         "max_period": 8,
         "min_amount": 500,
@@ -873,10 +954,15 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 6.75,
-            "history": []
+            "value": 6.40,
+            "history": [
+                {
+                    "value": 6.75,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.75,
+        "interest_after_min": 6.40,
         "min_period": 9,
         "max_period": 11,
         "min_amount": 500,
@@ -888,10 +974,15 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 7.00,
-            "history": []
+            "value": 6.70,
+            "history": [
+                {
+                    "value": 7.00,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 6.70,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 500,
@@ -903,10 +994,15 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 6.75,
-            "history": []
+            "value": 6.25,
+            "history": [
+                {
+                    "value": 6.70,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.75,
+        "interest_after_min": 6.25,
         "min_period": 18,
         "max_period": 23,
         "min_amount": 500,
@@ -918,10 +1014,15 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": []
+            "value": 6.25,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.25,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
@@ -933,10 +1034,15 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 5.70,
-            "history": []
+            "value": 5.60,
+            "history": [
+                {
+                    "value": 5.70,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 5.70,
+        "interest_after_min": 5.60,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
@@ -948,10 +1054,15 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 6.30,
-            "history": []
+            "value": 6.15,
+            "history": [
+                {
+                    "value": 6.30,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.30,
+        "interest_after_min": 6.15,
         "min_period": 3,
         "max_period": 4,
         "min_amount": 500,
@@ -963,10 +1074,15 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 7.30,
-            "history": []
+            "value": 6.15,
+            "history": [
+                {
+                    "value": 7.50,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 7.30,
+        "interest_after_min": 6.15,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 500,
@@ -978,10 +1094,15 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 6.55,
-            "history": []
+            "value": 6.30,
+            "history": [
+                {
+                    "value": 6.55,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.55,
+        "interest_after_min": 6.30,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
@@ -993,10 +1114,15 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 7.00,
-            "history": []
+            "value": 6.80,
+            "history": [
+                {
+                    "value": 7.00,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 6.80,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
@@ -1008,10 +1134,15 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 6.45,
-            "history": []
+            "value": 6.30,
+            "history": [
+                {
+                    "value": 6.45,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.45,
+        "interest_after_min": 6.30,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
@@ -1092,7 +1223,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit clasic cu salariu"
     },
     {
         "bank_name": "ING",
@@ -1107,7 +1238,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit clasic cu salariu"
     },
     {
         "bank_name": "ING",
@@ -1122,7 +1253,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit clasic cu salariu"
     },
     {
         "bank_name": "Intesa SanPaolo",
@@ -1458,10 +1589,15 @@
         "bank_name": "Patria",
         "bank_url": "https://www.patriabank.ro/d/1768",
         "deposit_interest_rate": {
-            "value": 6.75,
-            "history": []
+            "value": 6.50,
+            "history": [
+                {
+                    "value": 6.75,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.75,
+        "interest_after_min": 6.50,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
@@ -1638,10 +1774,15 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 7.70,
-            "history": []
+            "value": 7.50,
+            "history": [
+                {
+                    "value": 7.70,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 7.70,
+        "interest_after_min": 7.50,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 100,
@@ -1953,10 +2094,15 @@
         "bank_name": "BRD",
         "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
         "deposit_interest_rate": {
-            "value": 5.80,
-            "history": []
+            "value": 5.60,
+            "history": [
+                {
+                    "value": 5.80,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 5.80,
+        "interest_after_min": 5.60,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
@@ -1968,10 +2114,15 @@
         "bank_name": "BRD",
         "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
         "deposit_interest_rate": {
-            "value": 6.00,
-            "history": []
+            "value": 5.80,
+            "history": [
+                {
+                    "value": 6.00,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.80,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
@@ -1983,10 +2134,15 @@
         "bank_name": "BRD",
         "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": []
+            "value": 6.30,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.30,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 100,
@@ -1998,10 +2154,15 @@
         "bank_name": "BRD",
         "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
         "deposit_interest_rate": {
-            "value": 6.20,
-            "history": []
+            "value": 6.10,
+            "history": [
+                {
+                    "value": 6.20,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.20,
+        "interest_after_min": 6.10,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 100,
@@ -2011,12 +2172,17 @@
     },
     {
         "bank_name": "Alpha Bank",
-        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-la-termen",
+        "bank_url": "https://www.alphabank.ro/ro-ro/info-utile/dobanzi/persoane-fizice#ui-id-1",
         "deposit_interest_rate": {
-            "value": 5.60,
-            "history": []
+            "value": 5.50,
+            "history": [
+                {
+                    "value": 5.60,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 5.60,
+        "interest_after_min": 5.50,
         "min_period": 1,
         "max_period": 1,
         "min_amount": 1,
@@ -2026,12 +2192,17 @@
     },
     {
         "bank_name": "Alpha Bank",
-        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-la-termen",
+        "bank_url": "https://www.alphabank.ro/ro-ro/info-utile/dobanzi/persoane-fizice#ui-id-1",
         "deposit_interest_rate": {
-            "value": 5.90,
-            "history": []
+            "value": 5.80,
+            "history": [
+                {
+                    "value": 5.90,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 5.90,
+        "interest_after_min": 5.80,
         "min_period": 2,
         "max_period": 2,
         "min_amount": 1,
@@ -2041,12 +2212,17 @@
     },
     {
         "bank_name": "Alpha Bank",
-        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-la-termen",
+        "bank_url": "https://www.alphabank.ro/ro-ro/info-utile/dobanzi/persoane-fizice#ui-id-1",
         "deposit_interest_rate": {
-            "value": 6.40,
-            "history": []
+            "value": 6.30,
+            "history": [
+                {
+                    "value": 6.40,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.40,
+        "interest_after_min": 6.30,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 1,
@@ -2056,7 +2232,7 @@
     },
     {
         "bank_name": "Alpha Bank",
-        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-la-termen",
+        "bank_url": "https://www.alphabank.ro/ro-ro/info-utile/dobanzi/persoane-fizice#ui-id-1",
         "deposit_interest_rate": {
             "value": 6.50,
             "history": []
@@ -2071,12 +2247,17 @@
     },
     {
         "bank_name": "Alpha Bank",
-        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-la-termen",
+        "bank_url": "https://www.alphabank.ro/ro-ro/info-utile/dobanzi/persoane-fizice#ui-id-1",
         "deposit_interest_rate": {
-            "value": 6.70,
-            "history": []
+            "value": 6.60,
+            "history": [
+                {
+                    "value": 6.70,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.70,
+        "interest_after_min": 6.60,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 1,
@@ -2118,10 +2299,15 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/alpha-progressive",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": []
+            "value": 6.40,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.40,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 1,
@@ -2133,10 +2319,15 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/alpha-progressive",
         "deposit_interest_rate": {
-            "value": 6.70,
-            "history": []
+            "value": 6.60,
+            "history": [
+                {
+                    "value": 6.70,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.70,
+        "interest_after_min": 6.60,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 1,
@@ -2148,10 +2339,15 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/alpha-progressive",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": []
+            "value": 6.20,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.20,
         "min_period": 18,
         "max_period": 23,
         "min_amount": 1,
@@ -2163,10 +2359,15 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/alpha-progressive",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": []
+            "value": 6.20,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.20,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 1,
@@ -2178,15 +2379,20 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/welcome",
         "deposit_interest_rate": {
-            "value": 7.00,
-            "history": []
+            "value": 6.9,
+            "history": [
+                {
+                    "value": 7.00,
+                    "date": "2023-12-06"
+                }
+            ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 6.9,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit exclusiv online"
+        "extra_info": "Depozit exclusiv online. Promotie prima pagina"
     }
 ]
