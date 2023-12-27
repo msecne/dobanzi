@@ -398,10 +398,15 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 6.20,
-            "history": []
+            "value": 6.10,
+            "history": [
+                {
+                    "value": 6.20,
+                    "date": "2023-12-11"
+                }
+            ]
         },
-        "interest_after_min": 6.20,
+        "interest_after_min": 6.10,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 1,
@@ -1034,15 +1039,19 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 5.60,
+            "value": 5.50,
             "history": [
                 {
                     "value": 5.70,
                     "date": "2023-12-06"
+                },
+                {
+                    "value": 5.60,
+                    "date": "2023-12-20"
                 }
             ]
         },
-        "interest_after_min": 5.60,
+        "interest_after_min": 5.50,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
@@ -1054,15 +1063,19 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 6.15,
+            "value": 6.05,
             "history": [
                 {
                     "value": 6.30,
                     "date": "2023-12-06"
+                },
+                {
+                    "value": 6.15,
+                    "date": "2023-12-20"
                 }
             ]
         },
-        "interest_after_min": 6.15,
+        "interest_after_min": 6.05,
         "min_period": 3,
         "max_period": 4,
         "min_amount": 500,
@@ -1072,9 +1085,9 @@
     },
     {
         "bank_name": "First Bank",
-        "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
+        "bank_url": "https://www.firstbank.ro/firstbank/retail/economisire/Depozitul-Freedom.html",
         "deposit_interest_rate": {
-            "value": 6.15,
+            "value": 6.70,
             "history": [
                 {
                     "value": 7.50,
@@ -1082,7 +1095,7 @@
                 }
             ]
         },
-        "interest_after_min": 6.15,
+        "interest_after_min": 6.70,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 500,
@@ -1094,15 +1107,19 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 6.30,
+            "value": 6.20,
             "history": [
                 {
                     "value": 6.55,
                     "date": "2023-12-06"
+                },
+                {
+                    "value": 6.30,
+                    "date": "2023-12-20"
                 }
             ]
         },
-        "interest_after_min": 6.30,
+        "interest_after_min": 6.20,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
@@ -1114,15 +1131,19 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 6.80,
+            "value": 6.70,
             "history": [
                 {
                     "value": 7.00,
                     "date": "2023-12-06"
+                },
+                {
+                    "value": 6.80,
+                    "date": "2023-12-20"
                 }
             ]
         },
-        "interest_after_min": 6.80,
+        "interest_after_min": 6.70,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
@@ -1134,15 +1155,19 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 6.30,
+            "value": 6.20,
             "history": [
                 {
                     "value": 6.45,
                     "date": "2023-12-06"
+                },
+                {
+                    "value": 6.30,
+                    "date": "2023-12-20"
                 }
             ]
         },
-        "interest_after_min": 6.30,
+        "interest_after_min": 6.20,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
@@ -1154,61 +1179,81 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
         "deposit_interest_rate": {
-            "value": 7.75,
-            "history": []
+            "value": 7.50,
+            "history": [
+                {
+                    "value": 7.75,
+                    "date": "2023-12-19"
+                }
+            ]
         },
-        "interest_after_min": 7.75,
+        "interest_after_min": 7.50,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2023"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024"
     },
     {
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
         "deposit_interest_rate": {
-            "value": 8.05,
-            "history": []
+            "value": 7.50,
+            "history": [
+                {
+                    "value": 8.05,
+                    "date": "2023-12-19"
+                }
+            ]
         },
-        "interest_after_min": 8.05,
+        "interest_after_min": 7.50,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2023"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024"
     },
     {
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
         "deposit_interest_rate": {
-            "value": 8.50,
-            "history": []
+            "value": 7.75,
+            "history": [
+                {
+                    "value": 8.50,
+                    "date": "2023-12-19"
+                }
+            ]
         },
-        "interest_after_min": 8.50,
+        "interest_after_min": 7.75,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2023"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024"
     },
     {
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
         "deposit_interest_rate": {
-            "value": 8.00,
-            "history": []
+            "value": 7.50,
+            "history": [
+                {
+                    "value": 8.00,
+                    "date": "2023-12-19"
+                }
+            ]
         },
-        "interest_after_min": 8.00,
+        "interest_after_min": 7.50,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2023"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024"
     },
     {
         "bank_name": "ING",
@@ -1714,10 +1759,19 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 6.10,
-            "history": []
+            "value": 5.90,
+            "history": [
+                {
+                    "value": 6.30,
+                    "date": "2023-12-11"
+                },
+                {
+                    "value": 6.10,
+                    "date": "2023-12-20"
+                }
+            ]
         },
-        "interest_after_min": 6.10,
+        "interest_after_min": 5.90,
         "min_period": 3,
         "max_period": 11,
         "min_amount": 500,
@@ -1729,10 +1783,15 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": []
+            "value": 6.20,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2023-12-20"
+                }
+            ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.20,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
@@ -1744,10 +1803,15 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 6.20,
-            "history": []
+            "value": 5.80,
+            "history": [
+                {
+                    "value": 6.20,
+                    "date": "2023-12-20"
+                }
+            ]
         },
-        "interest_after_min": 6.20,
+        "interest_after_min": 5.80,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
@@ -1774,15 +1838,19 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 7.50,
+            "value": 7.30,
             "history": [
                 {
                     "value": 7.70,
                     "date": "2023-12-06"
+                },
+                {
+                    "value": 7.50,
+                    "date": "2023-12-11"
                 }
             ]
         },
-        "interest_after_min": 7.50,
+        "interest_after_min": 7.30,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 100,
@@ -1794,10 +1862,15 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 7.75,
-            "history": []
+            "value": 7.60,
+            "history": [
+                {
+                    "value": 7.75,
+                    "date": "2023-12-11"
+                }
+            ]
         },
-        "interest_after_min": 7.75,
+        "interest_after_min": 7.60,
         "min_period": 6,
         "max_period": 8,
         "min_amount": 100,
@@ -1824,10 +1897,15 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 8.05,
-            "history": []
+            "value": 7.75,
+            "history": [
+                {
+                    "value": 8.05,
+                    "date": "2023-12-11"
+                }
+            ]
         },
-        "interest_after_min": 8.05,
+        "interest_after_min": 7.75,
         "min_period": 12,
         "max_period": 14,
         "min_amount": 100,
@@ -1839,10 +1917,15 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 7.45,
-            "history": []
+            "value": 6.95,
+            "history": [
+                {
+                    "value": 7.45,
+                    "date": "2023-12-11"
+                }
+            ]
         },
-        "interest_after_min": 7.45,
+        "interest_after_min": 6.95,
         "min_period": 15,
         "max_period": 17,
         "min_amount": 100,
