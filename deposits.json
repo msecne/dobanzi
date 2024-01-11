@@ -726,6 +726,21 @@
     },
     {
         "bank_name": "CEC",
+        "bank_url": "https://www.cec.ro/dobanzi-depozite-copii",
+        "deposit_interest_rate": {
+            "value": 6.30,
+            "history": []
+        },
+        "interest_after_min": 6.30,
+        "min_period": 1,
+        "max_period": 999,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit de economii pentru copii\nSe pot depune si retrage bani fara a pierde dobanda\nTrebuie pastrat fara desfiintare timp de 12 luni"
+    },
+    {
+        "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
             "value": 5.20,
