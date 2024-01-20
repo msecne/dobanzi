@@ -427,11 +427,11 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit de economii"
+        "extra_info": "Depozit de economii pe 1 luna"
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_08.09.2023.pdf",
+        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_15.01.2024.pdf",
         "deposit_interest_rate": {
             "value": 1.20,
             "history": []
@@ -448,10 +448,15 @@
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/cont-de-economii",
         "deposit_interest_rate": {
-            "value": 4.00,
-            "history": []
+            "value": 3.75,
+            "history": [
+                {
+                    "value": 4.00,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 4.00,
+        "interest_after_min": 3.75,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 1000,
@@ -463,10 +468,15 @@
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/cont-de-economii",
         "deposit_interest_rate": {
-            "value": 4.10,
-            "history": []
+            "value": 3.85,
+            "history": [
+                {
+                    "value": 4.10,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 4.10,
+        "interest_after_min": 3.85,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 10000,
@@ -478,10 +488,15 @@
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/cont-de-economii",
         "deposit_interest_rate": {
-            "value": 4.30,
-            "history": []
+            "value": 4.00,
+            "history": [
+                {
+                    "value": 4.30,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 4.30,
+        "interest_after_min": 4.00,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 100000,
@@ -493,10 +508,15 @@
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/cont-de-economii",
         "deposit_interest_rate": {
-            "value": 4.50,
-            "history": []
+            "value": 4.15,
+            "history": [
+                {
+                    "value": 4.50,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 4.50,
+        "interest_after_min": 4.15,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 500000,
@@ -858,10 +878,15 @@
         "bank_name": "Credit Europe Bank",
         "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
-            "value": 6.00,
-            "history": []
+            "value": 5.65,
+            "history": [
+                {
+                    "value": 6.00,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.65,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 300,
@@ -873,10 +898,15 @@
         "bank_name": "Credit Europe Bank",
         "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
-            "value": 6.75,
-            "history": []
+            "value": 5.65,
+            "history": [
+                {
+                    "value": 6.75,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 6.75,
+        "interest_after_min": 5.65,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 300,
@@ -888,10 +918,15 @@
         "bank_name": "Credit Europe Bank",
         "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
-            "value": 7.00,
-            "history": []
+            "value": 5.90,
+            "history": [
+                {
+                    "value": 7.00,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 5.90,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 300,
@@ -903,10 +938,15 @@
         "bank_name": "Credit Europe Bank",
         "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
-            "value": 7.50,
-            "history": []
+            "value": 6.40,
+            "history": [
+                {
+                    "value": 7.50,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 7.50,
+        "interest_after_min": 6.40,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 300,
@@ -1839,7 +1879,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 5.90,
+            "value": 5.60,
             "history": [
                 {
                     "value": 6.30,
@@ -1848,10 +1888,14 @@
                 {
                     "value": 6.10,
                     "date": "2023-12-20"
+                },
+                {
+                    "value": 5.90,
+                    "date": "2024-01-18"
                 }
             ]
         },
-        "interest_after_min": 5.90,
+        "interest_after_min": 5.60,
         "min_period": 3,
         "max_period": 11,
         "min_amount": 500,
@@ -1863,15 +1907,19 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 6.20,
+            "value": 6.00,
             "history": [
                 {
                     "value": 6.50,
                     "date": "2023-12-20"
+                },
+                {
+                    "value": 6.20,
+                    "date": "2024-01-18"
                 }
             ]
         },
-        "interest_after_min": 6.20,
+        "interest_after_min": 6.00,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
@@ -1883,15 +1931,19 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 5.80,
+            "value": 5.60,
             "history": [
                 {
                     "value": 6.20,
                     "date": "2023-12-20"
+                },
+                {
+                    "value": 5.80,
+                    "date": "2024-01-18"
                 }
             ]
         },
-        "interest_after_min": 5.80,
+        "interest_after_min": 5.60,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
@@ -2030,12 +2082,17 @@
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_08.09.2023.pdf",
+        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_15.01.2024.pdf",
         "deposit_interest_rate": {
-            "value": 6.00,
-            "history": []
+            "value": 5.50,
+            "history": [
+                {
+                    "value": 6.00,
+                    "date": "2024-01-15"
+                }
+            ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.50,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 1000,
@@ -2045,12 +2102,17 @@
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_08.09.2023.pdf",
+        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_15.01.2024.pdf",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": []
+            "value": 6.00,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2024-01-15"
+                }
+            ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.00,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 1000,
@@ -2060,12 +2122,17 @@
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_08.09.2023.pdf",
+        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_15.01.2024.pdf",
         "deposit_interest_rate": {
-            "value": 7.00,
-            "history": []
+            "value": 6.50,
+            "history": [
+                {
+                    "value": 7.00,
+                    "date": "2024-01-15"
+                }
+            ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 6.50,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 1000,
@@ -2075,12 +2142,17 @@
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_08.09.2023.pdf",
+        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_15.01.2024.pdf",
         "deposit_interest_rate": {
-            "value": 7.50,
-            "history": []
+            "value": 7.00,
+            "history": [
+                {
+                    "value": 7.50,
+                    "date": "2024-01-15"
+                }
+            ]
         },
-        "interest_after_min": 7.50,
+        "interest_after_min": 7.00,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 1000,
@@ -2090,12 +2162,17 @@
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_08.09.2023.pdf",
+        "bank_url": "https://techventures.bank/wp-content/uploads/Dobanzi_depozite-PF_15.01.2024.pdf",
         "deposit_interest_rate": {
-            "value": 7.00,
-            "history": []
+            "value": 6.50,
+            "history": [
+                {
+                    "value": 7.00,
+                    "date": "2024-01-15"
+                }
+            ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 6.50,
         "min_period": 18,
         "max_period": 999,
         "min_amount": 1000,
@@ -2107,10 +2184,15 @@
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
         "deposit_interest_rate": {
-            "value": 5.00,
-            "history": []
+            "value": 4.75,
+            "history": [
+                {
+                    "value": 5.00,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 4.75,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 100,
@@ -2122,10 +2204,15 @@
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
         "deposit_interest_rate": {
-            "value": 5.85,
-            "history": []
+            "value": 5.50,
+            "history": [
+                {
+                    "value": 5.85,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 5.85,
+        "interest_after_min": 5.50,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
@@ -2137,10 +2224,15 @@
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
         "deposit_interest_rate": {
-            "value": 6.00,
-            "history": []
+            "value": 5.65,
+            "history": [
+                {
+                    "value": 6.00,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.65,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
@@ -2152,10 +2244,15 @@
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
         "deposit_interest_rate": {
-            "value": 6.25,
-            "history": []
+            "value": 5.75,
+            "history": [
+                {
+                    "value": 6.25,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 6.25,
+        "interest_after_min": 5.75,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 100,
@@ -2167,10 +2264,15 @@
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
         "deposit_interest_rate": {
-            "value": 6.35,
-            "history": []
+            "value": 5.95,
+            "history": [
+                {
+                    "value": 6.35,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 6.35,
+        "interest_after_min": 5.95,
         "min_period": 24,
         "max_period": 35,
         "min_amount": 100,
@@ -2182,10 +2284,15 @@
         "bank_name": "Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
         "deposit_interest_rate": {
-            "value": 6.45,
-            "history": []
+            "value": 6.00,
+            "history": [
+                {
+                    "value": 6.45,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 6.45,
+        "interest_after_min": 6.00,
         "min_period": 36,
         "max_period": 999,
         "min_amount": 100,
@@ -2197,10 +2304,15 @@
         "bank_name": "Unicredit",
         "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
         "deposit_interest_rate": {
-            "value": 6.00,
-            "history": []
+            "value": 5.90,
+            "history": [
+                {
+                    "value": 6.00,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.90,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
@@ -2212,10 +2324,15 @@
         "bank_name": "Unicredit",
         "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
         "deposit_interest_rate": {
-            "value": 6.20,
-            "history": []
+            "value": 6.00,
+            "history": [
+                {
+                    "value": 6.20,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 6.20,
+        "interest_after_min": 6.00,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
@@ -2227,10 +2344,15 @@
         "bank_name": "Unicredit",
         "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": []
+            "value": 6.10,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2024-01-18"
+                }
+            ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.10,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 100,
