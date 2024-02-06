@@ -1319,15 +1319,19 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
         "deposit_interest_rate": {
-            "value": 7.50,
+            "value": 6.75,
             "history": [
                 {
                     "value": 7.75,
                     "date": "2023-12-19"
+                },
+                {
+                    "value": 7.50,
+                    "date": "2024-02-06"
                 }
             ]
         },
-        "interest_after_min": 7.50,
+        "interest_after_min": 6.75,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
@@ -1339,15 +1343,19 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
         "deposit_interest_rate": {
-            "value": 7.50,
+            "value": 6.75,
             "history": [
                 {
                     "value": 8.05,
                     "date": "2023-12-19"
+                },
+                {
+                    "value": 7.50,
+                    "date": "2024-02-06"
                 }
             ]
         },
-        "interest_after_min": 7.50,
+        "interest_after_min": 6.75,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
@@ -1359,15 +1367,19 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
         "deposit_interest_rate": {
-            "value": 7.75,
+            "value": 6.95,
             "history": [
                 {
                     "value": 8.50,
                     "date": "2023-12-19"
+                },
+                {
+                    "value": 7.75,
+                    "date": "2024-02-06"
                 }
             ]
         },
-        "interest_after_min": 7.75,
+        "interest_after_min": 6.95,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
@@ -1379,15 +1391,19 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
         "deposit_interest_rate": {
-            "value": 7.50,
+            "value": 6.85,
             "history": [
                 {
                     "value": 8.00,
                     "date": "2023-12-19"
+                },
+                {
+                    "value": 7.50,
+                    "date": "2024-02-06"
                 }
             ]
         },
-        "interest_after_min": 7.50,
+        "interest_after_min": 6.85,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 500,
