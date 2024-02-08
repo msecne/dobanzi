@@ -17,7 +17,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste lunar"
     },
     {
         "bank_name": "BCR",
@@ -62,7 +62,7 @@
         "min_amount": 1,
         "max_amount": 4999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "CEC",
@@ -77,7 +77,7 @@
         "min_amount": 5000,
         "max_amount": 24999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "CEC",
@@ -92,7 +92,7 @@
         "min_amount": 25000,
         "max_amount": 100000,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "CEC",
@@ -107,7 +107,7 @@
         "min_amount": 100000,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "CEC",
@@ -122,7 +122,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Depozit de economii pentru copii\nSe pot depune si retrage bani fara a pierde dobanda\nTrebuie pastrat fara desfiintare timp de 12 luni"
+        "extra_info": "Depozit de economii pentru copii\nSe pot depune si retrage bani fara a pierde dobanda\nTrebuie pastrat fara desfiintare timp de 12 luni\nDobanda se calculeaza zilnic si se plateste si capitalizeaza anual"
     },
     {
         "bank_name": "CEC",
@@ -172,7 +172,7 @@
         "min_amount": 1,
         "max_amount": 50000,
         "can_withdraw": "true",
-        "extra_info": "Are comisioane lunare de administrare"
+        "extra_info": "Are comisioane lunare de administrare\nDobanda se calculeaza, capitalizeaza si plateste zilnic!"
     },
     {
         "bank_name": "Exim",
@@ -187,7 +187,7 @@
         "min_amount": 50001,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Are comisioane lunare de administrare"
+        "extra_info": "Are comisioane lunare de administrare\nDobanda se calculeaza, capitalizeaza si plateste zilnic!"
     },
     {
         "bank_name": "First Bank",
@@ -202,7 +202,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "Garanti",
@@ -222,7 +222,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "E nevoie de un plan de economisire lunara de min 50 lei, insa se pot adauga ulterior si alti bani oricand"
+        "extra_info": "<b>Dobanda se calculeaza, capitalizeaza si livreaza zilnic!</b>\nNecesita plan de economisire lunara de min 50 lei"
     },
     {
         "bank_name": "Garanti",
@@ -257,7 +257,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza lunar"
     },
     {
         "bank_name": "Intesa SanPaolo",
@@ -277,7 +277,7 @@
         "min_amount": 150,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Necesita plan de depunere lunara de min 150 lei\nSuma lunară maximă de economisit 10000\nNu se pot depunde ulterior alti bani\nSe pot retrage bani oricand cu conditia de a pastra minimul\nValoarea din planul de acumulare se poate modifica de max 3 ori pe an"
+        "extra_info": "Necesita plan de depunere lunara de min 150 lei\nSuma lunară maximă de economisit 10000\n<b>Nu se pot depunde ulterior alti bani</b>\nSe pot retrage bani oricand cu conditia de a pastra minimul\nValoarea din planul de acumulare se poate modifica de max 3 ori pe an\nDobanda se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "Libra",
@@ -292,7 +292,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se plateste si capitalizeaza lunar"
     },
     {
         "bank_name": "OTP",
@@ -307,7 +307,7 @@
         "min_amount": 100,
         "max_amount": 49999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "OTP",
@@ -322,7 +322,7 @@
         "min_amount": 50000,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "Patria",
@@ -367,7 +367,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "Raiffeisen",
@@ -382,7 +382,7 @@
         "min_amount": 1,
         "max_amount": 50000,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "Raiffeisen",
@@ -397,7 +397,7 @@
         "min_amount": 50000,
         "max_amount": 250000,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "Raiffeisen",
@@ -412,7 +412,7 @@
         "min_amount": 250000,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "TBI",
@@ -471,7 +471,7 @@
         "min_amount": 1000,
         "max_amount": 9999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "Transilvania",
@@ -491,7 +491,7 @@
         "min_amount": 10000,
         "max_amount": 99999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "Transilvania",
@@ -511,7 +511,7 @@
         "min_amount": 100000,
         "max_amount": 499999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "Transilvania",
@@ -531,7 +531,7 @@
         "min_amount": 500000,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "Unicredit",
@@ -561,7 +561,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza lunar"
     },
     {
         "bank_name": "BRD",
@@ -591,7 +591,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii"
+        "extra_info": "Cont standard de economii\nAre comision lunar de administrare si comision de retragere\nDobanda se calculeaza zilnic si se plateste si capitalizeaza lunar"
     },
     {
         "bank_name": "BCR",
@@ -611,7 +611,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR"
+        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BCR",
@@ -631,7 +631,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit"
+        "extra_info": "Depozit\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BCR",
@@ -651,7 +651,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR"
+        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BCR",
@@ -671,7 +671,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit"
+        "extra_info": "Depozit\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BCR",
@@ -691,7 +691,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR"
+        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BCR",
@@ -711,7 +711,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit"
+        "extra_info": "Depozit\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BCR",
@@ -731,7 +731,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR"
+        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BCR",
@@ -751,7 +751,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit"
+        "extra_info": "Depozit\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "CEC",
@@ -781,7 +781,7 @@
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online"
+        "extra_info": "Depozit online\nDobanda se plateste si capitalizeaza anual"
     },
     {
         "bank_name": "CEC",
@@ -801,7 +801,7 @@
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online"
+        "extra_info": "Depozit online\nDobanda se plateste si capitalizeaza anual"
     },
     {
         "bank_name": "CEC",
@@ -821,7 +821,7 @@
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online"
+        "extra_info": "Depozit online\nDobanda se plateste si capitalizeaza anual"
     },
     {
         "bank_name": "CEC",
@@ -841,7 +841,7 @@
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online"
+        "extra_info": "Depozit online\nDobanda se plateste si capitalizeaza anual"
     },
     {
         "bank_name": "CEC",
@@ -861,7 +861,7 @@
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online"
+        "extra_info": "Depozit online\nDobanda se plateste si capitalizeaza anual"
     },
     {
         "bank_name": "CEC",
@@ -881,7 +881,7 @@
         "min_amount": 1000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online"
+        "extra_info": "Depozit online\nDobanda se plateste si capitalizeaza anual"
     },
     {
         "bank_name": "Credit Europe Bank",
@@ -1185,7 +1185,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online"
+        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "First Bank",
@@ -1213,7 +1213,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online"
+        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "First Bank",
@@ -1237,7 +1237,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online"
+        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "First Bank",
@@ -1261,7 +1261,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online"
+        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "First Bank",
@@ -1285,7 +1285,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online"
+        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "First Bank",
@@ -1313,7 +1313,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online"
+        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1337,7 +1337,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1361,7 +1361,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1385,7 +1385,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1409,7 +1409,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "ING",
@@ -1424,7 +1424,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic cu salariu"
+        "extra_info": "Depozit clasic cu salariu\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "ING",
@@ -1439,7 +1439,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic cu salariu"
+        "extra_info": "Depozit clasic cu salariu\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "ING",
@@ -1454,57 +1454,37 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic cu salariu"
+        "extra_info": "Depozit clasic cu salariu\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
         "deposit_interest_rate": {
-            "value": 4.75,
+            "value": 5.00,
             "history": []
         },
-        "interest_after_min": 4.75,
+        "interest_after_min": 5.00,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>"
     },
     {
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
         "deposit_interest_rate": {
-            "value": 5.25,
+            "value": 5.50,
             "history": []
         },
-        "interest_after_min": 5.25,
+        "interest_after_min": 5.50,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
-    },
-    {
-        "bank_name": "Intesa SanPaolo",
-        "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
-        "deposit_interest_rate": {
-            "value": 6.25,
-            "history": [
-                {
-                    "value": 6.50,
-                    "date": "2024-01-31"
-                }
-            ]
-        },
-        "interest_after_min": 6.25,
-        "min_period": 6,
-        "max_period": 11,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>"
     },
     {
         "bank_name": "Intesa SanPaolo",
@@ -1513,18 +1493,58 @@
             "value": 6.50,
             "history": [
                 {
-                    "value": 7.00,
+                    "value": 6.75,
                     "date": "2024-01-31"
                 }
             ]
         },
         "interest_after_min": 6.50,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
+        "deposit_interest_rate": {
+            "value": 6.75,
+            "history": [
+                {
+                    "value": 7.25,
+                    "date": "2024-01-31"
+                }
+            ]
+        },
+        "interest_after_min": 6.75,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
+        "deposit_interest_rate": {
+            "value": 6.25,
+            "history": [
+                {
+                    "value": 6.75,
+                    "date": "2024-01-31"
+                }
+            ]
+        },
+        "interest_after_min": 6.25,
+        "min_period": 18,
+        "max_period": 23,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii semestrial in contul curent</b>"
     },
     {
         "bank_name": "Intesa SanPaolo",
@@ -1533,38 +1553,33 @@
             "value": 6.00,
             "history": [
                 {
-                    "value": 6.50,
+                    "value": 6.75,
                     "date": "2024-01-31"
                 }
             ]
         },
         "interest_after_min": 6.00,
-        "min_period": 18,
-        "max_period": 23,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
-    },
-    {
-        "bank_name": "Intesa SanPaolo",
-        "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
-        "deposit_interest_rate": {
-            "value": 5.75,
-            "history": [
-                {
-                    "value": 6.50,
-                    "date": "2024-01-31"
-                }
-            ]
-        },
-        "interest_after_min": 5.75,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii semestrial in contul curent</b>"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 12,
+        "max_period": 12,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit cu asigurare de viata in val de 0.5%\n<b>Dobanda acordata in avans la constituire doar pentru depozitul cu asigurare</b>"
     },
     {
         "bank_name": "Libra",
@@ -1584,7 +1599,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta"
     },
     {
         "bank_name": "Libra",
@@ -1604,7 +1619,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>"
     },
     {
         "bank_name": "Libra",
@@ -1619,7 +1634,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>"
     },
     {
         "bank_name": "Libra",
@@ -1639,7 +1654,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic Blitz"
+        "extra_info": "Depozit clasic Blitz\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>"
     },
     {
         "bank_name": "Libra",
@@ -1659,7 +1674,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>"
     },
     {
         "bank_name": "Libra",
@@ -1679,7 +1694,31 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>"
+    },
+    {
+        "bank_name": "OTP",
+        "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
+        "deposit_interest_rate": {
+            "value": 5.50,
+            "history": [
+                {
+                    "value": 6.15,
+                    "date": "2023-11-09"
+                },
+                {
+                    "value": 5.70,
+                    "date": "2024-02-07"
+                }
+            ]
+        },
+        "interest_after_min": 5.50,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 100,
+        "max_amount": 99999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "OTP",
@@ -1688,118 +1727,118 @@
             "value": 5.70,
             "history": [
                 {
-                    "value": 6.15,
+                    "value": 6.35,
                     "date": "2023-11-09"
+                },
+                {
+                    "value": 5.90,
+                    "date": "2024-02-07"
                 }
             ]
         },
         "interest_after_min": 5.70,
         "min_period": 1,
         "max_period": 2,
-        "min_amount": 100,
-        "max_amount": 99999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
-    },
-    {
-        "bank_name": "OTP",
-        "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
-        "deposit_interest_rate": {
-            "value": 5.90,
-            "history": [
-                {
-                    "value": 6.35,
-                    "date": "2023-11-09"
-                }
-            ]
-        },
-        "interest_after_min": 5.90,
-        "min_period": 1,
-        "max_period": 2,
         "min_amount": 100000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 6.30,
+            "value": 6.20,
             "history": [
                 {
                     "value": 6.85,
                     "date": "2023-11-09"
+                },
+                {
+                    "value": 6.30,
+                    "date": "2024-02-07"
                 }
             ]
         },
-        "interest_after_min": 6.30,
+        "interest_after_min": 6.20,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
         "max_amount": 99999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 6.50,
+            "value": 6.40,
             "history": [
                 {
                     "value": 7.05,
                     "date": "2023-11-09"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2024-02-07"
                 }
             ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.40,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 6.70,
+            "value": 6.60,
             "history": [
                 {
                     "value": 7.25,
                     "date": "2023-11-09"
+                },
+                {
+                    "value": 6.70,
+                    "date": "2024-02-07"
                 }
             ]
         },
-        "interest_after_min": 6.70,
+        "interest_after_min": 6.60,
         "min_period": 6,
         "max_period": 999,
         "min_amount": 100,
         "max_amount": 99999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 6.90,
+            "value": 6.80,
             "history": [
                 {
                     "value": 7.45,
                     "date": "2023-11-09"
+                },
+                {
+                    "value": 6.90,
+                    "date": "2024-02-07"
                 }
             ]
         },
-        "interest_after_min": 6.90,
+        "interest_after_min": 6.80,
         "min_period": 6,
         "max_period": 999,
         "min_amount": 100000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Patria",
@@ -1823,7 +1862,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Patria",
@@ -1847,7 +1886,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Se poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda</b>"
     },
     {
         "bank_name": "Patria",
@@ -1871,7 +1910,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Se poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda</b>"
     },
     {
         "bank_name": "Patria",
@@ -1895,7 +1934,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Se poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda</b>"
     },
     {
         "bank_name": "Patria",
@@ -1910,7 +1949,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Se poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -1930,7 +1969,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "ProCredit",
@@ -1950,7 +1989,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "ProCredit",
@@ -1974,7 +2013,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "ProCredit",
@@ -1994,7 +2033,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Raiffeisen",
@@ -2022,7 +2061,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta"
     },
     {
         "bank_name": "Raiffeisen",
@@ -2046,7 +2085,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta"
     },
     {
         "bank_name": "Raiffeisen",
@@ -2070,7 +2109,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta"
     },
     {
         "bank_name": "TBI",
@@ -2090,7 +2129,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "TBI",
@@ -2118,7 +2157,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "TBI",
@@ -2142,7 +2181,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "TBI",
@@ -2162,7 +2201,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "TBI",
@@ -2186,7 +2225,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "TBI",
@@ -2210,7 +2249,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "TBI",
@@ -2230,7 +2269,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "TechVentures",
@@ -2250,7 +2289,7 @@
         "min_amount": 1000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "TechVentures",
@@ -2270,7 +2309,7 @@
         "min_amount": 1000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "TechVentures",
@@ -2290,7 +2329,7 @@
         "min_amount": 1000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "TechVentures",
@@ -2310,7 +2349,7 @@
         "min_amount": 1000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "TechVentures",
@@ -2330,7 +2369,7 @@
         "min_amount": 1000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Transilvania",
@@ -2350,7 +2389,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "Transilvania",
@@ -2370,7 +2409,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\n<b>Se poate opta pentru incasarea lunara a dobanzii cu o penalizare de 0,25%</b>"
     },
     {
         "bank_name": "Transilvania",
@@ -2390,7 +2429,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\n<b>Se poate opta pentru incasarea lunara a dobanzii cu o penalizare de 0,25%</b>"
     },
     {
         "bank_name": "Transilvania",
@@ -2410,7 +2449,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\n<b>Se poate opta pentru incasarea lunara a dobanzii cu o penalizare de 0,25%</b>"
     },
     {
         "bank_name": "Transilvania",
@@ -2430,7 +2469,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "Transilvania",
@@ -2450,27 +2489,55 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "Unicredit",
         "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
         "deposit_interest_rate": {
-            "value": 5.90,
+            "value": 5.60,
             "history": [
                 {
                     "value": 6.00,
                     "date": "2024-01-18"
+                },
+                {
+                    "value": 5.90,
+                    "date": "2024-02-06"
                 }
             ]
         },
-        "interest_after_min": 5.90,
+        "interest_after_min": 5.60,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
+    },
+    {
+        "bank_name": "Unicredit",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
+        "deposit_interest_rate": {
+            "value": 5.80,
+            "history": [
+                {
+                    "value": 6.20,
+                    "date": "2024-01-18"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-02-06"
+                }
+            ]
+        },
+        "interest_after_min": 5.80,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "Unicredit",
@@ -2479,38 +2546,22 @@
             "value": 6.00,
             "history": [
                 {
-                    "value": 6.20,
+                    "value": 6.50,
                     "date": "2024-01-18"
+                },
+                {
+                    "value": 6.10,
+                    "date": "2024-02-06"
                 }
             ]
         },
         "interest_after_min": 6.00,
-        "min_period": 6,
-        "max_period": 11,
-        "min_amount": 100,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
-    },
-    {
-        "bank_name": "Unicredit",
-        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
-        "deposit_interest_rate": {
-            "value": 6.10,
-            "history": [
-                {
-                    "value": 6.50,
-                    "date": "2024-01-18"
-                }
-            ]
-        },
-        "interest_after_min": 6.10,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BRD",
@@ -2525,7 +2576,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BRD",
@@ -2549,7 +2600,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BRD",
@@ -2573,7 +2624,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BRD",
@@ -2597,7 +2648,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BRD",
@@ -2621,7 +2672,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "Alpha Bank",
@@ -2649,7 +2700,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit standard"
+        "extra_info": "Depozit standard\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Alpha Bank",
@@ -2677,7 +2728,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit standard"
+        "extra_info": "Depozit standard\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Alpha Bank",
@@ -2705,7 +2756,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit standard"
+        "extra_info": "Depozit standard\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Alpha Bank",
@@ -2729,7 +2780,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit standard"
+        "extra_info": "Depozit standard\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Alpha Bank",
@@ -2753,7 +2804,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit standard"
+        "extra_info": "Depozit standard\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Alpha Bank",
@@ -2781,7 +2832,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit standard"
+        "extra_info": "Depozit standard\n<b>Se poate opta pentru plata lunara a dobanzii</b>"
     },
     {
         "bank_name": "Alpha Bank",
@@ -2801,7 +2852,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit standard\nDeschis online!"
+        "extra_info": "Depozit standard\nDeschis online!\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Alpha Bank",
@@ -2821,7 +2872,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit standard\nDeschis online!"
+        "extra_info": "Depozit standard\nDeschis online!\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Alpha Bank",
@@ -2849,7 +2900,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit dobanda progresiva"
+        "extra_info": "Depozit dobanda progresiva\n<b>Se poate opta pentru plata lunara a dobanzii in contul curent</b>\n<b>Se pot face retrageri oricand si orice valoare, insa nu se poate suplimenta suma</b>"
     },
     {
         "bank_name": "Alpha Bank",
@@ -2877,7 +2928,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit dobanda progresiva"
+        "extra_info": "Depozit dobanda progresiva\n<b>Se poate opta pentru plata lunara a dobanzii in contul curent</b>\n<b>Se pot face retrageri oricand si orice valoare, insa nu se poate suplimenta suma</b>"
     },
     {
         "bank_name": "Alpha Bank",
@@ -2901,7 +2952,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit dobanda progresiva"
+        "extra_info": "Depozit dobanda progresiva\n<b>Se poate opta pentru plata lunara a dobanzii in contul curent</b>\n<b>Se pot face retrageri oricand si orice valoare, insa nu se poate suplimenta suma</b>"
     },
     {
         "bank_name": "Alpha Bank",
@@ -2925,7 +2976,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit dobanda progresiva"
+        "extra_info": "Depozit dobanda progresiva\n<b>Se poate opta pentru plata lunara a dobanzii in contul curent</b>\n<b>Se pot face retrageri oricand si orice valoare, insa nu se poate suplimenta suma</b>"
     },
     {
         "bank_name": "Alpha Bank",
@@ -2949,10 +3000,10 @@
         },
         "interest_after_min": 6.65,
         "min_period": 12,
-        "max_period": 999,
+        "max_period": 12,
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit exclusiv online. Promotie prima pagina"
+        "extra_info": "Depozit exclusiv online. Promotie prima pagina\nSe poate opta pentru plata lunara a dobanzii in contul curent"
     }
 ]
