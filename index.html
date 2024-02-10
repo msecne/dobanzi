@@ -13,6 +13,8 @@
       font-family: 'Roboto', sans-serif;
       /* Use linear gradient for background color */
       background: linear-gradient(to right, #74ebd5, #acb6e5);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
     }
 
     form {
@@ -21,7 +23,7 @@
 
     table {
       border-collapse: collapse;
-      width: 95%;
+      width: 100%;
       margin: 1em auto;
     }
 
@@ -53,7 +55,7 @@
 
     form,
     table {
-      width: 80%;
+      width: 100%;
     }
 
     form div {
@@ -123,20 +125,46 @@
     }
 
     #results {
-      width: 90%;
+      width: 100%;
       margin: 0 auto;
     }
+
     .history-header,
     .history-cell {
-      width: 20%; /* Adjust as needed */
+      width: 100%;
+      /* Adjust as needed */
     }
+
     .history-button {
-  background-color: blue;
-  color: white;
-  padding: 2px;
-  cursor: pointer;
-}
+      background-color: blue;
+      color: white;
+      padding: 2px;
+      cursor: pointer;
+    }
+
+    /* Media queries for different screen sizes */
+    @media screen and (min-width: 600px) {
+      table {
+        width: 95%;
+      }
+
+      form,
+      table {
+        width: 80%;
+      }
+
+      .history-header,
+      .history-cell {
+        width: 20%;
+        /* Adjust as needed */
+      }
+
+      #results {
+        width: 90%;
+      }
+    }
   </style>
+
 </head>
 
 <body>
@@ -157,9 +185,10 @@
       <div style="display: flex;">
         <label for="months">Numarul de luni:</label>
         <input type="range" id="months" min="1" max="60" step="1" value="1"
-          oninput="document.getElementById('monthsOutput').value = this.value"
-          onload="document.getElementById('monthsOutput').value = this.value" required>
-        <output id="monthsOutput">1</output>
+          oninput="document.getElementById('monthsInput').value = this.value;"
+          onload="document.getElementById('monthsInput').value = this.value;" required>
+        <input type="number" id="monthsInput" min="1" max="60" step="1" value="1"
+          oninput="document.getElementById('months').value = this.value;" required>
       </div>
       <div style="display: flex;">
         <label for="can_withdraw">Economii (bifat) / depozit (debifat):</label>
@@ -248,158 +277,158 @@
       });
     });
 
-  function calculate() {
-  var amount = document.getElementById('amount').value;
-  var months = document.getElementById('months').value;
-  var can_withdraw = document.getElementById('can_withdraw').checked ? 'true' : 'false';
-  // Filter and sort the data
-  var results = data.filter(item => item.min_period <= months && item.max_period >= months && item.min_amount <= amount && item.max_amount >= amount && item.can_withdraw === can_withdraw);
-  results.sort((a, b) => ((b.deposit_interest_rate.value / 100 / 12) * amount * months) - ((a.deposit_interest_rate.value / 100 / 12) * amount * months));
-  // Display the results
-  var table = document.getElementById('results');
-  if ($.fn.dataTable.isDataTable('#results')) {
-    $('#results').DataTable().destroy();
-  }
-  table.innerHTML = '<tr><th>Numele bancii</th><th>Rata dobanzii</th><th>Dobanda obtinuta</th><th>Total brut</th><th>Total net (-10%)</th><th class="extra-info-header">Extra detalii</th><th class="history-header">Istoric</th></tr>' + results.map((item, index) => {
-    var interest_for_min_period = (item.deposit_interest_rate.value / 100 / 12) * amount * Math.min(months, item.min_period);
-    var interest_for_remaining_period = (item.interest_after_min / 100 / 12) * amount * Math.max(0, months - item.min_period);
-    var interest = interest_for_min_period + interest_for_remaining_period;
-    var total = parseFloat(amount) + interest;
-    var afterTaxes = total - (interest * 0.10);
-    var extraInfo = item.extra_info ? item.extra_info.replace(/\n/g, '<br>') : 'Nimic';
-    var bankName = item.bank_name;
-    if (item.bank_url) {
-      bankName = '<a href="' + item.bank_url + '">' + item.bank_name + '</a>';
-    }
-    var interestRateHistory = item.deposit_interest_rate.history.map(rate => {
-      var date = new Date(rate.date);
-      var formattedDate = date.getDate() + '-' + (date.getMonth() + 1) + '-' + date.getFullYear();
-      return `Data: ${formattedDate}, Valoare: ${rate.value}`;
-    }).join('<br>');
-    var historyButton = '<span class="history-button" id="history-' + index + '">Istoric</span>';
-    return '<tr><td>' + bankName + '</td><td>' + item.deposit_interest_rate.value + '&nbsp;&nbsp;&nbsp;' + historyButton + '</td><td>' + interest.toFixed(2) + '</td><td>' + total.toFixed(2) + '</td><td>' + afterTaxes.toFixed(2) + '</td><td class="extra-info-cell">' + extraInfo + '</td><td class="history-cell">' + interestRateHistory + '</td></tr>';
-  }).join('');
-
-  // Add hover event listeners to the history buttons
-  results.forEach((item, index) => {
-  var historyButton = document.getElementById('history-' + index);
-  historyButton.addEventListener('mouseover', function(e) {
-    // Remove the old canvas if it exists
-    var oldCanvas = document.getElementById('chart-' + index);
-    if (oldCanvas) {
-      oldCanvas.remove();
-    }
-
-    // Create a new canvas for the chart
-    var canvas = document.createElement('canvas');
-    canvas.id = 'chart-' + index;
-    canvas.style.position = 'absolute'; // Position the canvas absolutely
-    canvas.style.left = e.pageX + 10 + 'px'; // Position it at the mouse x coordinate
-    canvas.style.top = e.pageY - 100 + 'px'; // Position it at the mouse y coordinate
-    canvas.style.backgroundColor = 'white';
-    canvas.style.boxSizing = 'border-box';
-    canvas.width = 300; // Set the width of the drawing surface
-    canvas.height = 150; // Set the height of the drawing surface
-    canvas.style.width = '300px !important'; // Set the width of the element
-    canvas.style.height = '150px !important';
-    var tableCell = table.parentElement;
-    tableCell.appendChild(canvas); // Append the canvas to the table cell
-
-  var ctx = canvas.getContext('2d');
-  new Chart(ctx, {
-  type: 'line',
-  data: {
-    labels: [
-      ...item.deposit_interest_rate.history.map(rate => 
-        new Date(rate.date).toLocaleDateString('en-GB', {
-          day: '2-digit',
-          month: '2-digit',
-          year: 'numeric'
-        })
-      ), 
-      new Date().toLocaleDateString('en-GB', {
-        day: '2-digit',
-        month: '2-digit',
-        year: 'numeric'
-      })
-    ],
-    datasets: [{
-      label: 'Interest Rate',
-      data: [...item.deposit_interest_rate.history.map(rate => rate.value), item.deposit_interest_rate.value],
-      fill: false,
-      borderColor: 'rgb(75, 192, 192)',
-      tension: 0.1,
-      pointRadius: 5, // Adjust as needed
-      pointHoverRadius: 5, // Adjust as needed
-    }]
-  },
-  options: {
-    responsive: false,
-    plugins: {
-      legend: {
-        display: false
-      },
-      tooltips: {
-        enabled: true,
-        mode: 'single',
-        callbacks: {
-          label: function(tooltipItems, data) { 
-            return tooltipItems.yLabel + ' %';
-          }
+    function calculate() {
+      var amount = document.getElementById('amount').value;
+      var months = document.getElementById('months').value;
+      var can_withdraw = document.getElementById('can_withdraw').checked ? 'true' : 'false';
+      // Filter and sort the data
+      var results = data.filter(item => item.min_period <= months && item.max_period >= months && item.min_amount <= amount && item.max_amount >= amount && item.can_withdraw === can_withdraw);
+      results.sort((a, b) => ((b.deposit_interest_rate.value / 100 / 12) * amount * months) - ((a.deposit_interest_rate.value / 100 / 12) * amount * months));
+      // Display the results
+      var table = document.getElementById('results');
+      if ($.fn.dataTable.isDataTable('#results')) {
+        $('#results').DataTable().destroy();
+      }
+      table.innerHTML = '<tr><th>Numele bancii</th><th>Rata dobanzii</th><th>Dobanda obtinuta</th><th>Total brut</th><th>Total net (-10%)</th><th class="extra-info-header">Extra detalii</th><th class="history-header">Istoric</th></tr>' + results.map((item, index) => {
+        var interest_for_min_period = (item.deposit_interest_rate.value / 100 / 12) * amount * Math.min(months, item.min_period);
+        var interest_for_remaining_period = (item.interest_after_min / 100 / 12) * amount * Math.max(0, months - item.min_period);
+        var interest = interest_for_min_period + interest_for_remaining_period;
+        var total = parseFloat(amount) + interest;
+        var afterTaxes = total - (interest * 0.10);
+        var extraInfo = item.extra_info ? item.extra_info.replace(/\n/g, '<br>') : 'Nimic';
+        var bankName = item.bank_name;
+        if (item.bank_url) {
+          bankName = '<a href="' + item.bank_url + '">' + item.bank_name + '</a>';
         }
-      },
-      afterDatasetsDraw: function(chart, easing) {
-        var ctx = chart.ctx;
-        chart.data.datasets.forEach(function (dataset, i) {
-          var meta = chart.getDatasetMeta(i);
-          if (!meta.hidden) {
-            meta.data.forEach(function(element, index) {
-              // Draw the text in black, with the specified font
-              ctx.fillStyle = 'rgb(0, 0, 0)';
-              var fontSize = 16;
-              var fontStyle = 'normal';
-              var fontFamily = 'Helvetica Neue';
-              ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
-              // Just naively convert to string for now
-              var dataString = dataset.data[index].toString();
-              // Make sure alignment settings are correct
-              ctx.textAlign = 'center';
-              ctx.textBaseline = 'middle';
-              var padding = 5;
-              var position = element.tooltipPosition();
-              ctx.fillText(dataString, position.x, position.y - (fontSize / 2) - padding);
-            });
+        var interestRateHistory = item.deposit_interest_rate.history.map(rate => {
+          var date = new Date(rate.date);
+          var formattedDate = date.getDate() + '-' + (date.getMonth() + 1) + '-' + date.getFullYear();
+          return `Data: ${formattedDate}, Valoare: ${rate.value}`;
+        }).join('<br>');
+        var historyButton = '<span class="history-button" id="history-' + index + '">Istoric</span>';
+        return '<tr><td>' + bankName + '</td><td>' + item.deposit_interest_rate.value + '&nbsp;&nbsp;&nbsp;' + historyButton + '</td><td>' + interest.toFixed(2) + '</td><td>' + total.toFixed(2) + '</td><td>' + afterTaxes.toFixed(2) + '</td><td class="extra-info-cell">' + extraInfo + '</td><td class="history-cell">' + interestRateHistory + '</td></tr>';
+      }).join('');
+
+      // Add hover event listeners to the history buttons
+      results.forEach((item, index) => {
+        var historyButton = document.getElementById('history-' + index);
+        historyButton.addEventListener('mouseover', function (e) {
+          // Remove the old canvas if it exists
+          var oldCanvas = document.getElementById('chart-' + index);
+          if (oldCanvas) {
+            oldCanvas.remove();
+          }
+
+          // Create a new canvas for the chart
+          var canvas = document.createElement('canvas');
+          canvas.id = 'chart-' + index;
+          canvas.style.position = 'absolute'; // Position the canvas absolutely
+          canvas.style.left = e.pageX + 10 + 'px'; // Position it at the mouse x coordinate
+          canvas.style.top = e.pageY - 100 + 'px'; // Position it at the mouse y coordinate
+          canvas.style.backgroundColor = 'white';
+          canvas.style.boxSizing = 'border-box';
+          canvas.width = 300; // Set the width of the drawing surface
+          canvas.height = 150; // Set the height of the drawing surface
+          canvas.style.width = '300px !important'; // Set the width of the element
+          canvas.style.height = '150px !important';
+          var tableCell = table.parentElement;
+          tableCell.appendChild(canvas); // Append the canvas to the table cell
+
+          var ctx = canvas.getContext('2d');
+          new Chart(ctx, {
+            type: 'line',
+            data: {
+              labels: [
+                ...item.deposit_interest_rate.history.map(rate =>
+                  new Date(rate.date).toLocaleDateString('en-GB', {
+                    day: '2-digit',
+                    month: '2-digit',
+                    year: 'numeric'
+                  })
+                ),
+                new Date().toLocaleDateString('en-GB', {
+                  day: '2-digit',
+                  month: '2-digit',
+                  year: 'numeric'
+                })
+              ],
+              datasets: [{
+                label: 'Interest Rate',
+                data: [...item.deposit_interest_rate.history.map(rate => rate.value), item.deposit_interest_rate.value],
+                fill: false,
+                borderColor: 'rgb(75, 192, 192)',
+                tension: 0.1,
+                pointRadius: 5, // Adjust as needed
+                pointHoverRadius: 5, // Adjust as needed
+              }]
+            },
+            options: {
+              responsive: false,
+              plugins: {
+                legend: {
+                  display: false
+                },
+                tooltips: {
+                  enabled: true,
+                  mode: 'single',
+                  callbacks: {
+                    label: function (tooltipItems, data) {
+                      return tooltipItems.yLabel + ' %';
+                    }
+                  }
+                },
+                afterDatasetsDraw: function (chart, easing) {
+                  var ctx = chart.ctx;
+                  chart.data.datasets.forEach(function (dataset, i) {
+                    var meta = chart.getDatasetMeta(i);
+                    if (!meta.hidden) {
+                      meta.data.forEach(function (element, index) {
+                        // Draw the text in black, with the specified font
+                        ctx.fillStyle = 'rgb(0, 0, 0)';
+                        var fontSize = 16;
+                        var fontStyle = 'normal';
+                        var fontFamily = 'Helvetica Neue';
+                        ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
+                        // Just naively convert to string for now
+                        var dataString = dataset.data[index].toString();
+                        // Make sure alignment settings are correct
+                        ctx.textAlign = 'center';
+                        ctx.textBaseline = 'middle';
+                        var padding = 5;
+                        var position = element.tooltipPosition();
+                        ctx.fillText(dataString, position.x, position.y - (fontSize / 2) - padding);
+                      });
+                    }
+                  });
+                }
+              },
+              scales: {
+                xAxes: [{
+                  display: true
+                }],
+                yAxes: [{
+                  display: true,
+                  ticks: {
+                    stepSize: 0.01,
+                    callback: function (value, index, values) {
+                      return value.toFixed(2) + ' %';
+                    }
+                  }
+                }]
+              }
+            }
+          });
+        });
+
+        historyButton.addEventListener('mouseout', function () {
+          // Remove the canvas when the mouse is no longer hovering over it
+          var canvas = document.getElementById('chart-' + index);
+          if (canvas) {
+            canvas.remove();
           }
         });
-      }
-    },
-    scales: {
-      xAxes: [{
-        display: true
-      }],
-      yAxes: [{
-        display: true,
-        ticks: {
-          stepSize: 0.01,
-          callback: function(value, index, values) {
-            return value.toFixed(2) + ' %';
-          }
-        }
-      }]
+      });
     }
-  }
-});
-  });
-
-  historyButton.addEventListener('mouseout', function() {
-    // Remove the canvas when the mouse is no longer hovering over it
-    var canvas = document.getElementById('chart-' + index);
-    if (canvas) {
-      canvas.remove();
-    }
-  });
-});
-}
 
 
     google.charts.load('current', { 'packages': ['corechart'] });
@@ -460,7 +489,9 @@
 
 
   </script>
-  <noscript><p><img alt="Dobanzi" width="1" height="1" src="//in.getclicky.com/101443145ns.gif" /></p></noscript>
+  <noscript>
+    <p><img alt="Dobanzi" width="1" height="1" src="//in.getclicky.com/101443145ns.gif" /></p>
+  </noscript>
 </body>
 
 </html>
