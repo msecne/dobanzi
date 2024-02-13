@@ -2896,15 +2896,10 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-in-lei-pe-2-si-3-ani",
         "deposit_interest_rate": {
-            "value": 6.20,
-            "history": [
-                {
-                    "value": 6.50,
-                    "date": "2024-01-04"
-                }
-            ]
+            "value": 6.50,
+            "history": []
         },
-        "interest_after_min": 6.20,
+        "interest_after_min": 6.50,
         "min_period": 24,
         "max_period": 35,
         "min_amount": 1,
@@ -2916,15 +2911,10 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-in-lei-pe-2-si-3-ani",
         "deposit_interest_rate": {
-            "value": 6.20,
-            "history": [
-                {
-                    "value": 6.50,
-                    "date": "2024-01-04"
-                }
-            ]
+            "value": 6.50,
+            "history": []
         },
-        "interest_after_min": 6.20,
+        "interest_after_min": 6.50,
         "min_period": 36,
         "max_period": 999,
         "min_amount": 1,
