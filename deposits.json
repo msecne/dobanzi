@@ -2115,15 +2115,19 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 7.10,
+            "value": 6.70,
             "history": [
                 {
                     "value": 7.15,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 7.10,
+                    "date": "2024-02-12"
                 }
             ]
         },
-        "interest_after_min": 7.10,
+        "interest_after_min": 6.70,
         "min_period": 3,
         "max_period": 4,
         "min_amount": 100,
@@ -2135,7 +2139,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 7.20,
+            "value": 6.90,
             "history": [
                 {
                     "value": 7.70,
@@ -2148,10 +2152,14 @@
                 {
                     "value": 7.30,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 7.20,
+                    "date": "2024-02-12"
                 }
             ]
         },
-        "interest_after_min": 7.20,
+        "interest_after_min": 6.90,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 100,
@@ -2163,7 +2171,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 7.30,
+            "value": 6.95,
             "history": [
                 {
                     "value": 7.75,
@@ -2172,10 +2180,14 @@
                 {
                     "value": 7.60,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 7.30,
+                    "date": "2024-02-12"
                 }
             ]
         },
-        "interest_after_min": 7.30,
+        "interest_after_min": 6.95,
         "min_period": 6,
         "max_period": 8,
         "min_amount": 100,
@@ -2207,7 +2219,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 7.55,
+            "value": 7.10,
             "history": [
                 {
                     "value": 8.05,
@@ -2216,10 +2228,14 @@
                 {
                     "value": 7.75,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 7.55,
+                    "date": "2024-02-12"
                 }
             ]
         },
-        "interest_after_min": 7.55,
+        "interest_after_min": 7.10,
         "min_period": 12,
         "max_period": 14,
         "min_amount": 100,
