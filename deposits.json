@@ -23,10 +23,15 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/planul-de-economii",
         "deposit_interest_rate": {
-            "value": 5.5,
-            "history": []
+            "value": 5.0,
+            "history": [
+                {
+                    "value": 5.5,
+                    "date": "2024-02-12"
+                }
+            ]
         },
-        "interest_after_min": 5.5,
+        "interest_after_min": 5.0,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 1,
@@ -38,10 +43,15 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/planul-de-economii",
         "deposit_interest_rate": {
-            "value": 6.0,
-            "history": []
+            "value": 5.50,
+            "history": [
+                {
+                    "value": 6.0,
+                    "date": "2024-02-12"
+                }
+            ]
         },
-        "interest_after_min": 6.0,
+        "interest_after_min": 5.50,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 1,
@@ -597,15 +607,19 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 5.40,
+            "value": 5.00,
             "history": [
                 {
                     "value": 5.75,
                     "date": "2023-12-06"
+                },
+                {
+                    "value": 5.40,
+                    "date": "2024-02-12"
                 }
             ]
         },
-        "interest_after_min": 5.40,
+        "interest_after_min": 5.00,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
@@ -617,17 +631,69 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 4.40,
+            "value": 4.00,
             "history": [
                 {
                     "value": 4.75,
                     "date": "2023-12-06"
+                },
+                {
+                    "value": 4.40,
+                    "date": "2024-02-12"
                 }
             ]
         },
-        "interest_after_min": 4.40,
+        "interest_after_min": 4.00,
         "min_period": 3,
         "max_period": 5,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit\nDobanda se calculeaza si se plateste la scadenta"
+    },
+    {
+        "bank_name": "BCR",
+        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
+        "deposit_interest_rate": {
+            "value": 5.20,
+            "history": [
+                {
+                    "value": 6.00,
+                    "date": "2023-12-06"
+                },
+                {
+                    "value": 5.60,
+                    "date": "2024-02-12"
+                }
+            ]
+        },
+        "interest_after_min": 5.20,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR\nDobanda se calculeaza si se plateste la scadenta"
+    },
+    {
+        "bank_name": "BCR",
+        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
+        "deposit_interest_rate": {
+            "value": 4.20,
+            "history": [
+                {
+                    "value": 5.00,
+                    "date": "2023-12-06"
+                },
+                {
+                    "value": 4.60,
+                    "date": "2024-02-12"
+                }
+            ]
+        },
+        "interest_after_min": 4.20,
+        "min_period": 6,
+        "max_period": 11,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -640,14 +706,18 @@
             "value": 5.60,
             "history": [
                 {
-                    "value": 6.00,
+                    "value": 6.50,
                     "date": "2023-12-06"
+                },
+                {
+                    "value": 6.10,
+                    "date": "2024-02-12"
                 }
             ]
         },
         "interest_after_min": 5.60,
-        "min_period": 6,
-        "max_period": 11,
+        "min_period": 12,
+        "max_period": 23,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -660,52 +730,16 @@
             "value": 4.60,
             "history": [
                 {
-                    "value": 5.00,
+                    "value": 5.50,
                     "date": "2023-12-06"
+                },
+                {
+                    "value": 5.10,
+                    "date": "2024-02-12"
                 }
             ]
         },
         "interest_after_min": 4.60,
-        "min_period": 6,
-        "max_period": 11,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit\nDobanda se calculeaza si se plateste la scadenta"
-    },
-    {
-        "bank_name": "BCR",
-        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
-        "deposit_interest_rate": {
-            "value": 6.10,
-            "history": [
-                {
-                    "value": 6.50,
-                    "date": "2023-12-06"
-                }
-            ]
-        },
-        "interest_after_min": 6.10,
-        "min_period": 12,
-        "max_period": 23,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit\nClienți care încasează venitul în cont BCR\nDobanda se calculeaza si se plateste la scadenta"
-    },
-    {
-        "bank_name": "BCR",
-        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
-        "deposit_interest_rate": {
-            "value": 5.10,
-            "history": [
-                {
-                    "value": 5.50,
-                    "date": "2023-12-06"
-                }
-            ]
-        },
-        "interest_after_min": 5.10,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
@@ -717,15 +751,19 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 5.60,
+            "value": 4.50,
             "history": [
                 {
                     "value": 6.00,
                     "date": "2023-12-06"
+                },
+                {
+                    "value": 5.60,
+                    "date": "2024-02-12"
                 }
             ]
         },
-        "interest_after_min": 5.60,
+        "interest_after_min": 4.50,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
@@ -737,15 +775,19 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 4.60,
+            "value": 4.50,
             "history": [
                 {
                     "value": 5.00,
                     "date": "2023-12-06"
+                },
+                {
+                    "value": 4.60,
+                    "date": "2024-02-12"
                 }
             ]
         },
-        "interest_after_min": 4.60,
+        "interest_after_min": 4.50,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
