@@ -1995,6 +1995,21 @@
     },
     {
         "bank_name": "ProCredit",
+        "bank_url": "https://www.procreditbank.ro/landing/ro/prosave.html?utm_source=banner&utm_medium=Website&utm_id=ProSavelei",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": []
+        },
+        "interest_after_min": 7.00,
+        "min_period": 6,
+        "max_period": 6,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 19 feb 2024</b>"
+    },
+    {
+        "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/resources/cache/cms/files/Dobanzi%20produse%20de%20economisire_PF_RO_04_01_2024(2).pdf",
         "deposit_interest_rate": {
             "value": 5.80,
