@@ -437,7 +437,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 5.80,
+            "value": 5.60,
             "history": [
                 {
                     "value": 6.20,
@@ -446,10 +446,14 @@
                 {
                     "value": 6.10,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 5.80,
+                    "date": "2024-02-26"
                 }
             ]
         },
-        "interest_after_min": 5.80,
+        "interest_after_min": 5.60,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 1,
@@ -2313,7 +2317,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 6.90,
+            "value": 6.80,
             "history": [
                 {
                     "value": 7.70,
@@ -2330,10 +2334,14 @@
                 {
                     "value": 7.20,
                     "date": "2024-02-12"
+                },
+                {
+                    "value": 6.90,
+                    "date": "2024-02-26"
                 }
             ]
         },
-        "interest_after_min": 6.90,
+        "interest_after_min": 6.80,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 100,
@@ -2345,7 +2353,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 6.95,
+            "value": 6.90,
             "history": [
                 {
                     "value": 7.75,
@@ -2358,10 +2366,14 @@
                 {
                     "value": 7.30,
                     "date": "2024-02-12"
+                },
+                {
+                    "value": 6.95,
+                    "date": "2024-02-26"
                 }
             ]
         },
-        "interest_after_min": 6.95,
+        "interest_after_min": 6.90,
         "min_period": 6,
         "max_period": 8,
         "min_amount": 100,
