@@ -392,10 +392,15 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/cont-de-economii/",
         "deposit_interest_rate": {
-            "value": 3.0,
-            "history": []
+            "value": 2.50,
+            "history": [
+                {
+                    "value": 3.00,
+                    "date": "2024-04-01"
+                }
+            ]
         },
-        "interest_after_min": 3.0,
+        "interest_after_min": 2.50,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 1,
@@ -407,14 +412,19 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/cont-de-economii/",
         "deposit_interest_rate": {
-            "value": 3.5,
-            "history": []
+            "value": 3.00,
+            "history": [
+                {
+                    "value": 3.5,
+                    "date": "2024-04-01"
+                }
+            ]
         },
-        "interest_after_min": 3.5,
+        "interest_after_min": 3.00,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 50000,
-        "max_amount": 250000,
+        "max_amount": 300000,
         "can_withdraw": "true",
         "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
@@ -422,13 +432,18 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/cont-de-economii/",
         "deposit_interest_rate": {
-            "value": 4.0,
-            "history": []
+            "value": 3.50,
+            "history": [
+                {
+                    "value": 4.00,
+                    "date": "2024-04-01"
+                }
+            ]
         },
-        "interest_after_min": 4.0,
+        "interest_after_min": 3.50,
         "min_period": 1,
         "max_period": 999,
-        "min_amount": 250000,
+        "min_amount": 300000,
         "max_amount": 999999,
         "can_withdraw": "true",
         "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
@@ -1291,7 +1306,7 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 5.30,
+            "value": 5.10,
             "history": [
                 {
                     "value": 5.70,
@@ -1304,10 +1319,14 @@
                 {
                     "value": 5.55,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 5.30,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 5.30,
+        "interest_after_min": 5.10,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
@@ -1319,7 +1338,7 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 5.90,
+            "value": 5.70,
             "history": [
                 {
                     "value": 6.30,
@@ -1332,10 +1351,14 @@
                 {
                     "value": 6.05,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 5.90,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 5.90,
+        "interest_after_min": 5.70,
         "min_period": 3,
         "max_period": 4,
         "min_amount": 500,
@@ -1347,7 +1370,7 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/retail/economisire/Depozitul-Freedom.html",
         "deposit_interest_rate": {
-            "value": 6.50,
+            "value": 6.30,
             "history": [
                 {
                     "value": 7.50,
@@ -1356,60 +1379,16 @@
                 {
                     "value": 6.70,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.30,
         "min_period": 5,
         "max_period": 5,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "First Bank",
-        "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
-        "deposit_interest_rate": {
-            "value": 6.20,
-            "history": [
-                {
-                    "value": 6.55,
-                    "date": "2023-12-06"
-                },
-                {
-                    "value": 6.30,
-                    "date": "2023-12-20"
-                }
-            ]
-        },
-        "interest_after_min": 6.20,
-        "min_period": 6,
-        "max_period": 11,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "First Bank",
-        "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
-        "deposit_interest_rate": {
-            "value": 6.70,
-            "history": [
-                {
-                    "value": 7.00,
-                    "date": "2023-12-06"
-                },
-                {
-                    "value": 6.80,
-                    "date": "2023-12-20"
-                }
-            ]
-        },
-        "interest_after_min": 6.70,
-        "min_period": 12,
-        "max_period": 23,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -1422,7 +1401,7 @@
             "value": 6.00,
             "history": [
                 {
-                    "value": 6.45,
+                    "value": 6.55,
                     "date": "2023-12-06"
                 },
                 {
@@ -1436,6 +1415,66 @@
             ]
         },
         "interest_after_min": 6.00,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "First Bank",
+        "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
+        "deposit_interest_rate": {
+            "value": 6.40,
+            "history": [
+                {
+                    "value": 7.00,
+                    "date": "2023-12-06"
+                },
+                {
+                    "value": 6.80,
+                    "date": "2023-12-20"
+                },
+                {
+                    "value": 6.70,
+                    "date": "2024-01-31"
+                }
+            ]
+        },
+        "interest_after_min": 6.40,
+        "min_period": 12,
+        "max_period": 23,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "First Bank",
+        "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
+        "deposit_interest_rate": {
+            "value": 5.90,
+            "history": [
+                {
+                    "value": 6.45,
+                    "date": "2023-12-06"
+                },
+                {
+                    "value": 6.30,
+                    "date": "2023-12-20"
+                },
+                {
+                    "value": 6.20,
+                    "date": "2024-01-31"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-04-01"
+                }
+            ]
+        },
+        "interest_after_min": 5.90,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
@@ -1447,7 +1486,7 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
         "deposit_interest_rate": {
-            "value": 6.75,
+            "value": 6.50,
             "history": [
                 {
                     "value": 7.75,
@@ -1456,10 +1495,14 @@
                 {
                     "value": 7.50,
                     "date": "2024-02-06"
+                },
+                {
+                    "value": 6.75,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.75,
+        "interest_after_min": 6.50,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
@@ -1471,7 +1514,7 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
         "deposit_interest_rate": {
-            "value": 6.75,
+            "value": 6.50,
             "history": [
                 {
                     "value": 8.05,
@@ -1480,10 +1523,14 @@
                 {
                     "value": 7.50,
                     "date": "2024-02-06"
+                },
+                {
+                    "value": 6.75,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.75,
+        "interest_after_min": 6.50,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
@@ -1495,7 +1542,7 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
         "deposit_interest_rate": {
-            "value": 6.95,
+            "value": 6.75,
             "history": [
                 {
                     "value": 8.50,
@@ -1504,10 +1551,14 @@
                 {
                     "value": 7.75,
                     "date": "2024-02-06"
+                },
+                {
+                    "value": 6.95,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.95,
+        "interest_after_min": 6.75,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
@@ -1519,7 +1570,7 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
         "deposit_interest_rate": {
-            "value": 6.85,
+            "value": 6.75,
             "history": [
                 {
                     "value": 8.00,
@@ -1528,10 +1579,14 @@
                 {
                     "value": 7.50,
                     "date": "2024-02-06"
+                },
+                {
+                    "value": 6.85,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.85,
+        "interest_after_min": 6.75,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 500,
@@ -1854,7 +1909,7 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 5.15,
+            "value": 5.00,
             "history": [
                 {
                     "value": 6.15,
@@ -1867,10 +1922,14 @@
                 {
                     "value": 5.50,
                     "date": "2024-02-26"
+                },
+                {
+                    "value": 5.15,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 5.15,
+        "interest_after_min": 5.00,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 100,
@@ -1882,7 +1941,7 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 5.35,
+            "value": 5.20,
             "history": [
                 {
                     "value": 6.35,
@@ -1895,10 +1954,14 @@
                 {
                     "value": 5.70,
                     "date": "2024-02-26"
+                },
+                {
+                    "value": 5.35,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 5.35,
+        "interest_after_min": 5.20,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 100000,
@@ -1910,7 +1973,7 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 5.80,
+            "value": 5.65,
             "history": [
                 {
                     "value": 6.85,
@@ -1923,10 +1986,14 @@
                 {
                     "value": 6.20,
                     "date": "2024-02-26"
+                },
+                {
+                    "value": 5.80,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 5.80,
+        "interest_after_min": 5.65,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
@@ -1938,7 +2005,7 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 5.85,
             "history": [
                 {
                     "value": 7.05,
@@ -1951,10 +2018,14 @@
                 {
                     "value": 6.40,
                     "date": "2024-02-26"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.85,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100000,
@@ -1966,7 +2037,7 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 6.20,
+            "value": 6.00,
             "history": [
                 {
                     "value": 7.25,
@@ -1979,10 +2050,14 @@
                 {
                     "value": 6.60,
                     "date": "2024-02-26"
+                },
+                {
+                    "value": 6.20,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.20,
+        "interest_after_min": 6.00,
         "min_period": 6,
         "max_period": 999,
         "min_amount": 100,
@@ -1994,7 +2069,7 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/depozit-online",
         "deposit_interest_rate": {
-            "value": 6.40,
+            "value": 6.20,
             "history": [
                 {
                     "value": 7.45,
@@ -2007,10 +2082,14 @@
                 {
                     "value": 6.80,
                     "date": "2024-02-26"
+                },
+                {
+                    "value": 6.40,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.40,
+        "interest_after_min": 6.20,
         "min_period": 6,
         "max_period": 999,
         "min_amount": 100000,
@@ -2020,7 +2099,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/1801",
+        "bank_url": "https://www.patriabank.ro/d/1864",
         "deposit_interest_rate": {
             "value": 5.50,
             "history": [
@@ -2044,7 +2123,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/1801",
+        "bank_url": "https://www.patriabank.ro/d/1864",
         "deposit_interest_rate": {
             "value": 6.25,
             "history": [
@@ -2068,9 +2147,9 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/1801",
+        "bank_url": "https://www.patriabank.ro/d/1864",
         "deposit_interest_rate": {
-            "value": 6.50,
+            "value": 6.25,
             "history": [
                 {
                     "value": 7.25,
@@ -2079,10 +2158,14 @@
                 {
                     "value": 6.75,
                     "date": "2024-01-04"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.25,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
@@ -2092,9 +2175,9 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/1801",
+        "bank_url": "https://www.patriabank.ro/d/1864",
         "deposit_interest_rate": {
-            "value": 6.75,
+            "value": 6.50,
             "history": [
                 {
                     "value": 7.75,
@@ -2103,10 +2186,14 @@
                 {
                     "value": 7.00,
                     "date": "2024-01-04"
+                },
+                {
+                    "value": 6.75,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.75,
+        "interest_after_min": 6.50,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 100,
@@ -2118,10 +2205,15 @@
         "bank_name": "Patria",
         "bank_url": "https://www.patriabank.ro/d/1801",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": []
+            "value": 6.00,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2024-04-01"
+                }
+            ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.00,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 100,
@@ -2151,7 +2243,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 22 martie 2024</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 15 aprilie 2024</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -2265,7 +2357,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 5.30,
             "history": [
                 {
                     "value": 6.30,
@@ -2282,10 +2374,14 @@
                 {
                     "value": 5.60,
                     "date": "2024-02-26"
+                },
+                {
+                    "value": 5.50,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.30,
         "min_period": 3,
         "max_period": 11,
         "min_amount": 500,
@@ -2297,7 +2393,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 5.75,
+            "value": 5.60,
             "history": [
                 {
                     "value": 6.50,
@@ -2310,10 +2406,14 @@
                 {
                     "value": 6.00,
                     "date": "2024-02-26"
+                },
+                {
+                    "value": 5.75,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 5.75,
+        "interest_after_min": 5.60,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
@@ -2349,7 +2449,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 6.70,
+            "value": 6.45,
             "history": [
                 {
                     "value": 7.15,
@@ -2358,10 +2458,14 @@
                 {
                     "value": 7.10,
                     "date": "2024-02-12"
+                },
+                {
+                    "value": 6.70,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.70,
+        "interest_after_min": 6.45,
         "min_period": 3,
         "max_period": 4,
         "min_amount": 100,
@@ -2373,7 +2477,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 6.80,
+            "value": 6.65,
             "history": [
                 {
                     "value": 7.70,
@@ -2394,10 +2498,14 @@
                 {
                     "value": 6.90,
                     "date": "2024-02-26"
+                },
+                {
+                    "value": 6.80,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.80,
+        "interest_after_min": 6.65,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 100,
@@ -2409,7 +2517,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 6.90,
+            "value": 6.70,
             "history": [
                 {
                     "value": 7.75,
@@ -2426,10 +2534,14 @@
                 {
                     "value": 6.95,
                     "date": "2024-02-26"
+                },
+                {
+                    "value": 6.90,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.90,
+        "interest_after_min": 6.70,
         "min_period": 6,
         "max_period": 8,
         "min_amount": 100,
@@ -2441,15 +2553,19 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 6.40,
+            "value": 6.30,
             "history": [
                 {
                     "value": 6.95,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 6.40,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.40,
+        "interest_after_min": 6.30,
         "min_period": 9,
         "max_period": 11,
         "min_amount": 100,
@@ -2461,7 +2577,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 7.10,
+            "value": 6.85,
             "history": [
                 {
                     "value": 8.05,
@@ -2474,10 +2590,14 @@
                 {
                     "value": 7.55,
                     "date": "2024-02-12"
+                },
+                {
+                    "value": 7.10,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 7.10,
+        "interest_after_min": 6.85,
         "min_period": 12,
         "max_period": 14,
         "min_amount": 100,
@@ -2489,7 +2609,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 6.40,
+            "value": 5.95,
             "history": [
                 {
                     "value": 7.45,
@@ -2498,10 +2618,18 @@
                 {
                     "value": 6.95,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 6.40,
+                    "date": "2024-04-01"
+                },
+                {
+                    "value": 6.30,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.40,
+        "interest_after_min": 5.95,
         "min_period": 15,
         "max_period": 17,
         "min_amount": 100,
@@ -2513,15 +2641,19 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 6.40,
+            "value": 5.95,
             "history": [
                 {
                     "value": 6.95,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 6.40,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.40,
+        "interest_after_min": 5.95,
         "min_period": 18,
         "max_period": 999,
         "min_amount": 100,
@@ -2773,7 +2905,7 @@
         "bank_name": "Unicredit",
         "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
         "deposit_interest_rate": {
-            "value": 5.60,
+            "value": 5.50,
             "history": [
                 {
                     "value": 6.00,
@@ -2782,10 +2914,14 @@
                 {
                     "value": 5.90,
                     "date": "2024-02-06"
+                },
+                {
+                    "value": 5.60,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 5.60,
+        "interest_after_min": 5.50,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
@@ -2797,7 +2933,7 @@
         "bank_name": "Unicredit",
         "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
         "deposit_interest_rate": {
-            "value": 5.80,
+            "value": 5.60,
             "history": [
                 {
                     "value": 6.20,
@@ -2806,10 +2942,14 @@
                 {
                     "value": 6.00,
                     "date": "2024-02-06"
+                },
+                {
+                    "value": 5.80,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 5.80,
+        "interest_after_min": 5.60,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
@@ -2821,7 +2961,7 @@
         "bank_name": "Unicredit",
         "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 5.70,
             "history": [
                 {
                     "value": 6.50,
@@ -2830,10 +2970,14 @@
                 {
                     "value": 6.10,
                     "date": "2024-02-06"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-04-01"
                 }
             ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.70,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 100,
