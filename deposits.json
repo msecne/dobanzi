@@ -1,5 +1,20 @@
 [
     {
+        "bank_name": "Salt Bank",
+        "bank_url": "https://www.salt.bank/documents/onboarding.important_to_know.Terms_and_conditions.RO.pdf",
+        "deposit_interest_rate": {
+            "value": 3.0,
+            "history": []
+        },
+        "interest_after_min": 3.0,
+        "min_period": 1,
+        "max_period": 999,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "true",
+        "extra_info": "Cont standard de economii (spaces)\nDobanda se calculeaza zilnic si se plateste lunar\nTrebuie rulaj de min 1000 lei lunar"
+    },
+    {
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/contul-de-economii",
         "deposit_interest_rate": {
@@ -3500,5 +3515,50 @@
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit exclusiv online. Promotie prima pagina\nSe poate opta pentru plata lunara a dobanzii in contul curent"
+    },
+    {
+        "bank_name": "Salt Bank",
+        "bank_url": "https://www.salt.bank/documents/onboarding.important_to_know.Terms_and_conditions.RO.pdf",
+        "deposit_interest_rate": {
+            "value": 6.1,
+            "history": []
+        },
+        "interest_after_min": 6.1,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit standard\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "Salt Bank",
+        "bank_url": "https://www.salt.bank/documents/onboarding.important_to_know.Terms_and_conditions.RO.pdf",
+        "deposit_interest_rate": {
+            "value": 6.4,
+            "history": []
+        },
+        "interest_after_min": 6.4,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit standard\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "Salt Bank",
+        "bank_url": "https://www.salt.bank/documents/onboarding.important_to_know.Terms_and_conditions.RO.pdf",
+        "deposit_interest_rate": {
+            "value": 6.5,
+            "history": []
+        },
+        "interest_after_min": 6.5,
+        "min_period": 12,
+        "max_period": 12,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit standard\nDobanda se acorda la scadenta"
     }
 ]
