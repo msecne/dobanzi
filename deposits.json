@@ -467,7 +467,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 5.60,
+            "value": 5.40,
             "history": [
                 {
                     "value": 6.20,
@@ -480,10 +480,14 @@
                 {
                     "value": 5.80,
                     "date": "2024-02-26"
+                },
+                {
+                    "value": 5.60,
+                    "date": "2024-04-15"
                 }
             ]
         },
-        "interest_after_min": 5.60,
+        "interest_after_min": 5.40,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 1,
@@ -1361,7 +1365,7 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 5.10,
+            "value": 5.00,
             "history": [
                 {
                     "value": 5.70,
@@ -1378,16 +1382,20 @@
                 {
                     "value": 5.30,
                     "date": "2024-04-01"
+                },
+                {
+                    "value": 5.10,
+                    "date": "2024-04-26"
                 }
             ]
         },
-        "interest_after_min": 5.10,
+        "interest_after_min": 5.00,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit online!\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "First Bank",
@@ -1419,7 +1427,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit online!\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "First Bank",
@@ -1481,7 +1489,7 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 6.40,
+            "value": 6.20,
             "history": [
                 {
                     "value": 7.00,
@@ -1494,16 +1502,20 @@
                 {
                     "value": 6.70,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 6.40,
+                    "date": "2024-04-26"
                 }
             ]
         },
-        "interest_after_min": 6.40,
+        "interest_after_min": 6.20,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit online!\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "First Bank",
@@ -1535,7 +1547,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit online!\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -3232,7 +3244,7 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/ro-ro/info-utile/dobanzi/persoane-fizice#ui-id-1",
         "deposit_interest_rate": {
-            "value": 5.20,
+            "value": 5.10,
             "history": [
                 {
                     "value": 5.90,
@@ -3249,10 +3261,14 @@
                 {
                     "value": 5.40,
                     "date": "2024-02-26"
+                },
+                {
+                    "value": 5.20,
+                    "date": "2024-05-01"
                 }
             ]
         },
-        "interest_after_min": 5.20,
+        "interest_after_min": 5.10,
         "min_period": 2,
         "max_period": 2,
         "min_amount": 1,
@@ -3264,7 +3280,7 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/ro-ro/info-utile/dobanzi/persoane-fizice#ui-id-1",
         "deposit_interest_rate": {
-            "value": 5.55,
+            "value": 5.45,
             "history": [
                 {
                     "value": 6.40,
@@ -3285,10 +3301,14 @@
                 {
                     "value": 5.70,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 5.55,
+                    "date": "2024-05-01"
                 }
             ]
         },
-        "interest_after_min": 5.55,
+        "interest_after_min": 5.45,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 1,
@@ -3300,7 +3320,7 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/ro-ro/info-utile/dobanzi/persoane-fizice#ui-id-1",
         "deposit_interest_rate": {
-            "value": 5.80,
+            "value": 5.70,
             "history": [
                 {
                     "value": 6.50,
@@ -3317,10 +3337,14 @@
                 {
                     "value": 5.95,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 5.80,
+                    "date": "2024-05-01"
                 }
             ]
         },
-        "interest_after_min": 5.80,
+        "interest_after_min": 5.70,
         "min_period": 6,
         "max_period": 8,
         "min_amount": 1,
@@ -3332,7 +3356,7 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/ro-ro/info-utile/dobanzi/persoane-fizice#ui-id-1",
         "deposit_interest_rate": {
-            "value": 5.90,
+            "value": 5.75,
             "history": [
                 {
                     "value": 6.50,
@@ -3349,10 +3373,14 @@
                 {
                     "value": 6.05,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 5.90,
+                    "date": "2024-05-01"
                 }
             ]
         },
-        "interest_after_min": 5.90,
+        "interest_after_min": 5.75,
         "min_period": 9,
         "max_period": 11,
         "min_amount": 1,
@@ -3364,7 +3392,7 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/ro-ro/info-utile/dobanzi/persoane-fizice#ui-id-1",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 5.80,
             "history": [
                 {
                     "value": 6.70,
@@ -3385,10 +3413,14 @@
                 {
                     "value": 6.15,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-05-01"
                 }
             ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.80,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 1,
@@ -3413,6 +3445,10 @@
                 {
                     "value": 5.70,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 5.60,
+                    "date": "2024-05-01"
                 }
             ]
         },
@@ -3428,35 +3464,7 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/depozite-in-lei-pe-2-si-3-ani",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": [
-                {
-                    "value": 6.50,
-                    "date": "2024-02-26"
-                },
-                {
-                    "value": 5.75,
-                    "date": "2024-02-26"
-                },
-                {
-                    "value": 5.70,
-                    "date": "2024-04-15"
-                }
-            ]
-        },
-        "interest_after_min": 6.50,
-        "min_period": 36,
-        "max_period": 999,
-        "min_amount": 1,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit standard\nDeschis online!\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "Alpha Bank",
-        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/alpha-progressive",
-        "deposit_interest_rate": {
-            "value": 5.80,
+            "value": 5.70,
             "history": [
                 {
                     "value": 6.50,
@@ -3480,7 +3488,47 @@
                 }
             ]
         },
-        "interest_after_min": 5.80,
+        "interest_after_min": 5.70,
+        "min_period": 36,
+        "max_period": 999,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit standard\nDeschis online!\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "Alpha Bank",
+        "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/alpha-progressive",
+        "deposit_interest_rate": {
+            "value": 5.60,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2023-12-06"
+                },
+                {
+                    "value": 6.40,
+                    "date": "2024-01-04"
+                },
+                {
+                    "value": 6.30,
+                    "date": "2024-01-31"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-02-26"
+                },
+                {
+                    "value": 5.95,
+                    "date": "2024-04-15"
+                },
+                {
+                    "value": 5.70,
+                    "date": "2024-05-01"
+                }
+            ]
+        },
+        "interest_after_min": 5.70,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 1,
@@ -3492,7 +3540,7 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/depozite/alpha-progressive",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 5.70,
             "history": [
                 {
                     "value": 6.70,
@@ -3513,10 +3561,14 @@
                 {
                     "value": 6.15,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-05-01"
                 }
             ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.70,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 1,
@@ -3584,7 +3636,7 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/welcome",
         "deposit_interest_rate": {
-            "value": 6.30,
+            "value": 6.10,
             "history": [
                 {
                     "value": 7.00,
@@ -3605,10 +3657,14 @@
                 {
                     "value": 6.45,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 6.30,
+                    "date": "2024-05-01"
                 }
             ]
         },
-        "interest_after_min": 6.30,
+        "interest_after_min": 6.10,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 1,
