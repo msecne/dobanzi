@@ -1595,7 +1595,7 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/ofera-small-ron-apr/",
         "deposit_interest_rate": {
             "value": 6.50,
             "history": [
@@ -1619,11 +1619,11 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.05.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/ofera-small-ron-apr/",
         "deposit_interest_rate": {
             "value": 6.75,
             "history": [
@@ -1647,11 +1647,11 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.05.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/ofera-small-ron-apr/",
         "deposit_interest_rate": {
             "value": 6.75,
             "history": [
@@ -1675,7 +1675,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.03.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.05.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "ING",
