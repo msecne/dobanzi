@@ -2773,45 +2773,17 @@
         "bank_name": "TechVentures",
         "bank_url": "https://techventures.bank/persoane-fizice/depozite-la-termen",
         "deposit_interest_rate": {
-            "value": 5.00,
-            "history": [
-                {
-                    "value": 6.00,
-                    "date": "2024-01-15"
-                },
-                {
-                    "value": 5.50,
-                    "date": "2024-03-10"
-                }
-            ]
-        },
-        "interest_after_min": 5.00,
-        "min_period": 1,
-        "max_period": 2,
-        "min_amount": 1000,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/storage/files/Dobanzi_depozite-PF_15.01.2024.pdf",
-        "deposit_interest_rate": {
             "value": 5.50,
             "history": [
                 {
-                    "value": 6.50,
-                    "date": "2024-01-15"
-                },
-                {
                     "value": 6.00,
-                    "date": "2024-03-10"
+                    "date": "2024-01-15"
                 }
             ]
         },
         "interest_after_min": 5.50,
-        "min_period": 3,
-        "max_period": 5,
+        "min_period": 1,
+        "max_period": 2,
         "min_amount": 1000,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -2824,18 +2796,14 @@
             "value": 6.00,
             "history": [
                 {
-                    "value": 7.00,
-                    "date": "2024-01-15"
-                },
-                {
                     "value": 6.50,
-                    "date": "2024-03-10"
+                    "date": "2024-01-15"
                 }
             ]
         },
         "interest_after_min": 6.00,
-        "min_period": 6,
-        "max_period": 11,
+        "min_period": 3,
+        "max_period": 5,
         "min_amount": 1000,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -2848,16 +2816,32 @@
             "value": 6.50,
             "history": [
                 {
-                    "value": 7.50,
-                    "date": "2024-01-15"
-                },
-                {
                     "value": 7.00,
-                    "date": "2024-03-10"
+                    "date": "2024-01-15"
                 }
             ]
         },
         "interest_after_min": 6.50,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 1000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "TechVentures",
+        "bank_url": "https://techventures.bank/storage/files/Dobanzi_depozite-PF_15.01.2024.pdf",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": [
+                {
+                    "value": 7.50,
+                    "date": "2024-01-15"
+                }
+            ]
+        },
+        "interest_after_min": 7.00,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 1000,
@@ -2869,19 +2853,15 @@
         "bank_name": "TechVentures",
         "bank_url": "https://techventures.bank/storage/files/Dobanzi_depozite-PF_15.01.2024.pdf",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 6.50,
             "history": [
                 {
                     "value": 7.00,
                     "date": "2024-01-15"
-                },
-                {
-                    "value": 6.50,
-                    "date": "2024-03-10"
                 }
             ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 6.50,
         "min_period": 18,
         "max_period": 999,
         "min_amount": 1000,
