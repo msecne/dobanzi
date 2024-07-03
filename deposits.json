@@ -4046,7 +4046,7 @@
     },
     {
         "bank_name": "Salt Bank",
-        "bank_url": "https://salt.bank/depozitef",
+        "bank_url": "https://salt.bank/depozite",
         "deposit_interest_rate": {
             "value": 6.1,
             "history": []
