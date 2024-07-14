@@ -4048,10 +4048,15 @@
         "bank_name": "Salt Bank",
         "bank_url": "https://salt.bank/depozite",
         "deposit_interest_rate": {
-            "value": 6.1,
-            "history": []
+            "value": 5.80,
+            "history": [
+                {
+                    "value": 6.10,
+                    "date": "2024-07-10"
+                }
+            ]
         },
-        "interest_after_min": 6.1,
+        "interest_after_min": 5.80,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 1,
@@ -4063,10 +4068,15 @@
         "bank_name": "Salt Bank",
         "bank_url": "https://salt.bank/depozite",
         "deposit_interest_rate": {
-            "value": 6.4,
-            "history": []
+            "value": 6.0,
+            "history": [
+                {
+                    "value": 6.40,
+                    "date": "2024-07-10"
+                }
+            ]
         },
-        "interest_after_min": 6.4,
+        "interest_after_min": 6.0,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 1,
@@ -4078,10 +4088,15 @@
         "bank_name": "Salt Bank",
         "bank_url": "https://salt.bank/depozite",
         "deposit_interest_rate": {
-            "value": 6.5,
-            "history": []
+            "value": 6.0,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2024-07-10"
+                }
+            ]
         },
-        "interest_after_min": 6.5,
+        "interest_after_min": 6.0,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 1,
