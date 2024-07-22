@@ -1710,9 +1710,9 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/ofera-small-ron-apr/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-2/",
         "deposit_interest_rate": {
-            "value": 6.50,
+            "value": 6.00,
             "history": [
                 {
                     "value": 7.75,
@@ -1725,22 +1725,26 @@
                 {
                     "value": 6.75,
                     "date": "2024-04-01"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2024-07-21"
                 }
             ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.00,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "<b>RETRAS DIN OFERTA!!!</b>Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.05.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.08.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/ofera-small-ron-apr/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-2/",
         "deposit_interest_rate": {
-            "value": 6.50,
+            "value": 6.00,
             "history": [
                 {
                     "value": 8.05,
@@ -1753,22 +1757,26 @@
                 {
                     "value": 6.75,
                     "date": "2024-04-01"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2024-07-21"
                 }
             ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.00,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "<b>RETRAS DIN OFERTA!!!</b>Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.05.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.08.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/ofera-small-ron-apr/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-2/",
         "deposit_interest_rate": {
-            "value": 6.75,
+            "value": 6.00,
             "history": [
                 {
                     "value": 8.50,
@@ -1781,22 +1789,26 @@
                 {
                     "value": 6.95,
                     "date": "2024-04-01"
+                },
+                {
+                    "value": 6.75,
+                    "date": "2024-07-21"
                 }
             ]
         },
-        "interest_after_min": 6.75,
+        "interest_after_min": 6.00,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "<b>RETRAS DIN OFERTA!!!</b>Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.05.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.08.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/ofera-small-ron-apr/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-2/",
         "deposit_interest_rate": {
-            "value": 6.75,
+            "value": 6.00,
             "history": [
                 {
                     "value": 8.00,
@@ -1809,16 +1821,20 @@
                 {
                     "value": 6.85,
                     "date": "2024-04-01"
+                },
+                {
+                    "value": 6.75,
+                    "date": "2024-07-21"
                 }
             ]
         },
-        "interest_after_min": 6.75,
+        "interest_after_min": 6.00,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "<b>RETRAS DIN OFERTA!!!</b>Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.05.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.08.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "ING",
