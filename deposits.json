@@ -2251,43 +2251,7 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/sites/default/files/assets/documents/dobanzi-depozite-PF-RO.pdf",
         "deposit_interest_rate": {
-            "value": 4.85,
-            "history": [
-                {
-                    "value": 6.15,
-                    "date": "2023-11-09"
-                },
-                {
-                    "value": 5.70,
-                    "date": "2024-02-07"
-                },
-                {
-                    "value": 5.50,
-                    "date": "2024-02-26"
-                },
-                {
-                    "value": 5.15,
-                    "date": "2024-04-01"
-                },
-                {
-                    "value": 5.00,
-                    "date": "2024-06-06"
-                }
-            ]
-        },
-        "interest_after_min": 4.85,
-        "min_period": 1,
-        "max_period": 2,
-        "min_amount": 100,
-        "max_amount": 99999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "OTP",
-        "bank_url": "https://www.otpbank.ro/sites/default/files/assets/documents/dobanzi-depozite-PF-RO.pdf",
-        "deposit_interest_rate": {
-            "value": 5.05,
+            "value": 4.20,
             "history": [
                 {
                     "value": 6.35,
@@ -2308,13 +2272,17 @@
                 {
                     "value": 5.20,
                     "date": "2024-06-06"
+                },
+                {
+                    "value": 5.05,
+                    "date": "2024-08-15"
                 }
             ]
         },
-        "interest_after_min": 5.05,
+        "interest_after_min": 4.20,
         "min_period": 1,
         "max_period": 2,
-        "min_amount": 100000,
+        "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
@@ -2323,39 +2291,7 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/sites/default/files/assets/documents/dobanzi-depozite-PF-RO.pdf",
         "deposit_interest_rate": {
-            "value": 5.65,
-            "history": [
-                {
-                    "value": 6.85,
-                    "date": "2023-11-09"
-                },
-                {
-                    "value": 6.30,
-                    "date": "2024-02-07"
-                },
-                {
-                    "value": 6.20,
-                    "date": "2024-02-26"
-                },
-                {
-                    "value": 5.80,
-                    "date": "2024-04-01"
-                }
-            ]
-        },
-        "interest_after_min": 5.65,
-        "min_period": 3,
-        "max_period": 5,
-        "min_amount": 100,
-        "max_amount": 99999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "OTP",
-        "bank_url": "https://www.otpbank.ro/sites/default/files/assets/documents/dobanzi-depozite-PF-RO.pdf",
-        "deposit_interest_rate": {
-            "value": 5.85,
+            "value": 4.70,
             "history": [
                 {
                     "value": 7.05,
@@ -2372,13 +2308,17 @@
                 {
                     "value": 6.00,
                     "date": "2024-04-01"
+                },
+                {
+                    "value": 5.85,
+                    "date": "2024-08-15"
                 }
             ]
         },
-        "interest_after_min": 5.85,
+        "interest_after_min": 4.70,
         "min_period": 3,
         "max_period": 5,
-        "min_amount": 100000,
+        "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
@@ -2387,43 +2327,7 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/sites/default/files/assets/documents/dobanzi-depozite-PF-RO.pdf",
         "deposit_interest_rate": {
-            "value": 5.85,
-            "history": [
-                {
-                    "value": 7.25,
-                    "date": "2023-11-09"
-                },
-                {
-                    "value": 6.70,
-                    "date": "2024-02-07"
-                },
-                {
-                    "value": 6.60,
-                    "date": "2024-02-26"
-                },
-                {
-                    "value": 6.20,
-                    "date": "2024-04-01"
-                },
-                {
-                    "value": 6.00,
-                    "date": "2024-06-06"
-                }
-            ]
-        },
-        "interest_after_min": 5.85,
-        "min_period": 6,
-        "max_period": 11,
-        "min_amount": 100,
-        "max_amount": 99999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "OTP",
-        "bank_url": "https://www.otpbank.ro/sites/default/files/assets/documents/dobanzi-depozite-PF-RO.pdf",
-        "deposit_interest_rate": {
-            "value": 6.05,
+            "value": 4.95,
             "history": [
                 {
                     "value": 7.45,
@@ -2444,13 +2348,17 @@
                 {
                     "value": 6.20,
                     "date": "2024-06-06"
+                },
+                {
+                    "value": 6.05,
+                    "date": "2024-08-15"
                 }
             ]
         },
-        "interest_after_min": 6.05,
+        "interest_after_min": 4.95,
         "min_period": 6,
         "max_period": 11,
-        "min_amount": 100000,
+        "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
@@ -2459,43 +2367,7 @@
         "bank_name": "OTP",
         "bank_url": "https://www.otpbank.ro/sites/default/files/assets/documents/dobanzi-depozite-PF-RO.pdf",
         "deposit_interest_rate": {
-            "value": 5.90,
-            "history": [
-                {
-                    "value": 7.25,
-                    "date": "2023-11-09"
-                },
-                {
-                    "value": 6.70,
-                    "date": "2024-02-07"
-                },
-                {
-                    "value": 6.60,
-                    "date": "2024-02-26"
-                },
-                {
-                    "value": 6.20,
-                    "date": "2024-04-01"
-                },
-                {
-                    "value": 6.00,
-                    "date": "2024-06-06"
-                }
-            ]
-        },
-        "interest_after_min": 5.90,
-        "min_period": 12,
-        "max_period": 999,
-        "min_amount": 100,
-        "max_amount": 99999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "OTP",
-        "bank_url": "https://www.otpbank.ro/sites/default/files/assets/documents/dobanzi-depozite-PF-RO.pdf",
-        "deposit_interest_rate": {
-            "value": 6.10,
+            "value": 5.20,
             "history": [
                 {
                     "value": 7.45,
@@ -2516,13 +2388,17 @@
                 {
                     "value": 6.20,
                     "date": "2024-06-06"
+                },
+                {
+                    "value": 6.10,
+                    "date": "2024-08-15"
                 }
             ]
         },
-        "interest_after_min": 6.10,
+        "interest_after_min": 5.20,
         "min_period": 12,
         "max_period": 999,
-        "min_amount": 100000,
+        "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
