@@ -2743,7 +2743,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 5.10,
+            "value": 4.80,
             "history": [
                 {
                     "value": 6.30,
@@ -2768,10 +2768,14 @@
                 {
                     "value": 5.30,
                     "date": "2024-05-26"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2024-08-20"
                 }
             ]
         },
-        "interest_after_min": 5.10,
+        "interest_after_min": 4.80,
         "min_period": 3,
         "max_period": 11,
         "min_amount": 500,
@@ -2783,7 +2787,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 5.40,
+            "value": 5.00,
             "history": [
                 {
                     "value": 6.50,
@@ -2804,10 +2808,14 @@
                 {
                     "value": 5.60,
                     "date": "2024-04-01"
+                },
+                {
+                    "value": 5.40,
+                    "date": "2024-08-20"
                 }
             ]
         },
-        "interest_after_min": 5.40,
+        "interest_after_min": 5.00,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
@@ -2819,7 +2827,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 5.60,
+            "value": 5.30,
             "history": [
                 {
                     "value": 6.20,
@@ -2828,16 +2836,35 @@
                 {
                     "value": 5.80,
                     "date": "2024-01-18"
+                },
+                {
+                    "value": 5.60,
+                    "date": "2024-08-20"
                 }
             ]
         },
-        "interest_after_min": 5.60,
+        "interest_after_min": 5.30,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta"
+    },
+    {
+        "bank_name": "Raiffeisen",
+        "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
+        "deposit_interest_rate": {
+            "value": 5.50,
+            "history": []
+        },
+        "interest_after_min": 5.50,
+        "min_period": 4,
+        "max_period": 4,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Oferta depozit fara reinoire\n<b>Valabil pana la 30.09.2024</b>\nPlata dobanzii se face la scadenta"
     },
     {
         "bank_name": "TBI",
