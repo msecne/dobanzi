@@ -1827,7 +1827,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 15.09.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.10.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1859,7 +1859,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 15.09.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.10.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1891,7 +1891,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 15.09.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.10.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1923,7 +1923,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 15.09.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.10.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "ING",
