@@ -35,46 +35,6 @@
         "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste lunar"
     },
     {
-        "bank_name": "BCR",
-        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/planul-de-economii",
-        "deposit_interest_rate": {
-            "value": 5.0,
-            "history": [
-                {
-                    "value": 5.5,
-                    "date": "2024-02-12"
-                }
-            ]
-        },
-        "interest_after_min": 5.0,
-        "min_period": 12,
-        "max_period": 999,
-        "min_amount": 1,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "<b>RETRAS DIN OFERTA!!!</b>\nNu se pot retrage bani fara a pierde dobanda!\nNecesita plan de depuneri, ce pot fi ajustate pe parcurs\nDobanda se primeste dupa min 12 luni"
-    },
-    {
-        "bank_name": "BCR",
-        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/planul-de-economii",
-        "deposit_interest_rate": {
-            "value": 5.50,
-            "history": [
-                {
-                    "value": 6.0,
-                    "date": "2024-02-12"
-                }
-            ]
-        },
-        "interest_after_min": 5.50,
-        "min_period": 12,
-        "max_period": 999,
-        "min_amount": 1,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "<b>RETRAS DIN OFERTA!!!</b>\nentru persoane minore\nNu se pot retrage bani fara a pierde dobanda!\nNecesita plan de depuneri, ce pot fi ajustate pe parcurs\nDobanda se primeste dupa min 12 luni"
-    },
-    {
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-cont-economii",
         "deposit_interest_rate": {
@@ -694,21 +654,6 @@
         "max_amount": 999999,
         "can_withdraw": "true",
         "extra_info": "Cont standard de economii\nAre comision lunar de administrare si comision de retragere\nDobanda se calculeaza zilnic si se plateste si capitalizeaza lunar"
-    },
-    {
-        "bank_name": "BCR",
-        "bank_url": "https://cdn0.erstegroup.com/content/dam/ro/bcr/www_bcr_ro/Campanii/2024/boom/regulamente/Regulament-Campanie_Alege_bine_pentru_tine_Oferte-comerciale.pdf",
-        "deposit_interest_rate": {
-            "value": 6.70,
-            "history": []
-        },
-        "interest_after_min": 6.70,
-        "min_period": 5,
-        "max_period": 5,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Promotie depozit\nClienți care încasează venitul în cont BCR\nCampanie pana pe 08.08.2024\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BCR",
@@ -2799,7 +2744,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 4.80,
+            "value": 4.60,
             "history": [
                 {
                     "value": 6.30,
@@ -2828,10 +2773,14 @@
                 {
                     "value": 5.00,
                     "date": "2024-08-20"
+                },
+                {
+                    "value": 4.80,
+                    "date": "2024-09-20"
                 }
             ]
         },
-        "interest_after_min": 4.80,
+        "interest_after_min": 4.60,
         "min_period": 3,
         "max_period": 11,
         "min_amount": 500,
@@ -2843,7 +2792,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 5.00,
+            "value": 4.90,
             "history": [
                 {
                     "value": 6.50,
@@ -2868,10 +2817,14 @@
                 {
                     "value": 5.40,
                     "date": "2024-08-20"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2024-09-20"
                 }
             ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 4.90,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
@@ -2883,7 +2836,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 5.30,
+            "value": 5.00,
             "history": [
                 {
                     "value": 6.20,
@@ -2896,10 +2849,14 @@
                 {
                     "value": 5.60,
                     "date": "2024-08-20"
+                },
+                {
+                    "value": 5.30,
+                    "date": "2024-09-20"
                 }
             ]
         },
-        "interest_after_min": 5.30,
+        "interest_after_min": 5.00,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
