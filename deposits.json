@@ -1958,7 +1958,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
         "deposit_interest_rate": {
-            "value": 4.75,
+            "value": 5.00,
             "history": [
                 {
                     "value": 5.60,
@@ -1966,7 +1966,7 @@
                 }
             ]
         },
-        "interest_after_min": 4.75,
+        "interest_after_min": 5.00,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
@@ -1978,15 +1978,10 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
         "deposit_interest_rate": {
-            "value": 5.25,
-            "history": [
-                {
-                    "value": 5.50,
-                    "date": "2024-07-15"
-                }
-            ]
+            "value": 5.50,
+            "history": []
         },
-        "interest_after_min": 5.25,
+        "interest_after_min": 5.50,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
@@ -1998,7 +1993,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
         "deposit_interest_rate": {
-            "value": 5.75,
+            "value": 6.00,
             "history": [
                 {
                     "value": 6.75,
@@ -2007,14 +2002,10 @@
                 {
                     "value": 6.50,
                     "date": "2024-03-05"
-                },
-                {
-                    "value": 6.00,
-                    "date": "2024-07-15"
                 }
             ]
         },
-        "interest_after_min": 5.75,
+        "interest_after_min": 6.00,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
@@ -2026,7 +2017,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
         "deposit_interest_rate": {
-            "value": 5.75,
+            "value": 6.00,
             "history": [
                 {
                     "value": 7.25,
@@ -2035,14 +2026,10 @@
                 {
                     "value": 6.75,
                     "date": "2024-03-05"
-                },
-                {
-                    "value": 6.00,
-                    "date": "2024-07-15"
                 }
             ]
         },
-        "interest_after_min": 5.75,
+        "interest_after_min": 6.00,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 500,
@@ -2054,7 +2041,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
         "deposit_interest_rate": {
-            "value": 5.75,
+            "value": 6.00,
             "history": [
                 {
                     "value": 6.75,
@@ -2063,14 +2050,10 @@
                 {
                     "value": 6.25,
                     "date": "2024-03-05"
-                },
-                {
-                    "value": 6.00,
-                    "date": "2024-07-15"
                 }
             ]
         },
-        "interest_after_min": 5.75,
+        "interest_after_min": 6.00,
         "min_period": 18,
         "max_period": 24,
         "min_amount": 500,
@@ -2082,7 +2065,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/dobanzi-produse-economisire_persoane-fizice.pdf",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 5.75,
             "history": [
                 {
                     "value": 6.75,
@@ -2091,14 +2074,10 @@
                 {
                     "value": 6.00,
                     "date": "2024-03-05"
-                },
-                {
-                    "value": 5.75,
-                    "date": "2024-07-15"
                 }
             ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.75,
         "min_period": 25,
         "max_period": 999,
         "min_amount": 500,
