@@ -83,10 +83,10 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-cont-economii",
         "deposit_interest_rate": {
-            "value": 0.10,
+            "value": 2.00,
             "history": []
         },
-        "interest_after_min": 0.10,
+        "interest_after_min": 2.00,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 100000,
@@ -98,7 +98,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-copii",
         "deposit_interest_rate": {
-            "value": 5.30,
+            "value": 4.80,
             "history": [
                 {
                     "value": 6.30,
@@ -107,10 +107,14 @@
                 {
                     "value": 5.50,
                     "date": "2024-07-09"
+                },
+                {
+                    "value": 5.30,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.30,
+        "interest_after_min": 4.80,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 500,
@@ -122,7 +126,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-depuneri-ulterioare",
         "deposit_interest_rate": {
-            "value": 5.00,
+            "value": 4.50,
             "history": [
                 {
                     "value": 6.20,
@@ -135,16 +139,20 @@
                 {
                     "value": 5.20,
                     "date": "2024-07-09"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 4.50,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 500,
         "max_amount": 200000,
         "can_withdraw": "false",
-        "extra_info": "Nu se pot retrage banii fara a pierde dobanda\nCont cu depuneri ulterioare\nTrebuie facut online\nDobanda se acorda la finalul perioadei de 12 luni\nsuma minimă constituire: 500 de lei\nsuma maximă constituire: 200.000 lei\nsuma minimă depunere ulterioară lunara: 100 de lei"
+        "extra_info": "Nu se pot retrage banii fara a pierde dobanda\nCont cu depuneri ulterioare\nTrebuie facut online\nSe pot depunde bani suplimentar oricand\nDobanda se acorda la finalul perioadei de 12 luni\nsuma minimă constituire: 500 de lei\nsuma maximă constituire: 200.000 lei\nsuma minimă depunere ulterioară lunara: 100 de lei"
     },
     {
         "bank_name": "Credit Europe Bank",
@@ -434,6 +442,21 @@
         "min_amount": 300000,
         "max_amount": 999999,
         "can_withdraw": "true",
+        "extra_info": "Cont standard de economii\n<b>Promotie doar la conturile noi pana pe 30.11.2024</b>\n<b>Dobanda se mentine pe 12 luni!</b>\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
+    },
+    {
+        "bank_name": "Raiffeisen",
+        "bank_url": "https://bank.raiffeisen.ro/ro/cont-de-economii/home.html",
+        "deposit_interest_rate": {
+            "value": 5.00,
+            "history": []
+        },
+        "interest_after_min": 5.00,
+        "min_period": 1,
+        "max_period": 12,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "true",
         "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
@@ -644,10 +667,15 @@
         "bank_name": "Alpha Bank",
         "bank_url": "https://www.alphabank.ro/persoane-fizice/economii/conturi-de-economii/alpha-premier",
         "deposit_interest_rate": {
-            "value": 3.00,
-            "history": []
+            "value": 2.50,
+            "history": [
+                {
+                    "value": 3.00,
+                    "date": "2024-11-20"
+                }
+            ]
         },
-        "interest_after_min": 3.00,
+        "interest_after_min": 2.50,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 1,
@@ -911,7 +939,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-copii",
         "deposit_interest_rate": {
-            "value": 5.30,
+            "value": 4.80,
             "history": [
                 {
                     "value": 6.30,
@@ -920,10 +948,14 @@
                 {
                     "value": 5.50,
                     "date": "2024-07-09"
+                },
+                {
+                    "value": 5.30,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.30,
+        "interest_after_min": 4.80,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 500,
@@ -935,7 +967,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 4.75,
+            "value": 4.25,
             "history": [
                 {
                     "value": 5.20,
@@ -944,10 +976,14 @@
                 {
                     "value": 4.95,
                     "date": "2024-07-09"
+                },
+                {
+                    "value": 4.75,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 4.75,
+        "interest_after_min": 4.25,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 300,
@@ -959,7 +995,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 5.20,
+            "value": 4.70,
             "history": [
                 {
                     "value": 6.00,
@@ -972,10 +1008,14 @@
                 {
                     "value": 5.40,
                     "date": "2024-07-09"
+                },
+                {
+                    "value": 5.20,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.20,
+        "interest_after_min": 4.70,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 300,
@@ -987,7 +1027,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 5.40,
+            "value": 4.95,
             "history": [
                 {
                     "value": 6.20,
@@ -1000,10 +1040,14 @@
                 {
                     "value": 5.60,
                     "date": "2024-07-09"
+                },
+                {
+                    "value": 5.40,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.40,
+        "interest_after_min": 4.95,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 300,
@@ -1015,7 +1059,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 5.70,
+            "value": 5.25,
             "history": [
                 {
                     "value": 6.90,
@@ -1028,10 +1072,14 @@
                 {
                     "value": 5.90,
                     "date": "2024-07-09"
+                },
+                {
+                    "value": 5.70,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.70,
+        "interest_after_min": 5.25,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 300,
@@ -1043,7 +1091,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 5.00,
             "history": [
                 {
                     "value": 7.00,
@@ -1056,10 +1104,14 @@
                 {
                     "value": 5.70,
                     "date": "2024-07-09"
+                },
+                {
+                    "value": 5.50,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.00,
         "min_period": 24,
         "max_period": 35,
         "min_amount": 300,
@@ -1071,7 +1123,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 5.00,
             "history": [
                 {
                     "value": 7.10,
@@ -1084,10 +1136,14 @@
                 {
                     "value": 5.70,
                     "date": "2024-07-09"
+                },
+                {
+                    "value": 5.50,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.00,
         "min_period": 36,
         "max_period": 999,
         "min_amount": 1000,
@@ -1099,7 +1155,7 @@
         "bank_name": "Credit Europe Bank",
         "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
-            "value": 4.75,
+            "value": 4.40,
             "history": [
                 {
                     "value": 6.00,
@@ -1116,10 +1172,14 @@
                 {
                     "value": 5.00,
                     "date": "2024-09-15"
+                },
+                {
+                    "value": 4.75,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 4.75,
+        "interest_after_min": 4.40,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 300,
@@ -1131,7 +1191,7 @@
         "bank_name": "Credit Europe Bank",
         "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 5.15,
             "history": [
                 {
                     "value": 6.75,
@@ -1140,10 +1200,14 @@
                 {
                     "value": 5.65,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 5.50,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.15,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 300,
@@ -1155,7 +1219,7 @@
         "bank_name": "Credit Europe Bank",
         "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
-            "value": 5.75,
+            "value": 5.40,
             "history": [
                 {
                     "value": 7.00,
@@ -1164,10 +1228,14 @@
                 {
                     "value": 5.90,
                     "date": "2024-01-31"
+                },
+                {
+                    "value": 5.75,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.75,
+        "interest_after_min": 5.40,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 300,
@@ -1179,7 +1247,7 @@
         "bank_name": "Credit Europe Bank",
         "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
-            "value": 5.75,
+            "value": 5.40,
             "history": [
                 {
                     "value": 7.50,
@@ -1196,10 +1264,14 @@
                 {
                     "value": 6.00,
                     "date": "2024-08-29"
+                },
+                {
+                    "value": 5.75,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.75,
+        "interest_after_min": 5.40,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 300,
@@ -1211,7 +1283,7 @@
         "bank_name": "Credit Europe Bank",
         "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 5.15,
             "history": [
                 {
                     "value": 7.00,
@@ -1220,10 +1292,14 @@
                 {
                     "value": 6.00,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 5.50,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.15,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 300,
@@ -1744,7 +1820,7 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-2/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-3/",
         "deposit_interest_rate": {
             "value": 6.25,
             "history": [
@@ -1776,7 +1852,7 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-2/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-3/",
         "deposit_interest_rate": {
             "value": 6.25,
             "history": [
@@ -1808,7 +1884,7 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-2/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-3/",
         "deposit_interest_rate": {
             "value": 6.50,
             "history": [
@@ -1840,7 +1916,7 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-2/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-3/",
         "deposit_interest_rate": {
             "value": 6.25,
             "history": [
@@ -1972,7 +2048,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>"
+        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Intesa SanPaolo",
@@ -1987,7 +2063,22 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>"
+        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen-black-friday.html",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 5,
+        "max_period": 5,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit deschis doar online\n<b>Promotie pana la 30.11.2024</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Intesa SanPaolo",
@@ -2011,7 +2102,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>"
+        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Intesa SanPaolo",
@@ -2035,7 +2126,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>"
+        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Intesa SanPaolo",
@@ -2059,7 +2150,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii semestrial in contul curent</b>"
+        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii semestrial in contul curent</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Intesa SanPaolo",
@@ -2083,7 +2174,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii semestrial in contul curent</b>"
+        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii semestrial in contul curent</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Libra",
@@ -2113,62 +2204,75 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 5.25,
+            "value": 5.00,
             "history": [
                 {
                     "value": 5.35,
                     "date": "2023-10-30"
+                },
+                {
+                    "value": 5.25,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.25,
+        "interest_after_min": 5.00,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>"
+        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
+    },
+    {
+        "bank_name": "Libra",
+        "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
+        "deposit_interest_rate": {
+            "value": 5.25,
+            "history": [
+                {
+                    "value": 5.50,
+                    "date": "2024-10-20"
+                }
+            ]
+        },
+        "interest_after_min": 5.25,
+        "min_period": 6,
+        "max_period": 8,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
             "value": 5.50,
-            "history": []
-        },
-        "interest_after_min": 5.50,
-        "min_period": 6,
-        "max_period": 8,
-        "min_amount": 100,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>"
-    },
-    {
-        "bank_name": "Libra",
-        "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
-        "deposit_interest_rate": {
-            "value": 5.75,
             "history": [
                 {
                     "value": 6.00,
                     "date": "2023-10-30"
+                },
+                {
+                    "value": 5.75,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.75,
+        "interest_after_min": 5.50,
         "min_period": 7,
         "max_period": 7,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic Blitz\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>"
+        "extra_info": "Depozit clasic Blitz\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 5.60,
+            "value": 5.50,
             "history": [
                 {
                     "value": 6.00,
@@ -2177,22 +2281,26 @@
                 {
                     "value": 5.75,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 5.60,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.60,
+        "interest_after_min": 5.50,
         "min_period": 9,
         "max_period": 11,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>"
+        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 5.80,
+            "value": 5.60,
             "history": [
                 {
                     "value": 6.25,
@@ -2201,31 +2309,40 @@
                 {
                     "value": 6.00,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 5.80,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 5.80,
+        "interest_after_min": 5.60,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>"
+        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": []
+            "value": 6.22,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2024-10-20"
+                }
+            ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.22,
         "min_period": 13,
         "max_period": 13,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>"
+        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "OTP",
@@ -2445,7 +2562,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Se poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Se poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele</b>"
     },
     {
         "bank_name": "Patria",
@@ -2481,7 +2598,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Se poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Se poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele</b>"
     },
     {
         "bank_name": "Patria",
@@ -2517,7 +2634,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Se poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Se poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele</b>"
     },
     {
         "bank_name": "Patria",
@@ -2545,7 +2662,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Se poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Se poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -2847,16 +2964,21 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 5.50,
-            "history": []
+            "value": 5.30,
+            "history": [
+                {
+                    "value": 5.50,
+                    "date": "2024-09-20"
+                }
+            ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.30,
         "min_period": 4,
         "max_period": 4,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Oferta depozit fara reinoire\n<b>Valabil pana la 30.09.2024</b>\nPlata dobanzii se face la scadenta"
+        "extra_info": "Oferta depozit fara reinoire\n<b>Valabil pana la 30.11.2024</b>\nPlata dobanzii se face la scadenta"
     },
     {
         "bank_name": "TBI",
@@ -3256,7 +3378,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\n<b>Se poate opta pentru incasarea lunara a dobanzii cu o penalizare de 0,25%</b>"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\n<b>Se poate opta pentru incasarea lunara a dobanzii cu o penalizare de 0,25%</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Banca Transilvania",
@@ -3284,7 +3406,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\n<b>Se poate opta pentru incasarea lunara a dobanzii cu o penalizare de 0,25%</b>"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\n<b>Se poate opta pentru incasarea lunara a dobanzii cu o penalizare de 0,25%</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Banca Transilvania",
@@ -3312,7 +3434,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\n<b>Se poate opta pentru incasarea lunara a dobanzii cu o penalizare de 0,25%</b>"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\n<b>Se poate opta pentru incasarea lunara a dobanzii cu o penalizare de 0,25%</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Banca Transilvania",
@@ -3372,7 +3494,7 @@
     },
     {
         "bank_name": "Unicredit",
-        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi_1",
         "deposit_interest_rate": {
             "value": 5.00,
             "history": [
@@ -3408,7 +3530,7 @@
     },
     {
         "bank_name": "Unicredit",
-        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi_1",
         "deposit_interest_rate": {
             "value": 5.10,
             "history": [
@@ -3444,7 +3566,7 @@
     },
     {
         "bank_name": "Unicredit",
-        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi_1",
         "deposit_interest_rate": {
             "value": 5.20,
             "history": [
@@ -3510,7 +3632,7 @@
         "bank_name": "BRD",
         "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
         "deposit_interest_rate": {
-            "value": 4.35,
+            "value": 4.20,
             "history": [
                 {
                     "value": 5.80,
@@ -3535,10 +3657,14 @@
                 {
                     "value": 4.60,
                     "date": "2024-09-03"
+                },
+                {
+                    "value": 4.35,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 4.35,
+        "interest_after_min": 4.20,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
@@ -3642,7 +3768,7 @@
         "bank_name": "BRD",
         "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
         "deposit_interest_rate": {
-            "value": 4.00,
+            "value": 3.80,
             "history": [
                 {
                     "value": 6.20,
@@ -3671,16 +3797,20 @@
                 {
                     "value": 4.50,
                     "date": "2024-09-03"
+                },
+                {
+                    "value": 4.00,
+                    "date": "2024-10-20"
                 }
             ]
         },
-        "interest_after_min": 4.00,
+        "interest_after_min": 3.80,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\nSe poate opta pentru plata lunara in contul curent a dobanzii, cu o valoare mai mica a dobanzii\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Alpha Bank",
@@ -4504,7 +4634,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit deschis doar online Vista 12+1\n<b>La fiecare aniversare lunară aveți acces la dobânda acumulată și la întreaga sumă depusă</b>\nEXTRA BONUS dobânda pe o lună, la scadența depozitului"
+        "extra_info": "Depozit deschis doar online Vista 12+1\n<b>La fiecare aniversare lunară aveți acces la dobânda acumulată și la întreaga sumă depusă</b>\nEXTRA BONUS dobânda pe o lună, la scadența depozitului\nLa lichidarea depozitului inainte de termen se primeste toata suma"
     },
     {
         "bank_name": "Vista Bank",
