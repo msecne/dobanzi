@@ -3,15 +3,14 @@
 
 <head>
   <title>Calculator economii & depozite banci</title>
-  <!-- Add viewport meta tag for responsiveness -->
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    /* Use Roboto font from Google Fonts */
     @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
     body {
       font-family: 'Roboto', sans-serif;
-      /* Use linear gradient for background color */
+
       background: linear-gradient(to right, #74ebd5, #acb6e5);
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -36,14 +35,14 @@
 
     td.extra-info {
       white-space: pre-line;
-      /* Preserve line breaks */
+
     }
 
     th {
       background-color: #f2f2f2;
     }
 
-    /* Use flexbox to align and center the elements */
+
     .container {
       display: flex;
       flex-direction: column;
@@ -111,7 +110,7 @@
       box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
-    /* Add a class for the button container */
+
     .button-container {
       display: flex;
       justify-content: space-between;
@@ -119,7 +118,7 @@
       margin-top: 10px;
     }
 
-    /* Add margin to the left button */
+
     .button-container button {
       margin-right: 10px;
     }
@@ -132,7 +131,7 @@
     .history-header,
     .history-cell {
       width: 100%;
-      /* Adjust as needed */
+
     }
 
     .history-button {
@@ -142,7 +141,7 @@
       cursor: pointer;
     }
 
-    /* Media queries for different screen sizes */
+
     @media screen and (min-width: 600px) {
       table {
         width: 95%;
@@ -156,7 +155,7 @@
       .history-header,
       .history-cell {
         width: 20%;
-        /* Adjust as needed */
+
       }
 
       #results {
@@ -204,7 +203,7 @@
           Depozit
         </label>
       </div>
-      <!-- Add the button container -->
+
       <div class="button-container">
         <button type="submit">Calculeaza</button>
         <button type="button" id="view_raw_data">Vezi datele brute</button>
@@ -213,67 +212,60 @@
     </form>
   </div>
   <table id="results">
-    <!-- Results will be inserted here -->
+
   </table>
   <script>
-    var data; // This will hold the data from the JSON file
-    // Fetch the data from the JSON file
+    var data;
 
     fetch('deposits.json').then(response => response.json()).then(json => data = json);
 
-    // Get the form element
     const form = document.querySelector('form');
-
-    // Add a listener for the "submit" event
     form.addEventListener('submit', function (event) {
-      // Prevent the default form submission behavior
       event.preventDefault();
-
-      // Call the calculate function
       calculate();
     });
 
     document.getElementById('view_history').addEventListener('click', function () {
       event.preventDefault();
 
-      displayInterestHistory(data);  // Call the function with your data
+      displayInterestHistory(data);
     });
 
-    // Get the "View raw data" button element
+
     const viewRawDataButton = document.getElementById('view_raw_data');
 
-    // Add a listener for the "click" event
+
     viewRawDataButton.addEventListener('click', function (event) {
-      // Prevent the default button click behavior
+
       event.preventDefault();
 
-      // Sort the data by deposit_interest_rate in descending order
+
       data.sort((a, b) => b.deposit_interest_rate.value - a.deposit_interest_rate.value);
 
-      // If DataTables has been initialized, destroy the old instance
+
       if ($.fn.dataTable.isDataTable('#results')) {
         $('#results').DataTable().destroy();
       }
 
-      // Display the raw data
+
       var table = document.getElementById('results');
       table.innerHTML = '<thead><tr><th>Numele bancii</th><th>Rata dobanzii</th><th>Perioada minima</th><th>Suma minima</th><th>Suma maxima</th><th>Permite retrageri</th><th>Extra detalii</th><th>Link oferta</th></tr></thead><tbody>' + data.map(item => '<tr><td>' + item.bank_name + '</td><td>' + item.deposit_interest_rate.value + '</td><td>' + item.min_period + '</td><td>' + item.min_amount + '</td><td>' + item.max_amount + '</td><td>' + item.can_withdraw + '</td><td class="extra-info">' + (item.extra_info ? item.extra_info.replace(/\\n/g, '\n') : 'Nimic') + '</td><td>' + (item.bank_url ? item.bank_url : 'Nimic') + '</td></tr>').join('') + '</tbody>';
 
       table.style.width = '95vw';
 
-      // Initialize DataTables
+
       var dataTable = $('#results').DataTable({
-        dom: 'lrtip', // Exclude 'f'
-        pageLength: 1000000 // Set to a large number
+        dom: 'lrtip',
+        pageLength: 1000000
       });
 
-      // Add a text input to each header cell
+
       $('#results thead th').each(function () {
         var title = $(this).text();
         $(this).html(title + '<br><input type="text" placeholder="Search " style="width:60%;" />');
       });
 
-      // Apply the search
+
       dataTable.columns().every(function () {
         var that = this;
 
@@ -291,10 +283,10 @@
       var amount = document.getElementById('amount').value;
       var months = document.getElementById('months').value;
       var can_withdraw = document.querySelector('input[name="can_withdraw"]:checked').value;
-      // Filter and sort the data
+
       var results = data.filter(item => item.min_period <= months && item.max_period >= months && item.min_amount <= amount && item.max_amount >= amount && item.can_withdraw === can_withdraw);
       results.sort((a, b) => ((b.deposit_interest_rate.value / 100 / 12) * amount * months) - ((a.deposit_interest_rate.value / 100 / 12) * amount * months));
-      // Display the results
+
       var table = document.getElementById('results');
       if ($.fn.dataTable.isDataTable('#results')) {
         $('#results').DataTable().destroy();
@@ -319,30 +311,30 @@
         return '<tr><td>' + bankName + '</td><td>' + item.deposit_interest_rate.value + '&nbsp;&nbsp;&nbsp;' + historyButton + '</td><td>' + interest.toFixed(2) + '</td><td>' + total.toFixed(2) + '</td><td>' + afterTaxes.toFixed(2) + '</td><td class="extra-info-cell">' + extraInfo + '</td><td class="history-cell">' + interestRateHistory + '</td></tr>';
       }).join('');
 
-      // Add hover event listeners to the history buttons
+
       results.forEach((item, index) => {
         var historyButton = document.getElementById('history-' + index);
         historyButton.addEventListener('mouseover', function (e) {
-          // Remove the old canvas if it exists
+
           var oldCanvas = document.getElementById('chart-' + index);
           if (oldCanvas) {
             oldCanvas.remove();
           }
 
-          // Create a new canvas for the chart
+
           var canvas = document.createElement('canvas');
           canvas.id = 'chart-' + index;
-          canvas.style.position = 'absolute'; // Position the canvas absolutely
-          canvas.style.left = e.pageX + 10 + 'px'; // Position it at the mouse x coordinate
-          canvas.style.top = e.pageY - 100 + 'px'; // Position it at the mouse y coordinate
+          canvas.style.position = 'absolute';
+          canvas.style.left = e.pageX + 10 + 'px';
+          canvas.style.top = e.pageY - 100 + 'px';
           canvas.style.backgroundColor = 'white';
           canvas.style.boxSizing = 'border-box';
-          canvas.width = 300; // Set the width of the drawing surface
-          canvas.height = 150; // Set the height of the drawing surface
-          canvas.style.width = '300px !important'; // Set the width of the element
+          canvas.width = 300;
+          canvas.height = 150;
+          canvas.style.width = '300px !important';
           canvas.style.height = '150px !important';
           var tableCell = table.parentElement;
-          tableCell.appendChild(canvas); // Append the canvas to the table cell
+          tableCell.appendChild(canvas);
 
           var ctx = canvas.getContext('2d');
           new Chart(ctx, {
@@ -368,8 +360,8 @@
                 fill: false,
                 borderColor: 'rgb(75, 192, 192)',
                 tension: 0.1,
-                pointRadius: 5, // Adjust as needed
-                pointHoverRadius: 5, // Adjust as needed
+                pointRadius: 5,
+                pointHoverRadius: 5,
               }]
             },
             options: {
@@ -393,15 +385,15 @@
                     var meta = chart.getDatasetMeta(i);
                     if (!meta.hidden) {
                       meta.data.forEach(function (element, index) {
-                        // Draw the text in black, with the specified font
+
                         ctx.fillStyle = 'rgb(0, 0, 0)';
                         var fontSize = 16;
                         var fontStyle = 'normal';
                         var fontFamily = 'Helvetica Neue';
                         ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
-                        // Just naively convert to string for now
+
                         var dataString = dataset.data[index].toString();
-                        // Make sure alignment settings are correct
+
                         ctx.textAlign = 'center';
                         ctx.textBaseline = 'middle';
                         var padding = 5;
@@ -431,7 +423,7 @@
         });
 
         historyButton.addEventListener('mouseout', function () {
-          // Remove the canvas when the mouse is no longer hovering over it
+
           var canvas = document.getElementById('chart-' + index);
           if (canvas) {
             canvas.remove();
@@ -445,7 +437,7 @@
 
 
     function displayInterestHistory(data) {
-      // Create a new table
+
       var table = document.getElementById('results');
       if ($.fn.dataTable.isDataTable('#results')) {
         $('#results').DataTable().destroy();
@@ -461,7 +453,7 @@
     `;
       document.body.appendChild(table);
 
-      // Create a row for each entry in the data
+
       data.forEach((item, index) => {
         var row = table.insertRow();
         row.innerHTML = `
@@ -472,7 +464,7 @@
             <td><div id="chart${index}"></div></td>
         `;
 
-        // Prepare the data for the graph
+
         var graphData = new google.visualization.DataTable();
         graphData.addColumn('string', 'Date');
         graphData.addColumn('number', 'Interest rate');
@@ -481,7 +473,7 @@
         });
         graphData.addRow([new Date().toISOString().split('T')[0], item.deposit_interest_rate.value]);
 
-        // Set the options for the graph
+
         var options = {
           width: 400,
           height: 300,
@@ -491,7 +483,7 @@
           pointSize: 5,
         };
 
-        // Create and draw the graph
+
         var chart = new google.visualization.LineChart(document.getElementById('chart' + index));
         chart.draw(graphData, options);
       });
