@@ -1567,7 +1567,7 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 5.40,
             "history": [
                 {
                     "value": 6.30,
@@ -1588,10 +1588,14 @@
                 {
                     "value": 5.70,
                     "date": "2024-07-28"
+                },
+                {
+                    "value": 5.50,
+                    "date": "2024-10-28"
                 }
             ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.40,
         "min_period": 3,
         "max_period": 4,
         "min_amount": 500,
@@ -1603,7 +1607,7 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/retail/economisire/Depozitul-Freedom.html",
         "deposit_interest_rate": {
-            "value": 6.10,
+            "value": 6.00,
             "history": [
                 {
                     "value": 7.50,
@@ -1620,10 +1624,14 @@
                 {
                     "value": 6.30,
                     "date": "2024-07-28"
+                },
+                {
+                    "value": 6.10,
+                    "date": "2024-10-28"
                 }
             ]
         },
-        "interest_after_min": 6.10,
+        "interest_after_min": 6.00,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 500,
@@ -2668,7 +2676,7 @@
         "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/landing/ro/prosave.html?utm_source=Website&utm_medium=banner2&utm_id=ProSave",
         "deposit_interest_rate": {
-            "value": 6.05,
+            "value": 6.50,
             "history": [
                 {
                     "value": 7.00,
@@ -2689,16 +2697,20 @@
                 {
                     "value": 6.20,
                     "date": "2024-08-02"
+                },
+                {
+                    "value": 6.05,
+                    "date": "2024-10-28"
                 }
             ]
         },
-        "interest_after_min": 6.05,
+        "interest_after_min": 6.50,
         "min_period": 6,
         "max_period": 6,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 9 august 2024</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 10 noiembrie 2024</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -2964,15 +2976,19 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 5.30,
+            "value": 5.50,
             "history": [
                 {
                     "value": 5.50,
                     "date": "2024-09-20"
+                },
+                {
+                    "value": 5.30,
+                    "date": "2024-10-30"
                 }
             ]
         },
-        "interest_after_min": 5.30,
+        "interest_after_min": 5.50,
         "min_period": 4,
         "max_period": 4,
         "min_amount": 500,
