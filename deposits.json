@@ -1868,7 +1868,7 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-3/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-iarna-ron/",
         "deposit_interest_rate": {
             "value": 6.25,
             "history": [
@@ -1896,11 +1896,11 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.10.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-3/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-iarna-ron/",
         "deposit_interest_rate": {
             "value": 6.25,
             "history": [
@@ -1928,11 +1928,11 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.10.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-3/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-iarna-ron/",
         "deposit_interest_rate": {
             "value": 6.50,
             "history": [
@@ -1960,11 +1960,11 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.10.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-3/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-iarna-ron/",
         "deposit_interest_rate": {
             "value": 6.25,
             "history": [
@@ -1992,7 +1992,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.10.2024\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2024\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "ING",
