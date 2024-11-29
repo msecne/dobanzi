@@ -16,7 +16,7 @@
     },
     {
         "bank_name": "BCR",
-        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/contul-de-economii",
+        "bank_url": "https://cdn0.erstegroup.com/content/dam/ro/bcr/www_bcr_ro/Persoane-fizice/Documente-importante/BCR_Dobanzi_pentru_contul_curent_si_produsele_de_economisire_PF.pdf",
         "deposit_interest_rate": {
             "value": 2.0,
             "history": [
@@ -302,10 +302,15 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/cont-economii",
         "deposit_interest_rate": {
-            "value": 2.50,
-            "history": []
+            "value": 2.00,
+            "history": [
+                {
+                    "value": 2.50,
+                    "date": "2024-11-28"
+                }
+            ]
         },
-        "interest_after_min": 2.50,
+        "interest_after_min": 2.00,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 1,
@@ -375,7 +380,7 @@
     },
     {
         "bank_name": "ProCredit",
-        "bank_url": "https://www.procreditbank.ro/wp-content/uploads/2024/08/Dobanzi-produse-de-economisire_PF_RO_12.08.2024-1.pdf",
+        "bank_url": "https://www.procreditbank.ro/persoane-fizice/cont-economii-flexsave/",
         "deposit_interest_rate": {
             "value": 3.0,
             "history": []
