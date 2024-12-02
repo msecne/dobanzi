@@ -466,7 +466,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii\n<b>Promotie doar la conturile noi pana pe 30.11.2024</b>\n<b>Dobanda se mentine pe 12 luni!</b>\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
+        "extra_info": "Cont standard de economii\n<b>Promotie doar la conturile noi pana pe 31.03.2025</b>\n<b>Dobanda se mentine pe 12 luni!</b>\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "TBI",
