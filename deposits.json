@@ -2985,6 +2985,21 @@
     },
     {
         "bank_name": "Raiffeisen",
+        "bank_url": "https://www.raiffeisen.ro/ro/persoane-fizice/produsele-noastre/economii/depozit-cu-depuneri-ulterioare.html",
+        "deposit_interest_rate": {
+            "value": 4.80,
+            "history": []
+        },
+        "interest_after_min": 4.80,
+        "min_period": 6,
+        "max_period": 6,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Flexidepozit online\nDepozit cu depuneri ulterioare\nPlata dobanzii se face la scadenta\nSe pot retrage maxim 20% din banii depusi o singura data"
+    },
+    {
+        "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
             "value": 4.40,
