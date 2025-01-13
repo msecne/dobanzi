@@ -2734,7 +2734,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 12 ianuarie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 31 ianuarie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -3275,17 +3275,45 @@
         "bank_name": "TechVentures",
         "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 5.00,
             "history": [
                 {
                     "value": 6.00,
                     "date": "2024-01-15"
+                },
+                {
+                    "value": 5.50,
+                    "date": "2025-01-12"
+                }
+            ]
+        },
+        "interest_after_min": 5.00,
+        "min_period": 1,
+        "max_period": 2,
+        "min_amount": 1000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "TechVentures",
+        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
+        "deposit_interest_rate": {
+            "value": 5.50,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2024-01-15"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2025-01-12"
                 }
             ]
         },
         "interest_after_min": 5.50,
-        "min_period": 1,
-        "max_period": 2,
+        "min_period": 3,
+        "max_period": 5,
         "min_amount": 1000,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -3298,32 +3326,16 @@
             "value": 6.00,
             "history": [
                 {
-                    "value": 6.50,
+                    "value": 7.00,
                     "date": "2024-01-15"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2025-01-12"
                 }
             ]
         },
         "interest_after_min": 6.00,
-        "min_period": 3,
-        "max_period": 5,
-        "min_amount": 1000,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
-        "deposit_interest_rate": {
-            "value": 6.50,
-            "history": [
-                {
-                    "value": 7.00,
-                    "date": "2024-01-15"
-                }
-            ]
-        },
-        "interest_after_min": 6.50,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 1000,
@@ -3335,15 +3347,19 @@
         "bank_name": "TechVentures",
         "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
         "deposit_interest_rate": {
-            "value": 7.00,
+            "value": 6.50,
             "history": [
                 {
                     "value": 7.50,
                     "date": "2024-01-15"
+                },
+                {
+                    "value": 7.00,
+                    "date": "2025-01-12"
                 }
             ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 6.50,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 1000,
@@ -3355,15 +3371,19 @@
         "bank_name": "TechVentures",
         "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
         "deposit_interest_rate": {
-            "value": 6.50,
+            "value": 5.75,
             "history": [
                 {
                     "value": 7.00,
                     "date": "2024-01-15"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2025-01-12"
                 }
             ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 5.75,
         "min_period": 18,
         "max_period": 999,
         "min_amount": 1000,
