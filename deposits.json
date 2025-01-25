@@ -472,7 +472,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 5.40,
+            "value": 4.95,
             "history": [
                 {
                     "value": 6.20,
@@ -489,10 +489,14 @@
                 {
                     "value": 5.60,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 5.40,
+                    "date": "2025-01-24"
                 }
             ]
         },
-        "interest_after_min": 5.40,
+        "interest_after_min": 4.95,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 1,
@@ -726,7 +730,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\nClienți care încasează sau transferă min 1000 lei lunar în cont\nDobanda se calculeaza si se plateste la scadenta"
+        "extra_info": "Depozit clasic\nClienți care încasează sau transferă min 2000 lei lunar în cont\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BCR",
@@ -758,7 +762,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\nClienți care încasează sau transferă min 1000 lei lunar în cont\nDobanda se calculeaza si se plateste la scadenta"
+        "extra_info": "Depozit clasic\nClienți care încasează sau transferă min 2000 lei lunar în cont\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BCR",
@@ -790,7 +794,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\nClienți care încasează sau transferă min 1000 lei lunar în cont\nDobanda se calculeaza si se plateste la scadenta"
+        "extra_info": "Depozit clasic\nClienți care încasează sau transferă min 2000 lei lunar în cont\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BCR",
@@ -822,7 +826,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\nClienți care încasează sau transferă min 1000 lei lunar în cont\nDobanda se calculeaza si se plateste la scadenta"
+        "extra_info": "Depozit clasic\nClienți care încasează sau transferă min 2000 lei lunar în cont\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "CEC",
@@ -1314,7 +1318,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit clasic. Permite plata lunara a dobanzii dar cu o valoare mai mica."
     },
     {
         "bank_name": "Exim",
@@ -1382,7 +1386,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic"
+        "extra_info": "Depozit clasic. Permite plata lunara a dobanzii dar cu o valoare mai mica."
     },
     {
         "bank_name": "Exim",
@@ -3019,7 +3023,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 5.95,
+            "value": 5.75,
             "history": [
                 {
                     "value": 7.15,
@@ -3044,10 +3048,14 @@
                 {
                     "value": 6.05,
                     "date": "2024-11-10"
+                },
+                {
+                    "value": 5.95,
+                    "date": "2025-01-24"
                 }
             ]
         },
-        "interest_after_min": 5.95,
+        "interest_after_min": 5.75,
         "min_period": 3,
         "max_period": 4,
         "min_amount": 100,
@@ -3059,7 +3067,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 5.95,
+            "value": 5.85,
             "history": [
                 {
                     "value": 7.70,
@@ -3096,10 +3104,14 @@
                 {
                     "value": 6.05,
                     "date": "2024-12-07"
+                },
+                {
+                    "value": 5.95,
+                    "date": "2025-01-24"
                 }
             ]
         },
-        "interest_after_min": 5.95,
+        "interest_after_min": 5.85,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 100,
@@ -3155,7 +3167,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 6.30,
+            "value": 5.95,
             "history": [
                 {
                     "value": 6.95,
@@ -3164,10 +3176,14 @@
                 {
                     "value": 6.40,
                     "date": "2024-04-01"
+                },
+                {
+                    "value": 6.30,
+                    "date": "2025-01-24"
                 }
             ]
         },
-        "interest_after_min": 6.30,
+        "interest_after_min": 5.95,
         "min_period": 9,
         "max_period": 11,
         "min_amount": 100,
@@ -3179,7 +3195,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 6.90,
+            "value": 6.60,
             "history": [
                 {
                     "value": 8.05,
@@ -3204,10 +3220,14 @@
                 {
                     "value": 7.00,
                     "date": "2024-12-07"
+                },
+                {
+                    "value": 6.90,
+                    "date": "2025-01-24"
                 }
             ]
         },
-        "interest_after_min": 6.90,
+        "interest_after_min": 6.60,
         "min_period": 12,
         "max_period": 14,
         "min_amount": 100,
@@ -3219,7 +3239,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 5.95,
+            "value": 5.70,
             "history": [
                 {
                     "value": 7.45,
@@ -3236,10 +3256,14 @@
                 {
                     "value": 6.30,
                     "date": "2024-04-01"
+                },
+                {
+                    "value": 5.95,
+                    "date": "2025-01-24"
                 }
             ]
         },
-        "interest_after_min": 5.95,
+        "interest_after_min": 5.70,
         "min_period": 15,
         "max_period": 17,
         "min_amount": 100,
@@ -3251,7 +3275,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 5.95,
+            "value": 5.70,
             "history": [
                 {
                     "value": 6.95,
@@ -3260,10 +3284,14 @@
                 {
                     "value": 6.40,
                     "date": "2024-04-01"
+                },
+                {
+                    "value": 5.95,
+                    "date": "2025-01-24"
                 }
             ]
         },
-        "interest_after_min": 5.95,
+        "interest_after_min": 5.70,
         "min_period": 18,
         "max_period": 999,
         "min_amount": 100,
