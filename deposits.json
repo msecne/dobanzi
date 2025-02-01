@@ -4630,5 +4630,121 @@
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit deschis doar online pentru copii Vista Kids\nSe pot depunde bani ulterior oricand\nDobanda se acorda la scadenta anuala"
+    },
+    {
+        "bank_name": "Ministerul Finantelor - Fidelis",
+        "bank_url": "https://mfinante.gov.ro/web/trezor/titluri-de-stat-fidelis",
+        "deposit_interest_rate": {
+            "value": 6.95,
+            "history": [
+                {
+                    "value": 6.45,
+                    "date": "2024-12-23"
+                },
+                {
+                    "value": 5.85,
+                    "date": "2024-10-23"
+                },
+                {
+                    "value": 5.80,
+                    "date": "2024-08-23"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-06-23"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-04-23"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-02-23"
+                },
+                {
+                    "value": 6.10,
+                    "date": "2023-12-23"
+                },
+                {
+                    "value": 6.25,
+                    "date": "2023-10-23"
+                }
+            ]
+        },
+        "interest_after_min": 6.95,
+        "min_period": 12,
+        "max_period": 12,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Titluri de stat ce se pot cumpara de pe bursa\nDobanda se plateste anual\nSe pot vinde inainte de termen, dar posibil sa nu se recupereze toata suma depusa\nDobanda se primeste la vanzare"
+    },
+    {
+        "bank_name": "Ministerul Finantelor - Tezaur",
+        "bank_url": "https://mfinante.gov.ro/web/trezor/titluri-de-stat-tezaur",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": [
+                {
+                    "value": 6.45,
+                    "date": "2025-01-11"
+                },
+                {
+                    "value": 5.95,
+                    "date": "2024-12-11"
+                },
+                {
+                    "value": 5.85,
+                    "date": "2024-11-11"
+                },
+                {
+                    "value": 5.80,
+                    "date": "2024-10-11"
+                },
+                {
+                    "value": 5.80,
+                    "date": "2024-09-11"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-08-11"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-07-11"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-06-11"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-05-11"
+                },
+                {
+                    "value": 6.10,
+                    "date": "2024-04-11"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-03-11"
+                },
+                {
+                    "value": 6.10,
+                    "date": "2024-02-11"
+                },
+                {
+                    "value": 6.10,
+                    "date": "2024-01-11"
+                }
+            ]
+        },
+        "interest_after_min": 7.00,
+        "min_period": 36,
+        "max_period": 36,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Titluri de stat ce se pot cumpara de la trezorerie, posta sau online ANAF\nDobanda se plateste anual\nSe pot vinde inainte de termen, dar se pierde toata dobanda"
     }
 ]
