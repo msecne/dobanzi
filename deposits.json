@@ -4740,8 +4740,8 @@
             ]
         },
         "interest_after_min": 7.00,
-        "min_period": 36,
-        "max_period": 36,
+        "min_period": 12,
+        "max_period": 12,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
