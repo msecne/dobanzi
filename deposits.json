@@ -4677,7 +4677,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Titluri de stat ce se pot cumpara de pe bursa\nDobanda se plateste anual\nSe pot vinde inainte de termen, dar posibil sa nu se recupereze toata suma depusa\nDobanda se primeste la vanzare"
+        "extra_info": "Titluri de stat ce se pot cumpara de pe bursa\n<b>Nu se retine si plateste impozit!</b>\nDobanda se plateste anual\nSe pot vinde inainte de termen, dar posibil sa nu se recupereze toata suma depusa\nDobanda se primeste la vanzare"
     },
     {
         "bank_name": "Ministerul Finantelor - Tezaur",
@@ -4745,6 +4745,6 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Titluri de stat ce se pot cumpara de la trezorerie, posta sau online ANAF\nDobanda se plateste anual\nSe pot vinde inainte de termen, dar se pierde toata dobanda"
+        "extra_info": "Titluri de stat ce se pot cumpara de la trezorerie, posta sau online ANAF\n<b>Nu se retine si plateste impozit!</b>\nDobanda se plateste anual\nSe pot vinde inainte de termen, dar se pierde toata dobanda"
     }
 ]
