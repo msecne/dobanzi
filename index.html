@@ -301,6 +301,9 @@
         var interest = interest_for_min_period + interest_for_remaining_period;
         var total = parseFloat(amount) + interest;
         var afterTaxes = total - (interest * 0.10);
+        if (item.bank_name.toLowerCase().startsWith("ministerul")) {
+          afterTaxes = total;
+        }
         var extraInfo = item.extra_info ? item.extra_info.replace(/\n/g, '<br>') : 'Nimic';
         var bankName = item.bank_name;
         if (item.bank_url) {
