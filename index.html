@@ -306,12 +306,14 @@
         if (item.bank_url) {
           bankName = '<a href="' + item.bank_url + '">' + item.bank_name + '</a>';
         }
-        var interestRateHistory = item.deposit_interest_rate.history.map(rate => {
+        var historyEntries = item.deposit_interest_rate.history.slice(-5);
+        var interestRateHistory = historyEntries.map(rate => {
           var date = new Date(rate.date);
           var formattedDate = date.getDate() + '-' + (date.getMonth() + 1) + '-' + date.getFullYear();
           return `Data: ${formattedDate}, Valoare: ${rate.value}`;
         }).join('<br>');
         var historyButton = '<span class="history-button" id="history-' + index + '">Istoric</span>';
+        
         return '<tr><td>' + bankName + '</td><td>' + item.deposit_interest_rate.value + '&nbsp;&nbsp;&nbsp;' + historyButton + '</td><td>' + interest.toFixed(2) + '</td><td>' + total.toFixed(2) + '</td><td>' + afterTaxes.toFixed(2) + '</td><td class="extra-info-cell">' + extraInfo + '</td><td class="history-cell">' + interestRateHistory + '</td></tr>';
       }).join('');
 
