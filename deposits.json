@@ -4674,7 +4674,7 @@
         "interest_after_min": 6.95,
         "min_period": 12,
         "max_period": 12,
-        "min_amount": 100,
+        "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Titluri de stat ce se pot cumpara de pe bursa\n<b>Nu se retine si plateste impozit!</b>\nDobanda se plateste anual\nSe pot vinde inainte de termen, dar posibil sa nu se recupereze toata suma depusa\nDobanda se primeste la vanzare"
