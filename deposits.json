@@ -1224,7 +1224,7 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 4.60,
+            "value": 4.30,
             "history": [
                 {
                     "value": 5.00,
@@ -1237,10 +1237,14 @@
                 {
                     "value": 4.75,
                     "date": "2024-11-10"
+                },
+                {
+                    "value": 4.60,
+                    "date": "2025-02-03"
                 }
             ]
         },
-        "interest_after_min": 4.60,
+        "interest_after_min": 4.30,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
@@ -1252,7 +1256,7 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 5.05,
+            "value": 4.75,
             "history": [
                 {
                     "value": 6.25,
@@ -1273,10 +1277,14 @@
                 {
                     "value": 5.25,
                     "date": "2024-11-10"
+                },
+                {
+                    "value": 5.05,
+                    "date": "2025-02-03"
                 }
             ]
         },
-        "interest_after_min": 5.05,
+        "interest_after_min": 4.75,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
@@ -1288,7 +1296,7 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 5.25,
+            "value": 5.00,
             "history": [
                 {
                     "value": 6.50,
@@ -1309,10 +1317,14 @@
                 {
                     "value": 5.45,
                     "date": "2024-11-10"
+                },
+                {
+                    "value": 5.25,
+                    "date": "2025-02-03"
                 }
             ]
         },
-        "interest_after_min": 5.25,
+        "interest_after_min": 5.00,
         "min_period": 6,
         "max_period": 8,
         "min_amount": 500,
@@ -1324,7 +1336,7 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 5.40,
+            "value": 5.10,
             "history": [
                 {
                     "value": 6.75,
@@ -1345,10 +1357,14 @@
                 {
                     "value": 5.45,
                     "date": "2024-11-10"
+                },
+                {
+                    "value": 5.40,
+                    "date": "2025-02-03"
                 }
             ]
         },
-        "interest_after_min": 5.40,
+        "interest_after_min": 5.10,
         "min_period": 9,
         "max_period": 11,
         "min_amount": 500,
@@ -1360,7 +1376,7 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 5.25,
             "history": [
                 {
                     "value": 7.00,
@@ -1377,10 +1393,14 @@
                 {
                     "value": 5.80,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 5.50,
+                    "date": "2025-02-03"
                 }
             ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.25,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 500,
@@ -1392,7 +1412,7 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 5.00,
+            "value": 4.75,
             "history": [
                 {
                     "value": 6.70,
@@ -1409,10 +1429,14 @@
                 {
                     "value": 5.50,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2025-02-03"
                 }
             ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 4.75,
         "min_period": 18,
         "max_period": 23,
         "min_amount": 500,
@@ -1424,7 +1448,7 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 5.00,
+            "value": 4.75,
             "history": [
                 {
                     "value": 6.50,
@@ -1441,10 +1465,14 @@
                 {
                     "value": 5.50,
                     "date": "2024-04-15"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2025-02-03"
                 }
             ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 4.75,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
@@ -2032,7 +2060,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
         "deposit_interest_rate": {
-            "value": 4.75,
+            "value": 5.00,
             "history": [
                 {
                     "value": 5.60,
@@ -2041,10 +2069,14 @@
                 {
                     "value": 5.00,
                     "date": "2024-11-10"
+                },
+                {
+                    "value": 4.75,
+                    "date": "2025-01-28"
                 }
             ]
         },
-        "interest_after_min": 4.75,
+        "interest_after_min": 5.00,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
@@ -2056,45 +2088,21 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
         "deposit_interest_rate": {
-            "value": 5.10,
+            "value": 5.35,
             "history": [
                 {
                     "value": 5.50,
                     "date": "2024-11-10"
+                },
+                {
+                    "value": 5.10,
+                    "date": "2025-01-28"
                 }
             ]
         },
-        "interest_after_min": 5.10,
+        "interest_after_min": 5.35,
         "min_period": 3,
         "max_period": 5,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
-    },
-    {
-        "bank_name": "Intesa SanPaolo",
-        "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
-        "deposit_interest_rate": {
-            "value": 5.50,
-            "history": [
-                {
-                    "value": 6.75,
-                    "date": "2024-01-31"
-                },
-                {
-                    "value": 6.50,
-                    "date": "2024-03-05"
-                },
-                {
-                    "value": 6.00,
-                    "date": "2024-11-10"
-                }
-            ]
-        },
-        "interest_after_min": 5.50,
-        "min_period": 6,
-        "max_period": 11,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -2107,6 +2115,38 @@
             "value": 5.75,
             "history": [
                 {
+                    "value": 6.75,
+                    "date": "2024-01-31"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2024-03-05"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2024-11-10"
+                },
+                {
+                    "value": 5.50,
+                    "date": "2025-01-28"
+                }
+            ]
+        },
+        "interest_after_min": 5.75,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": [
+                {
                     "value": 7.25,
                     "date": "2024-01-31"
                 },
@@ -2117,10 +2157,14 @@
                 {
                     "value": 6.00,
                     "date": "2024-11-10"
+                },
+                {
+                    "value": 5.75,
+                    "date": "2025-01-28"
                 }
             ]
         },
-        "interest_after_min": 5.75,
+        "interest_after_min": 6.00,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 500,
@@ -2538,7 +2582,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/1929",
+        "bank_url": "https://www.patriabank.ro/d/2031",
         "deposit_interest_rate": {
             "value": 5.00,
             "history": [
@@ -2570,7 +2614,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/1929",
+        "bank_url": "https://www.patriabank.ro/d/2031",
         "deposit_interest_rate": {
             "value": 5.80,
             "history": [
@@ -2602,7 +2646,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/1929",
+        "bank_url": "https://www.patriabank.ro/d/2031",
         "deposit_interest_rate": {
             "value": 5.90,
             "history": [
@@ -2638,7 +2682,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/1929",
+        "bank_url": "https://www.patriabank.ro/d/2031",
         "deposit_interest_rate": {
             "value": 5.75,
             "history": [
@@ -2674,7 +2718,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/1929",
+        "bank_url": "https://www.patriabank.ro/d/2031",
         "deposit_interest_rate": {
             "value": 5.25,
             "history": [
@@ -2738,7 +2782,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 31 ianuarie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 14 februarie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -2878,21 +2922,6 @@
     },
     {
         "bank_name": "Raiffeisen",
-        "bank_url": "https://www.raiffeisen.ro/ro/persoane-fizice/produsele-noastre/economii/depozit-cu-depuneri-ulterioare.html",
-        "deposit_interest_rate": {
-            "value": 4.80,
-            "history": []
-        },
-        "interest_after_min": 4.80,
-        "min_period": 6,
-        "max_period": 6,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Flexidepozit online\nDepozit cu depuneri ulterioare\nPlata dobanzii se face la scadenta\nSe pot retrage maxim 20% din banii depusi o singura data"
-    },
-    {
-        "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
             "value": 4.40,
@@ -2937,7 +2966,7 @@
         },
         "interest_after_min": 4.40,
         "min_period": 3,
-        "max_period": 11,
+        "max_period": 3,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -3018,6 +3047,21 @@
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta"
+    },
+    {
+        "bank_name": "Raiffeisen",
+        "bank_url": "https://www.raiffeisen.ro/ro/persoane-fizice/produsele-noastre/economii/depozit-cu-depuneri-ulterioare.html",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 4.80,
+        "min_period": 4,
+        "max_period": 4,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Flexidepozit online\nDepozit cu depuneri ulterioare\nPlata dobanzii se face la scadenta\nSe pot retrage maxim 20% din banii depusi o singura data"
     },
     {
         "bank_name": "TBI",
