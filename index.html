@@ -163,7 +163,16 @@
       }
     }
   </style>
-
+  <script>
+    var pw = prompt("Please enter the password:");
+    if (pw !== "banci") {
+      document.open();
+      document.write("<head><title>Access Denied</title></head><body><h1>Access Denied</h1></body>");
+      document.close();
+      window.stop();
+      throw new Error("Access Denied");
+    }
+  </script>
 </head>
 
 <body>
@@ -316,7 +325,7 @@
           return `Data: ${formattedDate}, Valoare: ${rate.value}`;
         }).join('<br>');
         var historyButton = '<span class="history-button" id="history-' + index + '">Istoric</span>';
-        
+
         return '<tr><td>' + bankName + '</td><td>' + item.deposit_interest_rate.value + '&nbsp;&nbsp;&nbsp;' + historyButton + '</td><td>' + interest.toFixed(2) + '</td><td>' + total.toFixed(2) + '</td><td>' + afterTaxes.toFixed(2) + '</td><td class="extra-info-cell">' + extraInfo + '</td><td class="history-cell">' + interestRateHistory + '</td></tr>';
       }).join('');
 
