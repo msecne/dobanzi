@@ -323,36 +323,6 @@
         "extra_info": "Cont standard de economii\nDobanda se plateste si capitalizeaza lunar"
     },
     {
-        "bank_name": "OTP",
-        "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/cont-de-economii",
-        "deposit_interest_rate": {
-            "value": 1.15,
-            "history": []
-        },
-        "interest_after_min": 1.15,
-        "min_period": 1,
-        "max_period": 999,
-        "min_amount": 100,
-        "max_amount": 49999,
-        "can_withdraw": "true",
-        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
-    },
-    {
-        "bank_name": "OTP",
-        "bank_url": "https://www.otpbank.ro/ro/persoane-fizice/economii-si-investitii/cont-de-economii",
-        "deposit_interest_rate": {
-            "value": 1.30,
-            "history": []
-        },
-        "interest_after_min": 1.30,
-        "min_period": 1,
-        "max_period": 999,
-        "min_amount": 50000,
-        "max_amount": 999999,
-        "can_withdraw": "true",
-        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
-    },
-    {
         "bank_name": "Patria",
         "bank_url": "https://www.patriabank.ro/persoane-fizice/economii/cont-de-economii",
         "deposit_interest_rate": {
@@ -1837,134 +1807,6 @@
         "extra_info": "Depozit standard online\nDobanda se acorda la scadenta"
     },
     {
-        "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-iarna-ron/",
-        "deposit_interest_rate": {
-            "value": 6.25,
-            "history": [
-                {
-                    "value": 7.75,
-                    "date": "2023-12-19"
-                },
-                {
-                    "value": 7.50,
-                    "date": "2024-02-06"
-                },
-                {
-                    "value": 6.75,
-                    "date": "2024-04-01"
-                },
-                {
-                    "value": 6.50,
-                    "date": "2024-07-21"
-                }
-            ]
-        },
-        "interest_after_min": 6.25,
-        "min_period": 1,
-        "max_period": 2,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2024\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-iarna-ron/",
-        "deposit_interest_rate": {
-            "value": 6.25,
-            "history": [
-                {
-                    "value": 8.05,
-                    "date": "2023-12-19"
-                },
-                {
-                    "value": 7.50,
-                    "date": "2024-02-06"
-                },
-                {
-                    "value": 6.75,
-                    "date": "2024-04-01"
-                },
-                {
-                    "value": 6.50,
-                    "date": "2024-07-21"
-                }
-            ]
-        },
-        "interest_after_min": 6.25,
-        "min_period": 3,
-        "max_period": 5,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2024\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-iarna-ron/",
-        "deposit_interest_rate": {
-            "value": 6.50,
-            "history": [
-                {
-                    "value": 8.50,
-                    "date": "2023-12-19"
-                },
-                {
-                    "value": 7.75,
-                    "date": "2024-02-06"
-                },
-                {
-                    "value": 6.95,
-                    "date": "2024-04-01"
-                },
-                {
-                    "value": 6.75,
-                    "date": "2024-07-21"
-                }
-            ]
-        },
-        "interest_after_min": 6.50,
-        "min_period": 6,
-        "max_period": 11,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2024\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-iarna-ron/",
-        "deposit_interest_rate": {
-            "value": 6.25,
-            "history": [
-                {
-                    "value": 8.00,
-                    "date": "2023-12-19"
-                },
-                {
-                    "value": 7.50,
-                    "date": "2024-02-06"
-                },
-                {
-                    "value": 6.85,
-                    "date": "2024-04-01"
-                },
-                {
-                    "value": 6.75,
-                    "date": "2024-07-21"
-                }
-            ]
-        },
-        "interest_after_min": 6.25,
-        "min_period": 12,
-        "max_period": 999,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 31.12.2024\nDobanda se acorda la scadenta"
-    },
-    {
         "bank_name": "ING",
         "bank_url": "https://ing.ro/persoane-fizice/economii-si-investitii/ing-economii-si-depozite-la-termen#depozite-la-termen",
         "deposit_interest_rate": {
@@ -2429,162 +2271,6 @@
         "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
-        "bank_name": "OTP",
-        "bank_url": "https://www.otpbank.ro/sites/default/files/assets/documents/dobanzi-depozite-PF-RO.pdf",
-        "deposit_interest_rate": {
-            "value": 4.20,
-            "history": [
-                {
-                    "value": 6.35,
-                    "date": "2023-11-09"
-                },
-                {
-                    "value": 5.90,
-                    "date": "2024-02-07"
-                },
-                {
-                    "value": 5.70,
-                    "date": "2024-02-26"
-                },
-                {
-                    "value": 5.35,
-                    "date": "2024-04-01"
-                },
-                {
-                    "value": 5.20,
-                    "date": "2024-06-06"
-                },
-                {
-                    "value": 5.05,
-                    "date": "2024-08-15"
-                }
-            ]
-        },
-        "interest_after_min": 4.20,
-        "min_period": 1,
-        "max_period": 2,
-        "min_amount": 100,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "OTP",
-        "bank_url": "https://www.otpbank.ro/sites/default/files/assets/documents/dobanzi-depozite-PF-RO.pdf",
-        "deposit_interest_rate": {
-            "value": 4.70,
-            "history": [
-                {
-                    "value": 7.05,
-                    "date": "2023-11-09"
-                },
-                {
-                    "value": 6.50,
-                    "date": "2024-02-07"
-                },
-                {
-                    "value": 6.40,
-                    "date": "2024-02-26"
-                },
-                {
-                    "value": 6.00,
-                    "date": "2024-04-01"
-                },
-                {
-                    "value": 5.85,
-                    "date": "2024-08-15"
-                }
-            ]
-        },
-        "interest_after_min": 4.70,
-        "min_period": 3,
-        "max_period": 5,
-        "min_amount": 100,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "OTP",
-        "bank_url": "https://www.otpbank.ro/sites/default/files/assets/documents/dobanzi-depozite-PF-RO.pdf",
-        "deposit_interest_rate": {
-            "value": 4.95,
-            "history": [
-                {
-                    "value": 7.45,
-                    "date": "2023-11-09"
-                },
-                {
-                    "value": 6.90,
-                    "date": "2024-02-07"
-                },
-                {
-                    "value": 6.80,
-                    "date": "2024-02-26"
-                },
-                {
-                    "value": 6.40,
-                    "date": "2024-04-01"
-                },
-                {
-                    "value": 6.20,
-                    "date": "2024-06-06"
-                },
-                {
-                    "value": 6.05,
-                    "date": "2024-08-15"
-                }
-            ]
-        },
-        "interest_after_min": 4.95,
-        "min_period": 6,
-        "max_period": 11,
-        "min_amount": 100,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "OTP",
-        "bank_url": "https://www.otpbank.ro/sites/default/files/assets/documents/dobanzi-depozite-PF-RO.pdf",
-        "deposit_interest_rate": {
-            "value": 5.20,
-            "history": [
-                {
-                    "value": 7.45,
-                    "date": "2023-11-09"
-                },
-                {
-                    "value": 6.90,
-                    "date": "2024-02-07"
-                },
-                {
-                    "value": 6.80,
-                    "date": "2024-02-26"
-                },
-                {
-                    "value": 6.40,
-                    "date": "2024-04-01"
-                },
-                {
-                    "value": 6.20,
-                    "date": "2024-06-06"
-                },
-                {
-                    "value": 6.10,
-                    "date": "2024-08-15"
-                }
-            ]
-        },
-        "interest_after_min": 5.20,
-        "min_period": 12,
-        "max_period": 999,
-        "min_amount": 100,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
-    },
-    {
         "bank_name": "Patria",
         "bank_url": "https://www.patriabank.ro/d/2031",
         "deposit_interest_rate": {
@@ -2786,7 +2472,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 14 februarie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 17 februarie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -3637,7 +3323,7 @@
     },
     {
         "bank_name": "Unicredit",
-        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi_1",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzidepozite_1",
         "deposit_interest_rate": {
             "value": 5.00,
             "history": [
@@ -3673,7 +3359,7 @@
     },
     {
         "bank_name": "Unicredit",
-        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi_1",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzidepozite_1",
         "deposit_interest_rate": {
             "value": 5.10,
             "history": [
@@ -3709,7 +3395,7 @@
     },
     {
         "bank_name": "Unicredit",
-        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzi_1",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzidepozite_1",
         "deposit_interest_rate": {
             "value": 5.20,
             "history": [
