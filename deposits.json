@@ -678,7 +678,7 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 4.20,
+            "value": 4.00,
             "history": [
                 {
                     "value": 5.75,
@@ -695,10 +695,14 @@
                 {
                     "value": 4.60,
                     "date": "2024-09-15"
+                },
+                {
+                    "value": 4.20,
+                    "date": "2025-02-22"
                 }
             ]
         },
-        "interest_after_min": 4.20,
+        "interest_after_min": 4.00,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
@@ -710,7 +714,7 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 4.60,
+            "value": 4.40,
             "history": [
                 {
                     "value": 6.00,
@@ -727,10 +731,14 @@
                 {
                     "value": 5.00,
                     "date": "2024-09-15"
+                },
+                {
+                    "value": 4.60,
+                    "date": "2025-02-22"
                 }
             ]
         },
-        "interest_after_min": 4.60,
+        "interest_after_min": 4.40,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
@@ -742,7 +750,7 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/depozitul-la-termen#/togle1/expand/true",
         "deposit_interest_rate": {
-            "value": 5.00,
+            "value": 4.80,
             "history": [
                 {
                     "value": 6.50,
@@ -759,10 +767,14 @@
                 {
                     "value": 5.20,
                     "date": "2024-09-15"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2025-02-22"
                 }
             ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 4.80,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
