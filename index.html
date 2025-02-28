@@ -304,7 +304,7 @@
       if ($.fn.dataTable.isDataTable('#results')) {
         $('#results').DataTable().destroy();
       }
-      table.innerHTML = '<tr><th>Numele bancii</th><th>Rata dobanzii</th><th>Dobanda obtinuta</th><th>Total brut</th><th>Total net (-10%)</th><th class="extra-info-header">Extra detalii</th><th class="history-header">Istoric</th></tr>' + results.map((item, index) => {
+      table.innerHTML = '<tr><th>Loc</th><th>Numele bancii</th><th>Rata dobanzii</th><th>Dobanda obtinuta</th><th>Total brut</th><th>Total net (-10%)</th><th class="extra-info-header">Extra detalii</th><th class="history-header">Istoric</th></tr>' + results.map((item, index) => {
         var interest_for_min_period = (item.deposit_interest_rate.value / 100 / 12) * amount * Math.min(months, item.min_period);
         var interest_for_remaining_period = (item.interest_after_min / 100 / 12) * amount * Math.max(0, months - item.min_period);
         var interest = interest_for_min_period + interest_for_remaining_period;
@@ -326,9 +326,8 @@
         }).join('<br>');
         var historyButton = '<span class="history-button" id="history-' + index + '">Istoric</span>';
 
-        return '<tr><td>' + bankName + '</td><td>' + item.deposit_interest_rate.value + '&nbsp;&nbsp;&nbsp;' + historyButton + '</td><td>' + interest.toFixed(2) + '</td><td>' + total.toFixed(2) + '</td><td>' + afterTaxes.toFixed(2) + '</td><td class="extra-info-cell">' + extraInfo + '</td><td class="history-cell">' + interestRateHistory + '</td></tr>';
+        return '<tr><td>' + (index + 1) + '</td><td>' + bankName + '</td><td>' + item.deposit_interest_rate.value + '&nbsp;&nbsp;&nbsp;' + historyButton + '</td><td>' + interest.toFixed(2) + '</td><td>' + total.toFixed(2) + '</td><td>' + afterTaxes.toFixed(2) + '</td><td class="extra-info-cell">' + extraInfo + '</td><td class="history-cell">' + interestRateHistory + '</td></tr>';
       }).join('');
-
 
       results.forEach((item, index) => {
         var historyButton = document.getElementById('history-' + index);
@@ -338,7 +337,6 @@
           if (oldCanvas) {
             oldCanvas.remove();
           }
-
 
           var canvas = document.createElement('canvas');
           canvas.id = 'chart-' + index;
