@@ -1744,6 +1744,51 @@
     },
     {
         "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/regulamentul-campaniei-e-depozit-la-termen/",
+        "deposit_interest_rate": {
+            "value": 8.25,
+            "history": []
+        },
+        "interest_after_min": 8.25,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 5000,
+        "max_amount": 100000,
+        "can_withdraw": "false",
+        "extra_info": "Depozit promo online\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 mai 2025</b>"
+    },
+    {
+        "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/regulamentul-campaniei-e-depozit-la-termen/",
+        "deposit_interest_rate": {
+            "value": 6.40,
+            "history": []
+        },
+        "interest_after_min": 6.40,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 5000,
+        "max_amount": 100000,
+        "can_withdraw": "false",
+        "extra_info": "Depozit promo online\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 mai 2025</b>"
+    },
+    {
+        "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/regulamentul-campaniei-e-depozit-la-termen/",
+        "deposit_interest_rate": {
+            "value": 5.50,
+            "history": []
+        },
+        "interest_after_min": 5.50,
+        "min_period": 12,
+        "max_period": 12,
+        "min_amount": 5000,
+        "max_amount": 100000,
+        "can_withdraw": "false",
+        "extra_info": "Depozit promo online\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 mai 2025</b>"
+    },
+    {
+        "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/persoane-fizice/dobanzi-si-comisioane-depozite-persoane-fizice/",
         "deposit_interest_rate": {
             "value": 4.10,
@@ -2508,7 +2553,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 28 februarie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 2 martie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -4413,7 +4458,7 @@
         "bank_name": "Ministerul Finantelor - Fidelis",
         "bank_url": "https://mfinante.gov.ro/web/trezor/titluri-de-stat-fidelis",
         "deposit_interest_rate": {
-            "value": 6.95,
+            "value": 6.80,
             "history": [
                 {
                     "value": 6.25,
@@ -4446,10 +4491,14 @@
                 {
                     "value": 6.45,
                     "date": "2024-12-23"
+                },
+                {
+                    "value": 6.95,
+                    "date": "2025-02-23"
                 }
             ]
         },
-        "interest_after_min": 6.95,
+        "interest_after_min": 6.80,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 5000,
