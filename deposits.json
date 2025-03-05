@@ -2517,7 +2517,7 @@
     },
     {
         "bank_name": "ProCredit",
-        "bank_url": "https://www.procreditbank.ro/landing/ro/prosave.html?utm_source=Website&utm_medium=banner2&utm_id=ProSave",
+        "bank_url": "https://www.procreditbank.ro/landing/prosave/",
         "deposit_interest_rate": {
             "value": 6.50,
             "history": [
@@ -2550,10 +2550,25 @@
         "interest_after_min": 6.50,
         "min_period": 6,
         "max_period": 6,
-        "min_amount": 100,
+        "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 2 martie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 31 martie 2025</b>"
+    },
+    {
+        "bank_name": "ProCredit",
+        "bank_url": "https://www.procreditbank.ro/landing/prosave/",
+        "deposit_interest_rate": {
+            "value": 6.35,
+            "history": []
+        },
+        "interest_after_min": 6.35,
+        "min_period": 12,
+        "max_period": 12,
+        "min_amount": 5000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 31 martie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
