@@ -3141,7 +3141,7 @@
         "bank_name": "TechVentures",
         "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
         "deposit_interest_rate": {
-            "value": 5.00,
+            "value": 4.75,
             "history": [
                 {
                     "value": 6.00,
@@ -3150,10 +3150,14 @@
                 {
                     "value": 5.50,
                     "date": "2025-01-12"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2025-03-05"
                 }
             ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 4.75,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 1000,
@@ -3165,7 +3169,7 @@
         "bank_name": "TechVentures",
         "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 5.25,
             "history": [
                 {
                     "value": 6.50,
@@ -3174,60 +3178,16 @@
                 {
                     "value": 6.00,
                     "date": "2025-01-12"
+                },
+                {
+                    "value": 5.50,
+                    "date": "2025-03-05"
                 }
             ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.25,
         "min_period": 3,
         "max_period": 5,
-        "min_amount": 1000,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
-        "deposit_interest_rate": {
-            "value": 6.00,
-            "history": [
-                {
-                    "value": 7.00,
-                    "date": "2024-01-15"
-                },
-                {
-                    "value": 6.50,
-                    "date": "2025-01-12"
-                }
-            ]
-        },
-        "interest_after_min": 6.00,
-        "min_period": 6,
-        "max_period": 11,
-        "min_amount": 1000,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
-    },
-    {
-        "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
-        "deposit_interest_rate": {
-            "value": 6.50,
-            "history": [
-                {
-                    "value": 7.50,
-                    "date": "2024-01-15"
-                },
-                {
-                    "value": 7.00,
-                    "date": "2025-01-12"
-                }
-            ]
-        },
-        "interest_after_min": 6.50,
-        "min_period": 12,
-        "max_period": 17,
         "min_amount": 1000,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -3246,10 +3206,70 @@
                 {
                     "value": 6.50,
                     "date": "2025-01-12"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2025-03-05"
                 }
             ]
         },
         "interest_after_min": 5.75,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 1000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "TechVentures",
+        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
+        "deposit_interest_rate": {
+            "value": 6.25,
+            "history": [
+                {
+                    "value": 7.50,
+                    "date": "2024-01-15"
+                },
+                {
+                    "value": 7.00,
+                    "date": "2025-01-12"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2025-03-05"
+                }
+            ]
+        },
+        "interest_after_min": 6.25,
+        "min_period": 12,
+        "max_period": 17,
+        "min_amount": 1000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "TechVentures",
+        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
+        "deposit_interest_rate": {
+            "value": 5.50,
+            "history": [
+                {
+                    "value": 7.00,
+                    "date": "2024-01-15"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2025-01-12"
+                },
+                {
+                    "value": 5.75,
+                    "date": "2025-03-05"
+                }
+            ]
+        },
+        "interest_after_min": 5.50,
         "min_period": 18,
         "max_period": 999,
         "min_amount": 1000,
@@ -3493,6 +3513,36 @@
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
+    },
+    {
+        "bank_name": "Unicredit",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzidepozite_1",
+        "deposit_interest_rate": {
+            "value": 5.50,
+            "history": []
+        },
+        "interest_after_min": 5.50,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 10001,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
+    },
+    {
+        "bank_name": "Unicredit",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzidepozite_1",
+        "deposit_interest_rate": {
+            "value": 5.50,
+            "history": []
+        },
+        "interest_after_min": 5.50,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 50001,
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
