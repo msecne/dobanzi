@@ -4575,7 +4575,7 @@
         "bank_name": "Ministerul Finantelor - Tezaur",
         "bank_url": "https://mfinante.gov.ro/web/trezor/titluri-de-stat-tezaur",
         "deposit_interest_rate": {
-            "value": 6.95,
+            "value": 6.80,
             "history": [
                 {
                     "value": 6.10,
@@ -4632,10 +4632,14 @@
                 {
                     "value": 7.00,
                     "date": "2025-02-11"
+                },
+                {
+                    "value": 6.95,
+                    "date": "2025-03-10"
                 }
             ]
         },
-        "interest_after_min": 6.95,
+        "interest_after_min": 6.80,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 100,
