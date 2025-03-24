@@ -476,7 +476,7 @@
         },
         "interest_after_min": 6.60,
         "min_period": 1,
-        "max_period": 999,
+        "max_period": 1,
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -1212,6 +1212,21 @@
     },
     {
         "bank_name": "Exim",
+        "bank_url": "https://www.eximbank.ro/2024/10/14/depozitul-plus-lei/",
+        "deposit_interest_rate": {
+            "value": 6.10,
+            "history": []
+        },
+        "interest_after_min": 6.10,
+        "min_period": 6,
+        "max_period": 6,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic\n<b>Promotie pana pe 31 martie 2025 pentru sume noi aduse in cont</b>"
+    },
+    {
+        "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
             "value": 4.30,
@@ -1780,7 +1795,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 30.04.2025\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 30.04.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1812,7 +1827,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 30.04.2025\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 30.04.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1848,7 +1863,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 30.04.2025\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 30.04.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1884,7 +1899,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\nValabil pentru depozitele noi pina la 30.04.2025\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 30.04.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -3693,10 +3708,10 @@
         "bank_name": "Unicredit",
         "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzidepozite_1",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 6.00,
             "history": []
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 6.00,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 50001,
