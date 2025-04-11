@@ -3903,11 +3903,26 @@
         },
         "interest_after_min": 4.30,
         "min_period": 6,
-        "max_period": 11,
+        "max_period": 8,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
+    },
+    {
+        "bank_name": "BRD",
+        "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
+        "deposit_interest_rate": {
+            "value": 5.25,
+            "history": []
+        },
+        "interest_after_min": 5.25,
+        "min_period": 9,
+        "max_period": 9,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic\n<b>Dobanda promotionala pana pe 30.05.2025</b>\n<b>Constituit doar la ghiseu</b>\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BRD",
