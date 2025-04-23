@@ -1899,7 +1899,7 @@
         "min_amount": 5000,
         "max_amount": 100000,
         "can_withdraw": "false",
-        "extra_info": "Depozit promo online\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 mai 2025</b>"
+        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 50.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 mai 2025</b>"
     },
     {
         "bank_name": "Garanti",
@@ -1914,7 +1914,7 @@
         "min_amount": 5000,
         "max_amount": 100000,
         "can_withdraw": "false",
-        "extra_info": "Depozit promo online\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 mai 2025</b>"
+        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 50.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 mai 2025</b>"
     },
     {
         "bank_name": "Garanti",
@@ -1929,7 +1929,7 @@
         "min_amount": 5000,
         "max_amount": 100000,
         "can_withdraw": "false",
-        "extra_info": "Depozit promo online\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 mai 2025</b>"
+        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 50.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 mai 2025</b>"
     },
     {
         "bank_name": "Garanti",
