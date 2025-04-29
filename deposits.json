@@ -4744,7 +4744,7 @@
         "bank_name": "Ministerul Finantelor - Fidelis",
         "bank_url": "https://mfinante.gov.ro/web/trezor/titluri-de-stat-fidelis",
         "deposit_interest_rate": {
-            "value": 6.60,
+            "value": 6.75,
             "history": [
                 {
                     "value": 6.25,
@@ -4785,10 +4785,14 @@
                 {
                     "value": 6.80,
                     "date": "2025-03-23"
+                },
+                {
+                    "value": 6.60,
+                    "date": "2025-04-23"
                 }
             ]
         },
-        "interest_after_min": 6.60,
+        "interest_after_min": 6.75,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 5000,
