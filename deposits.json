@@ -3032,10 +3032,15 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen.html",
         "deposit_interest_rate": {
-            "value": 6.00,
-            "history": []
+            "value": 6.20,
+            "history": [
+                {
+                    "value": 6.00,
+                    "date": "2025-05-12"
+                }
+            ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 6.20,
         "min_period": 4,
         "max_period": 4,
         "min_amount": 500,
