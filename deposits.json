@@ -2400,7 +2400,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 5.25,
+            "value": 6.50,
             "history": [
                 {
                     "value": 6.00,
@@ -2413,10 +2413,14 @@
                 {
                     "value": 5.50,
                     "date": "2024-11-28"
+                },
+                {
+                    "value": 5.25,
+                    "date": "2025-05-12"
                 }
             ]
         },
-        "interest_after_min": 5.25,
+        "interest_after_min": 6.50,
         "min_period": 7,
         "max_period": 7,
         "min_amount": 100,
