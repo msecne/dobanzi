@@ -1765,7 +1765,7 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/regulamentul-campaniei-e-depozit-la-termen/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-e-depozit-la-termen-prin-internet-si-mobile-banking/",
         "deposit_interest_rate": {
             "value": 8.55,
             "history": [
@@ -1785,7 +1785,7 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/regulamentul-campaniei-e-depozit-la-termen/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-e-depozit-la-termen-prin-internet-si-mobile-banking/",
         "deposit_interest_rate": {
             "value": 6.70,
             "history": [
@@ -1801,11 +1801,11 @@
         "min_amount": 5000,
         "max_amount": 100000,
         "can_withdraw": "false",
-        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 50.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 august 2025</b>"
+        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 80.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 august 2025</b>"
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/regulamentul-campaniei-e-depozit-la-termen/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-e-depozit-la-termen-prin-internet-si-mobile-banking/",
         "deposit_interest_rate": {
             "value": 5.80,
             "history": [
@@ -1821,7 +1821,7 @@
         "min_amount": 5000,
         "max_amount": 100000,
         "can_withdraw": "false",
-        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 50.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 august 2025</b>"
+        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 80.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 august 2025</b>"
 
     },
     {
