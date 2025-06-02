@@ -1768,7 +1768,12 @@
         "bank_url": "https://www.garantibbva.ro/campanii-curente/regulamentul-campaniei-e-depozit-la-termen/",
         "deposit_interest_rate": {
             "value": 8.55,
-            "history": []
+            "history": [
+                {
+                    "value": 8.25,
+                    "date": "2025-05-27"
+                }
+            ]
         },
         "interest_after_min": 8.55,
         "min_period": 3,
@@ -1783,7 +1788,12 @@
         "bank_url": "https://www.garantibbva.ro/campanii-curente/regulamentul-campaniei-e-depozit-la-termen/",
         "deposit_interest_rate": {
             "value": 6.70,
-            "history": []
+            "history": [
+                {
+                    "value": 6.40,
+                    "date": "2025-05-27"
+                }
+            ]
         },
         "interest_after_min": 6.70,
         "min_period": 6,
@@ -1798,7 +1808,12 @@
         "bank_url": "https://www.garantibbva.ro/campanii-curente/regulamentul-campaniei-e-depozit-la-termen/",
         "deposit_interest_rate": {
             "value": 5.80,
-            "history": []
+            "history": [
+                {
+                    "value": 5.50,
+                    "date": "2025-05-27"
+                }
+            ]
         },
         "interest_after_min": 5.80,
         "min_period": 12,
