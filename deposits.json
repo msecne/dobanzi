@@ -1765,6 +1765,52 @@
     },
     {
         "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/regulamentul-campaniei-e-depozit-la-termen/",
+        "deposit_interest_rate": {
+            "value": 8.25,
+            "history": []
+        },
+        "interest_after_min": 8.25,
+        "min_period": 3,
+        "max_period": 5,
+        "min_amount": 5000,
+        "max_amount": 100000,
+        "can_withdraw": "false",
+        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 50.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 august 2025</b>"
+    },
+    {
+        "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/regulamentul-campaniei-e-depozit-la-termen/",
+        "deposit_interest_rate": {
+            "value": 6.40,
+            "history": []
+        },
+        "interest_after_min": 6.40,
+        "min_period": 6,
+        "max_period": 11,
+        "min_amount": 5000,
+        "max_amount": 100000,
+        "can_withdraw": "false",
+        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 50.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 august 2025</b>"
+    },
+    {
+        "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/regulamentul-campaniei-e-depozit-la-termen/",
+        "deposit_interest_rate": {
+            "value": 5.50,
+            "history": []
+        },
+        "interest_after_min": 5.50,
+        "min_period": 12,
+        "max_period": 12,
+        "min_amount": 5000,
+        "max_amount": 100000,
+        "can_withdraw": "false",
+        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 50.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 august 2025</b>"
+
+    },
+    {
+        "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-2025-2/",
         "deposit_interest_rate": {
             "value": 6.95,
