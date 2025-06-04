@@ -428,6 +428,21 @@
         "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
+        "bank_name": "Raiffeisen",
+        "bank_url": "https://www.raiffeisen.ro/content/dam/rbi/retail/eu/ro/documents/regulamente/2025/20250601-regulament-campanie-vino-la-raiffeisen-si-ai-5-la-suta-pe-an-dobanda-la-contul-tau-de-economii-in-lei/20250601-Regulament-campanie-vino-la-raiffeisen-si-ai-5-la-suta-pe-an-dobanda-la-contul-tau-de-economii-in-lei.pdf",
+        "deposit_interest_rate": {
+            "value": 5.00,
+            "history": []
+        },
+        "interest_after_min": 5.00,
+        "min_period": 1,
+        "max_period": 999,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "true",
+        "extra_info": "Cont promotional de economii\n<b>Doar pentru clientii noi in perioada 01.06– 31.08.2025</b>\n<b>Dobanda garantata pe 1 an!</b>\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
+    },
+    {
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
@@ -2598,9 +2613,9 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2096",
+        "bank_url": "https://www.patriabank.ro/d/2141",
         "deposit_interest_rate": {
-            "value": 5.00,
+            "value": 6.75,
             "history": [
                 {
                     "value": 5.75,
@@ -2617,10 +2632,14 @@
                 {
                     "value": 5.25,
                     "date": "2024-08-02"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2025-06-03"
                 }
             ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 6.75,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 100,
@@ -2630,9 +2649,9 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2096",
+        "bank_url": "https://www.patriabank.ro/d/2141",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 6.57,
             "history": [
                 {
                     "value": 6.75,
@@ -2654,10 +2673,14 @@
                 {
                     "value": 5.80,
                     "date": "2025-03-22"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2025-06-03"
                 }
             ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 6.57,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
@@ -2667,9 +2690,9 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2096",
+        "bank_url": "https://www.patriabank.ro/d/2141",
         "deposit_interest_rate": {
-            "value": 6.10,
+            "value": 6.50,
             "history": [
                 {
                     "value": 7.25,
@@ -2694,10 +2717,14 @@
                 {
                     "value": 5.90,
                     "date": "2025-03-22"
+                },
+                {
+                    "value": 6.10,
+                    "date": "2025-06-03"
                 }
             ]
         },
-        "interest_after_min": 6.10,
+        "interest_after_min": 6.50,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
@@ -2707,9 +2734,9 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2096",
+        "bank_url": "https://www.patriabank.ro/d/2141",
         "deposit_interest_rate": {
-            "value": 5.75,
+            "value": 6.45,
             "history": [
                 {
                     "value": 7.75,
@@ -2730,10 +2757,14 @@
                 {
                     "value": 6.20,
                     "date": "2024-08-02"
+                },
+                {
+                    "value": 5.75,
+                    "date": "2025-06-03"
                 }
             ]
         },
-        "interest_after_min": 5.75,
+        "interest_after_min": 6.45,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 100,
@@ -2743,7 +2774,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2096",
+        "bank_url": "https://www.patriabank.ro/d/2141",
         "deposit_interest_rate": {
             "value": 5.25,
             "history": [
@@ -2988,7 +3019,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 4.40,
+            "value": 5.00,
             "history": [
                 {
                     "value": 6.30,
@@ -3025,10 +3056,14 @@
                 {
                     "value": 4.60,
                     "date": "2024-11-10"
+                },
+                {
+                    "value": 4.40,
+                    "date": "2025-06-03"
                 }
             ]
         },
-        "interest_after_min": 4.40,
+        "interest_after_min": 5.00,
         "min_period": 3,
         "max_period": 3,
         "min_amount": 500,
@@ -3040,7 +3075,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 4.90,
+            "value": 5.20,
             "history": [
                 {
                     "value": 6.50,
@@ -3069,10 +3104,14 @@
                 {
                     "value": 5.00,
                     "date": "2024-09-20"
+                },
+                {
+                    "value": 4.90,
+                    "date": "2025-06-03"
                 }
             ]
         },
-        "interest_after_min": 4.90,
+        "interest_after_min": 5.20,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
@@ -3130,7 +3169,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta"
+        "extra_info": "<b>Expirat!</b>\nDepozit clasic online\nPlata dobanzii se face la scadenta"
     },
     {
         "bank_name": "Raiffeisen",
