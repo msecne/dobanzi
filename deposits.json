@@ -1841,7 +1841,7 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-2025-2/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-4/",
         "deposit_interest_rate": {
             "value": 6.95,
             "history": [
@@ -1877,11 +1877,11 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 31.05.2025</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 30.06.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-2025-2/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-4/",
         "deposit_interest_rate": {
             "value": 6.95,
             "history": [
@@ -1913,13 +1913,13 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 31.05.2025</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 30.06.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-2025-2/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-4/",
         "deposit_interest_rate": {
-            "value": 6.15,
+            "value": 6.50,
             "history": [
                 {
                     "value": 8.50,
@@ -1940,22 +1940,26 @@
                 {
                     "value": 6.50,
                     "date": "2025-03-01"
+                },
+                {
+                    "value": 6.15,
+                    "date": "2025-05-30"
                 }
             ]
         },
-        "interest_after_min": 6.15,
+        "interest_after_min": 6.50,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 31.05.2025</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 30.06.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-2025-2/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-4/",
         "deposit_interest_rate": {
-            "value": 6.05,
+            "value": 6.50,
             "history": [
                 {
                     "value": 8.00,
@@ -1976,16 +1980,20 @@
                 {
                     "value": 6.25,
                     "date": "2025-03-01"
+                },
+                {
+                    "value": 6.05,
+                    "date": "2025-05-30"
                 }
             ]
         },
-        "interest_after_min": 6.05,
+        "interest_after_min": 6.50,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 31.05.2025</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 30.06.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
