@@ -880,11 +880,26 @@
         },
         "interest_after_min": 4.70,
         "min_period": 3,
-        "max_period": 5,
+        "max_period": 4,
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit online\nDobanda se plateste si capitalizeaza anual"
+    },
+    {
+        "bank_name": "CEC",
+        "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
+        "deposit_interest_rate": {
+            "value": 6.10,
+            "history": []
+        },
+        "interest_after_min": 6.10,
+        "min_period": 5,
+        "max_period": 5,
+        "min_amount": 300,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit online\n<b>Campanie perioada 10 iunie - 29 august 2025</b>\nDobanda se plateste si capitalizeaza anual"
     },
     {
         "bank_name": "CEC",
