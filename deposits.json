@@ -899,7 +899,7 @@
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online\n<b>Campanie perioada 10 iunie - 29 august 2025</b>\nDobanda se plateste si capitalizeaza anual"
+        "extra_info": "Depozit online\n<b>Campanie perioada 10 - 30 iunie 2025</b>\nDobanda se plateste si capitalizeaza anual"
     },
     {
         "bank_name": "CEC",
@@ -3173,26 +3173,6 @@
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta"
-    },
-    {
-        "bank_name": "Raiffeisen",
-        "bank_url": "https://www.raiffeisen.ro/ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen.html",
-        "deposit_interest_rate": {
-            "value": 6.20,
-            "history": [
-                {
-                    "value": 6.00,
-                    "date": "2025-05-12"
-                }
-            ]
-        },
-        "interest_after_min": 6.20,
-        "min_period": 4,
-        "max_period": 4,
-        "min_amount": 500,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "<b>Expirat!</b>\nDepozit clasic online\nPlata dobanzii se face la scadenta"
     },
     {
         "bank_name": "Raiffeisen",
