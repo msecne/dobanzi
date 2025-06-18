@@ -2857,7 +2857,7 @@
         "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 16 iunie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 30 iunie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -2901,7 +2901,7 @@
         "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 16 iunie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 30 iunie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -2916,7 +2916,7 @@
         "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 16 iunie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 30 iunie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -4108,7 +4108,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\n<b>Dobanda promotionala pana pe 30.05.2025</b>\n<b>Constituit doar la ghiseu</b>\nDobanda se calculeaza si se plateste la scadenta"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BRD",
