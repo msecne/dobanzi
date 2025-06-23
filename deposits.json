@@ -3200,6 +3200,21 @@
     },
     {
         "bank_name": "Raiffeisen",
+        "bank_url": "https://www.raiffeisen.ro/ro/persoane-fizice/produsele-noastre/economii/depozit-fresh-money.html#mai-multe-despre-depozit",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 4,
+        "max_period": 4,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Fresh Money\nDepozit din sumele noi aduse in cont\n<b>Soldul total astăzi – Soldul total la 02.06.2025 – Soldul depozitelor Fresh Money deja deschise (începând cu 02-Jun- 2025)</b>\nPlata dobanzii se face la scadenta\nSe pot retrage maxim 20% din banii depusi o singura data"
+    },
+    {
+        "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/ro/persoane-fizice/produsele-noastre/economii/depozit-cu-depuneri-ulterioare.html",
         "deposit_interest_rate": {
             "value": 4.80,
