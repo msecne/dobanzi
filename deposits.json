@@ -1231,7 +1231,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\n<b>Promotie pana pe 30 iunie 2025 pentru sume noi aduse in cont</b>"
+        "extra_info": "Depozit clasic\n<b>Promotie pana pe 30 iunie 2025 pentru sume noi aduse in cont si doar la ghiseu</b>"
     },
     {
         "bank_name": "Exim",
@@ -1613,7 +1613,7 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/retail/economisire/Depozitul-Freedom.html",
         "deposit_interest_rate": {
-            "value": 5.60,
+            "value": 6.30,
             "history": [
                 {
                     "value": 7.50,
@@ -1642,16 +1642,20 @@
                 {
                     "value": 5.90,
                     "date": "2025-02-17"
+                },
+                {
+                    "value": 5.90,
+                    "date": "2026-06-01"
                 }
             ]
         },
-        "interest_after_min": 5.60,
+        "interest_after_min": 6.30,
         "min_period": 5,
         "max_period": 5,
-        "min_amount": 500,
+        "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit online din sume noi\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "First Bank",
@@ -3710,6 +3714,21 @@
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "TechVentures",
+        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
+        "deposit_interest_rate": {
+            "value": 6.25,
+            "history": []
+        },
+        "interest_after_min": 6.25,
+        "min_period": 6,
+        "max_period": 6,
+        "min_amount": 5000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit cu depuneri ulterioare online\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Banca Transilvania",
