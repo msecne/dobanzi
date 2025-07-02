@@ -1231,7 +1231,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\n<b>Promotie pana pe 30 iunie 2025 pentru sume noi aduse in cont si doar la ghiseu</b>"
+        "extra_info": "Depozit clasic\n<b>Promotie pana pe 31 iulie 2025 pentru sume noi aduse in cont si doar la ghiseu</b>"
     },
     {
         "bank_name": "Exim",
@@ -2326,7 +2326,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
         "deposit_interest_rate": {
-            "value": 6.10,
+            "value": 6.50,
             "history": [
                 {
                     "value": 6.75,
@@ -2347,16 +2347,35 @@
                 {
                     "value": 5.75,
                     "date": "2026-06-22"
+                },
+                {
+                    "value": 6.10,
+                    "date": "2026-07-01"
                 }
             ]
         },
-        "interest_after_min": 6.10,
+        "interest_after_min": 6.50,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/Dobanzi-produse-de-economisire-01.07.2025.pdf",
+        "deposit_interest_rate": {
+            "value": 7.50,
+            "history": []
+        },
+        "interest_after_min": 7.50,
+        "min_period": 6,
+        "max_period": 6,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit promo doar in agentie\n<b>Perioada 01.07.2025 - 30.09.2025 exclusiv cu opțiunea de prelungire cu capitalizare și exclusiv pentru sume noi!</b>"
     },
     {
         "bank_name": "Intesa SanPaolo",
@@ -2458,7 +2477,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 4.75,
+            "value": 5.00,
             "history": [
                 {
                     "value": 5.25,
@@ -2479,10 +2498,14 @@
                 {
                     "value": 4.25,
                     "date": "2025-05-12"
+                },
+                {
+                    "value": 4.75,
+                    "date": "2025-07-01"
                 }
             ]
         },
-        "interest_after_min": 4.75,
+        "interest_after_min": 5.00,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 100,
@@ -2554,7 +2577,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 6.50,
+            "value": 7.00,
             "history": [
                 {
                     "value": 6.00,
@@ -2571,10 +2594,14 @@
                 {
                     "value": 5.25,
                     "date": "2025-05-12"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2025-07-01"
                 }
             ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 7.00,
         "min_period": 7,
         "max_period": 7,
         "min_amount": 100,
@@ -2658,7 +2685,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 6.50,
+            "value": 7.58,
             "history": [
                 {
                     "value": 6.50,
@@ -2671,10 +2698,14 @@
                 {
                     "value": 5.95,
                     "date": "2025-05-12"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2025-07-01"
                 }
             ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 7.58,
         "min_period": 13,
         "max_period": 13,
         "min_amount": 100,
@@ -2897,7 +2928,7 @@
         "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 30 iunie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 30 iulie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -2941,7 +2972,7 @@
         "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 30 iunie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 30 iulie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -2956,7 +2987,7 @@
         "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 30 iunie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 30 iulie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
