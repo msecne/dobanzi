@@ -1904,7 +1904,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 15.08.2025</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pana la 15.08.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1944,7 +1944,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 15.08.2025</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pana la 15.08.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1988,7 +1988,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 30.06.2025</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pana la 15.08.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -2032,7 +2032,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pina la 15.08.2025</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pana la 15.08.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
