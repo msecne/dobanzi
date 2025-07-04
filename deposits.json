@@ -1561,7 +1561,7 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 5.35,
+            "value": 5.50,
             "history": [
                 {
                     "value": 6.30,
@@ -1598,10 +1598,14 @@
                 {
                     "value": 5.20,
                     "date": "2025-05-27"
+                },
+                {
+                    "value": 5.35,
+                    "date": "2025-07-02"
                 }
             ]
         },
-        "interest_after_min": 5.35,
+        "interest_after_min": 5.50,
         "min_period": 3,
         "max_period": 4,
         "min_amount": 500,
@@ -1613,7 +1617,7 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/retail/economisire/Depozitul-Freedom.html",
         "deposit_interest_rate": {
-            "value": 6.30,
+            "value": 6.50,
             "history": [
                 {
                     "value": 7.50,
@@ -1646,10 +1650,14 @@
                 {
                     "value": 5.90,
                     "date": "2026-06-01"
+                },
+                {
+                    "value": 6.30,
+                    "date": "2025-07-02"
                 }
             ]
         },
-        "interest_after_min": 6.30,
+        "interest_after_min": 6.50,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 5000,
@@ -1661,7 +1669,7 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 5.75,
+            "value": 6.25,
             "history": [
                 {
                     "value": 6.55,
@@ -1690,10 +1698,14 @@
                 {
                     "value": 5.50,
                     "date": "2025-05-27"
+                },
+                {
+                    "value": 5.75,
+                    "date": "2025-07-02"
                 }
             ]
         },
-        "interest_after_min": 5.75,
+        "interest_after_min": 6.25,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
@@ -1705,7 +1717,7 @@
         "bank_name": "First Bank",
         "bank_url": "https://www.firstbank.ro/firstbank/footer-navigation/Documente-utile.html",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 6.35,
             "history": [
                 {
                     "value": 7.00,
@@ -1742,10 +1754,14 @@
                 {
                     "value": 5.50,
                     "date": "2025-05-27"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2025-07-02"
                 }
             ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 6.35,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
@@ -2914,15 +2930,19 @@
         "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/landing/prosave/",
         "deposit_interest_rate": {
-            "value": 7.00,
+            "value": 7.50,
             "history": [
                 {
                     "value": 6.25,
                     "date": "2025-05-10"
+                },
+                {
+                    "value": 7.00,
+                    "date": "2026-07-03"
                 }
             ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 7.50,
         "min_period": 3,
         "max_period": 3,
         "min_amount": 5000,
@@ -2978,10 +2998,15 @@
         "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/landing/prosave/",
         "deposit_interest_rate": {
-            "value": 6.35,
-            "history": []
+            "value": 6.50,
+            "history": [
+                {
+                    "value": 6.35,
+                    "date": "2026-07-03"
+                }
+            ]
         },
-        "interest_after_min": 6.35,
+        "interest_after_min": 6.50,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 5000,
