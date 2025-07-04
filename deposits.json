@@ -2731,7 +2731,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2146",
+        "bank_url": "https://www.patriabank.ro/d/2151",
         "deposit_interest_rate": {
             "value": 6.57,
             "history": [
@@ -2767,7 +2767,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2146",
+        "bank_url": "https://www.patriabank.ro/d/2151",
         "deposit_interest_rate": {
             "value": 6.57,
             "history": [
@@ -2808,7 +2808,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2146",
+        "bank_url": "https://www.patriabank.ro/d/2151",
         "deposit_interest_rate": {
             "value": 6.75,
             "history": [
@@ -2856,7 +2856,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2146",
+        "bank_url": "https://www.patriabank.ro/d/2151",
         "deposit_interest_rate": {
             "value": 6.75,
             "history": [
@@ -2892,7 +2892,7 @@
         },
         "interest_after_min": 6.75,
         "min_period": 12,
-        "max_period": 23,
+        "max_period": 12,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -2900,7 +2900,22 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2146",
+        "bank_url": "https://www.patriabank.ro/d/2151",
+        "deposit_interest_rate": {
+            "value": 7.31,
+            "history": []
+        },
+        "interest_after_min": 7.31,
+        "min_period": 13,
+        "max_period": 13,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Se poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele</b>"
+    },
+    {
+        "bank_name": "Patria",
+        "bank_url": "https://www.patriabank.ro/d/2151",
         "deposit_interest_rate": {
             "value": 5.25,
             "history": [
