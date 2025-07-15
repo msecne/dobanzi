@@ -634,12 +634,17 @@
     },
     {
         "bank_name": "BRD",
-        "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/conturi-de-economii/atucont",
+        "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/conturi-de-economii/yousave",
         "deposit_interest_rate": {
-            "value": 2.00,
-            "history": []
+            "value": 3.50,
+            "history": [
+                {
+                    "value": 2.00,
+                    "date": "2025-07-12"
+                }
+            ]
         },
-        "interest_after_min": 2.00,
+        "interest_after_min": 3.50,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 1,
@@ -651,16 +656,21 @@
         "bank_name": "BRD",
         "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/conturi-de-economii/economii-pentru-copii",
         "deposit_interest_rate": {
-            "value": 2.50,
-            "history": []
+            "value": 4.00,
+            "history": [
+                {
+                    "value": 2.50,
+                    "date": "2025-07-12"
+                }
+            ]
         },
-        "interest_after_min": 2.50,
-        "min_period": 12,
+        "interest_after_min": 4.00,
+        "min_period": 1,
         "max_period": 999,
         "min_amount": 1,
-        "max_amount": 200000,
-        "can_withdraw": "false",
-        "extra_info": "Cont de economii pentru copii\nLa vârsta de 18 ani, suma economisită se transformă într-un cont Atucont, deschis tot pe numele copilului tău"
+        "max_amount": 500000,
+        "can_withdraw": "true",
+        "extra_info": "Cont de economii pentru copii\nSe poate deschide doar in agentie"
     },
     {
         "bank_name": "BCR",
@@ -1071,7 +1081,7 @@
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online prin monet\nSe poate opta pentru plata lunara a dobanzii"
+        "extra_info": "Depozit online prin monet\nSe poate opta pentru plata dobanzii lunar"
     },
     {
         "bank_name": "Credit Europe Bank",
@@ -1103,7 +1113,7 @@
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online prin monet\nSe poate opta pentru plata lunara a dobanzii"
+        "extra_info": "Depozit online prin monet\nSe poate opta pentru plata dobanzii lunar"
     },
     {
         "bank_name": "Credit Europe Bank",
@@ -1135,7 +1145,7 @@
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online prin monet\nSe poate opta pentru plata lunara a dobanzii"
+        "extra_info": "Depozit online prin monet\nSe poate opta pentru plata dobanzii lunar"
     },
     {
         "bank_name": "Credit Europe Bank",
@@ -1175,7 +1185,7 @@
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online prin monet\nSe poate opta pentru plata lunara a dobanzii"
+        "extra_info": "Depozit online prin monet\nSe poate opta pentru plata dobanzii lunar"
     },
     {
         "bank_name": "Credit Europe Bank",
@@ -1207,7 +1217,7 @@
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online prin monet\nSe poate opta pentru plata lunara a dobanzii"
+        "extra_info": "Depozit online prin monet\nSe poate opta pentru plata dobanzii lunar"
     },
     {
         "bank_name": "Exim",
@@ -1351,7 +1361,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic. Permite plata lunara a dobanzii dar cu o valoare mai mica."
+        "extra_info": "Depozit clasic. Permite plata dobanzii lunar dar cu o valoare mai mica."
     },
     {
         "bank_name": "Exim",
@@ -1431,7 +1441,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic. Permite plata lunara a dobanzii dar cu o valoare mai mica."
+        "extra_info": "Depozit clasic. Permite plata dobanzii lunar dar cu o valoare mai mica."
     },
     {
         "bank_name": "Exim",
@@ -3899,7 +3909,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\n<b>Se poate opta pentru incasarea lunara a dobanzii cu o penalizare de 0,25%</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\n<b>Se poate opta pentru plata dobanzii lunar cu o penalizare de 0,25%</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Banca Transilvania",
@@ -3927,7 +3937,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\n<b>Se poate opta pentru incasarea lunara a dobanzii cu o penalizare de 0,25%</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\n<b>Se poate opta pentru plata dobanzii lunar cu o penalizare de 0,25%</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Banca Transilvania",
@@ -4393,7 +4403,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\nSe poate opta pentru plata lunara in contul curent a dobanzii, cu o valoare mai mica a dobanzii\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\nSe poate opta pentru plata dobanzii lunar in contul curent, cu o valoare mai mica a dobanzii\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Salt Bank",
