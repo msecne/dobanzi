@@ -3015,7 +3015,7 @@
         "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/landing/prosave/",
         "deposit_interest_rate": {
-            "value": 7.50,
+            "value": 7.00,
             "history": [
                 {
                     "value": 6.25,
@@ -3024,22 +3024,26 @@
                 {
                     "value": 7.00,
                     "date": "2026-07-03"
+                },
+                {
+                    "value": 7.50,
+                    "date": "2026-07-26"
                 }
             ]
         },
-        "interest_after_min": 7.50,
+        "interest_after_min": 7.00,
         "min_period": 3,
         "max_period": 3,
         "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 30 iulie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 8 august 2025</b>"
     },
     {
         "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/landing/prosave/",
         "deposit_interest_rate": {
-            "value": 7.00,
+            "value": 7.30,
             "history": [
                 {
                     "value": 7.00,
@@ -3068,16 +3072,20 @@
                 {
                     "value": 6.50,
                     "date": "2025-05-10"
+                },
+                {
+                    "value": 7.00,
+                    "date": "2026-07-26"
                 }
             ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 7.30,
         "min_period": 6,
         "max_period": 6,
         "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 30 iulie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 8 august 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -3097,7 +3105,7 @@
         "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 30 iulie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 8 august 2025</b>"
     },
     {
         "bank_name": "ProCredit",
