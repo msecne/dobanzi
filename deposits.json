@@ -2563,7 +2563,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 5.00,
+            "value": 4.75,
             "history": [
                 {
                     "value": 5.25,
@@ -2588,10 +2588,14 @@
                 {
                     "value": 4.75,
                     "date": "2025-07-01"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2025-07-28"
                 }
             ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 4.75,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 100,
@@ -2663,7 +2667,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 7.00,
+            "value": 6.50,
             "history": [
                 {
                     "value": 6.00,
@@ -2684,10 +2688,14 @@
                 {
                     "value": 6.50,
                     "date": "2025-07-01"
+                },
+                {
+                    "value": 7.00,
+                    "date": "2025-07-28"
                 }
             ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 6.50,
         "min_period": 7,
         "max_period": 7,
         "min_amount": 100,
@@ -2771,7 +2779,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 7.58,
+            "value": 6.77,
             "history": [
                 {
                     "value": 6.50,
@@ -2788,10 +2796,14 @@
                 {
                     "value": 6.50,
                     "date": "2025-07-01"
+                },
+                {
+                    "value": 7.58,
+                    "date": "2025-07-28"
                 }
             ]
         },
-        "interest_after_min": 7.58,
+        "interest_after_min": 6.77,
         "min_period": 13,
         "max_period": 13,
         "min_amount": 100,
