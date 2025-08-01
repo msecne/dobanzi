@@ -913,7 +913,7 @@
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online\n<b>Campanie perioada 10 - 30 iunie 2025</b>\nDobanda se plateste si capitalizeaza anual"
+        "extra_info": "Depozit online\n<b>Campanie pana la 29 august 2025</b>\nDobanda se plateste si capitalizeaza anual"
     },
     {
         "bank_name": "CEC",
@@ -1241,7 +1241,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\n<b>Promotie pana pe 31 iulie 2025 pentru sume noi aduse in cont si doar la ghiseu</b>"
+        "extra_info": "Depozit clasic\n<b>Promotie pana pe 31 august 2025 pentru sume noi aduse in cont si doar la ghiseu</b>"
     },
     {
         "bank_name": "Exim",
@@ -2813,7 +2813,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2151",
+        "bank_url": "https://www.patriabank.ro/d/2150",
         "deposit_interest_rate": {
             "value": 6.57,
             "history": [
@@ -2849,7 +2849,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2151",
+        "bank_url": "https://www.patriabank.ro/d/2150",
         "deposit_interest_rate": {
             "value": 6.57,
             "history": [
@@ -2890,7 +2890,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2151",
+        "bank_url": "https://www.patriabank.ro/d/2150",
         "deposit_interest_rate": {
             "value": 6.75,
             "history": [
@@ -2938,7 +2938,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2151",
+        "bank_url": "https://www.patriabank.ro/d/2150",
         "deposit_interest_rate": {
             "value": 6.75,
             "history": [
@@ -2982,7 +2982,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2151",
+        "bank_url": "https://www.patriabank.ro/d/2150",
         "deposit_interest_rate": {
             "value": 7.31,
             "history": []
@@ -2997,7 +2997,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2151",
+        "bank_url": "https://www.patriabank.ro/d/2150",
         "deposit_interest_rate": {
             "value": 5.25,
             "history": [
@@ -4290,26 +4290,6 @@
         "interest_after_min": 4.30,
         "min_period": 6,
         "max_period": 8,
-        "min_amount": 100,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
-    },
-    {
-        "bank_name": "BRD",
-        "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
-        "deposit_interest_rate": {
-            "value": 6.25,
-            "history": [
-                {
-                    "value": 5.25,
-                    "date": "2025-05-27"
-                }
-            ]
-        },
-        "interest_after_min": 6.25,
-        "min_period": 9,
-        "max_period": 9,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
