@@ -1855,7 +1855,7 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-e-depozit-la-termen-prin-internet-si-mobile-banking/",
         "deposit_interest_rate": {
-            "value": 9.20,
+            "value": 9.644,
             "history": [
                 {
                     "value": 8.25,
@@ -1867,7 +1867,7 @@
                 }
             ]
         },
-        "interest_after_min": 9.20,
+        "interest_after_min": 9.644,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 5000,
@@ -1879,7 +1879,7 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-e-depozit-la-termen-prin-internet-si-mobile-banking/",
         "deposit_interest_rate": {
-            "value": 7.25,
+            "value": 7.472,
             "history": [
                 {
                     "value": 6.40,
@@ -1891,7 +1891,7 @@
                 }
             ]
         },
-        "interest_after_min": 7.25,
+        "interest_after_min": 7.472,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 5000,
@@ -1903,7 +1903,7 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-e-depozit-la-termen-prin-internet-si-mobile-banking/",
         "deposit_interest_rate": {
-            "value": 6.30,
+            "value": 6.411,
             "history": [
                 {
                     "value": 5.50,
@@ -1915,7 +1915,7 @@
                 }
             ]
         },
-        "interest_after_min": 6.30,
+        "interest_after_min": 6.411,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 5000,
