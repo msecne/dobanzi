@@ -1241,7 +1241,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\n<b>Promotie pana pe 31 august 2025 pentru sume noi aduse in cont si doar la ghiseu</b>"
+        "extra_info": "Depozit clasic\n<b>Promotie pana la 31 august 2025 pentru sume noi aduse in cont si doar la ghiseu</b>"
     },
     {
         "bank_name": "Exim",
@@ -1926,9 +1926,9 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-5/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-6/",
         "deposit_interest_rate": {
-            "value": 7.75,
+            "value": 7.40,
             "history": [
                 {
                     "value": 7.75,
@@ -1961,10 +1961,14 @@
                 {
                     "value": 7.50,
                     "date": "2025-07-14"
+                },
+                {
+                    "value": 7.75,
+                    "date": "2025-08-20"
                 }
             ]
         },
-        "interest_after_min": 7.75,
+        "interest_after_min": 7.40,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
@@ -1974,9 +1978,9 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-5/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-6/",
         "deposit_interest_rate": {
-            "value": 7.75,
+            "value": 7.30,
             "history": [
                 {
                     "value": 8.05,
@@ -2005,10 +2009,14 @@
                 {
                     "value": 7.50,
                     "date": "2025-07-14"
+                },
+                {
+                    "value": 7.75,
+                    "date": "2025-08-20"
                 }
             ]
         },
-        "interest_after_min": 7.75,
+        "interest_after_min": 7.30,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
@@ -2018,9 +2026,9 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-5/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-6/",
         "deposit_interest_rate": {
-            "value": 7.25,
+            "value": 7.20,
             "history": [
                 {
                     "value": 8.50,
@@ -2053,10 +2061,14 @@
                 {
                     "value": 7.00,
                     "date": "2025-07-14"
+                },
+                {
+                    "value": 7.25,
+                    "date": "2025-08-20"
                 }
             ]
         },
-        "interest_after_min": 7.25,
+        "interest_after_min": 7.20,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
@@ -2066,9 +2078,9 @@
     },
     {
         "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-5/",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente/oferta-campanie-depozite-small-fresh-funds-ron-6/",
         "deposit_interest_rate": {
-            "value": 7.25,
+            "value": 7.20,
             "history": [
                 {
                     "value": 8.00,
@@ -2101,10 +2113,14 @@
                 {
                     "value": 7.00,
                     "date": "2025-07-14"
+                },
+                {
+                    "value": 7.25,
+                    "date": "2025-08-20"
                 }
             ]
         },
-        "interest_after_min": 7.25,
+        "interest_after_min": 7.20,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 500,
@@ -2825,7 +2841,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2150",
+        "bank_url": "https://www.patriabank.ro/d/2172",
         "deposit_interest_rate": {
             "value": 6.57,
             "history": [
@@ -2861,7 +2877,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2150",
+        "bank_url": "https://www.patriabank.ro/d/2172",
         "deposit_interest_rate": {
             "value": 6.57,
             "history": [
@@ -2902,7 +2918,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2150",
+        "bank_url": "https://www.patriabank.ro/d/2172",
         "deposit_interest_rate": {
             "value": 6.75,
             "history": [
@@ -2950,7 +2966,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2150",
+        "bank_url": "https://www.patriabank.ro/d/2172",
         "deposit_interest_rate": {
             "value": 6.75,
             "history": [
@@ -2994,7 +3010,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2150",
+        "bank_url": "https://www.patriabank.ro/d/2172",
         "deposit_interest_rate": {
             "value": 7.31,
             "history": []
@@ -3009,7 +3025,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2150",
+        "bank_url": "https://www.patriabank.ro/d/2172",
         "deposit_interest_rate": {
             "value": 5.25,
             "history": [
@@ -3061,7 +3077,7 @@
         "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 8 august 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 9 septembrie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -3109,7 +3125,7 @@
         "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 8 august 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 9 septembrie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -3129,7 +3145,7 @@
         "min_amount": 5000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana pe 8 august 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 9 septembrie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -4660,70 +4676,10 @@
         "extra_info": "Depozit deschis doar online pentru copii Vista Kids\nSe pot depunde bani ulterior oricand\nDobanda se acorda la scadenta anuala"
     },
     {
-        "bank_name": "Ministerul Finantelor - Fidelis",
-        "bank_url": "https://mfinante.gov.ro/web/trezor/titluri-de-stat-fidelis",
-        "deposit_interest_rate": {
-            "value": 6.75,
-            "history": [
-                {
-                    "value": 6.25,
-                    "date": "2023-10-23"
-                },
-                {
-                    "value": 6.10,
-                    "date": "2023-12-23"
-                },
-                {
-                    "value": 6.00,
-                    "date": "2024-02-23"
-                },
-                {
-                    "value": 6.00,
-                    "date": "2024-04-23"
-                },
-                {
-                    "value": 6.00,
-                    "date": "2024-06-23"
-                },
-                {
-                    "value": 5.80,
-                    "date": "2024-08-23"
-                },
-                {
-                    "value": 5.85,
-                    "date": "2024-10-23"
-                },
-                {
-                    "value": 6.45,
-                    "date": "2024-12-23"
-                },
-                {
-                    "value": 6.95,
-                    "date": "2025-02-23"
-                },
-                {
-                    "value": 6.80,
-                    "date": "2025-03-23"
-                },
-                {
-                    "value": 6.60,
-                    "date": "2025-04-23"
-                }
-            ]
-        },
-        "interest_after_min": 6.75,
-        "min_period": 12,
-        "max_period": 12,
-        "min_amount": 5000,
-        "max_amount": 999999,
-        "can_withdraw": "false",
-        "extra_info": "Titluri de stat ce se pot cumpara de pe bursa\n<b>Nu se retine si plateste impozit!</b>\nDobanda se plateste anual\nSe pot vinde inainte de termen, dar posibil sa nu se recupereze toata suma depusa\nDobanda se primeste la vanzare"
-    },
-    {
         "bank_name": "Ministerul Finantelor - Tezaur",
         "bank_url": "https://mfinante.gov.ro/web/trezor/titluri-de-stat-tezaur",
         "deposit_interest_rate": {
-            "value": 7.20,
+            "value": 6.90,
             "history": [
                 {
                     "value": 6.10,
@@ -4799,7 +4755,7 @@
                 }
             ]
         },
-        "interest_after_min": 7.20,
+        "interest_after_min": 6.90,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 100,
