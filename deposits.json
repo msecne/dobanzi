@@ -904,16 +904,21 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 6.10,
-            "history": []
+            "value": 4.95,
+            "history": [
+                {
+                    "value": 6.10,
+                    "date": "2025-08-29"
+                }
+            ]
         },
-        "interest_after_min": 6.10,
+        "interest_after_min": 4.95,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 300,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit online\n<b>Campanie pana la 29 august 2025</b>\nDobanda se plateste si capitalizeaza anual"
+        "extra_info": "Depozit online\nDobanda se plateste si capitalizeaza anual"
     },
     {
         "bank_name": "CEC",
@@ -1241,7 +1246,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\n<b>Promotie pana la 31 august 2025 pentru sume noi aduse in cont si doar la ghiseu</b>"
+        "extra_info": "Depozit clasic\n<b>Promotie pana la 30 septembrie 2025 pentru sume noi aduse in cont si doar la ghiseu</b>"
     },
     {
         "bank_name": "Exim",
@@ -1974,7 +1979,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pana la 31.08.2025</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pana la 30.09.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -2022,7 +2027,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pana la 31.08.2025</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pana la 30.09.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -2074,7 +2079,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pana la 31.08.2025</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pana la 30.09.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -2126,7 +2131,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pana la 31.08.2025</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit doar in agentie\n<b>Valabil pentru depozitele noi pana la 30.09.2025</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
