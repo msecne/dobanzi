@@ -435,16 +435,21 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/content/dam/rbi/retail/eu/ro/documents/regulamente/2025/20250601-regulament-campanie-vino-la-raiffeisen-si-ai-5-la-suta-pe-an-dobanda-la-contul-tau-de-economii-in-lei/20250601-Regulament-campanie-vino-la-raiffeisen-si-ai-5-la-suta-pe-an-dobanda-la-contul-tau-de-economii-in-lei.pdf",
         "deposit_interest_rate": {
-            "value": 5.00,
-            "history": []
+            "value": 6.00,
+            "history": [
+                {
+                    "value": 5.00,
+                    "date": "2025-09-01"
+                }
+            ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 6.00,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont promotional de economii\n<b>Doar pentru clientii noi in perioada 01.06– 31.08.2025</b>\n<b>Dobanda garantata pe 1 an!</b>\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
+        "extra_info": "Cont promotional de economii\n<b>Doar pentru clientii noi pana la 07.12.2025</b>\n<b>Dobanda garantata pe 1 an!</b>\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "TBI",
@@ -1878,7 +1883,7 @@
         "min_amount": 5000,
         "max_amount": 100000,
         "can_withdraw": "false",
-        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 50.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 august 2025</b>"
+        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 50.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 15 ianuarie 2026</b>"
     },
     {
         "bank_name": "Garanti",
@@ -1902,7 +1907,7 @@
         "min_amount": 5000,
         "max_amount": 100000,
         "can_withdraw": "false",
-        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 80.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 august 2025</b>"
+        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 80.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 15 ianuarie 2026</b>"
     },
     {
         "bank_name": "Garanti",
@@ -1926,7 +1931,7 @@
         "min_amount": 5000,
         "max_amount": 100000,
         "can_withdraw": "false",
-        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 80.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 31 august 2025</b>"
+        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 80.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 15 ianuarie 2026</b>"
 
     },
     {
