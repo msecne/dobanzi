@@ -2503,7 +2503,7 @@
     },
     {
         "bank_name": "Intesa SanPaolo",
-        "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
+        "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/Dobanzi-produse-de-economisire-11.09.2025.pdf",
         "deposit_interest_rate": {
             "value": 7.50,
             "history": []
@@ -2514,7 +2514,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit promotional\n<b>Doar pentru fonduri noi</b>\nPromotie valabila pana la 31.12.2025"
+        "extra_info": "Depozit promotional\n<b>Doar pentru clientii noi care isi incaseaza salariul</b>\nPromotie valabila pana la 31.12.2025"
     },
     {
         "bank_name": "Intesa SanPaolo",
