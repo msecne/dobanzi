@@ -2518,7 +2518,7 @@
     },
     {
         "bank_name": "Intesa SanPaolo",
-        "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/Dobanzi-produse-de-economisire-01.07.2025.pdf",
+        "bank_url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/tarife-comisioane/Dobanzi-produse-de-economisire-11.09.2025.pdf",
         "deposit_interest_rate": {
             "value": 7.50,
             "history": []
@@ -2529,7 +2529,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit promo doar in agentie\n<b>Perioada 01.07.2025 - 30.09.2025 exclusiv cu opțiunea de prelungire cu capitalizare și exclusiv pentru sume noi!</b>"
+        "extra_info": "Depozit promo doar in agentie\n<b>Pana la 30.09.2025 exclusiv cu opțiunea de prelungire cu capitalizare și exclusiv pentru sume noi!</b>"
     },
     {
         "bank_name": "Intesa SanPaolo",
