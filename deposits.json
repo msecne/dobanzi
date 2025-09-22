@@ -924,15 +924,19 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 4.95,
+            "value": 6.10,
             "history": [
                 {
                     "value": 6.10,
                     "date": "2025-08-29"
+                },
+                {
+                    "value": 6.10,
+                    "date": "2025-09-20"
                 }
             ]
         },
-        "interest_after_min": 4.95,
+        "interest_after_min": 6.10,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 300,
@@ -4539,7 +4543,7 @@
         "bank_name": "Salt Bank",
         "bank_url": "https://salt.bank/depozite",
         "deposit_interest_rate": {
-            "value": 5.60,
+            "value": 5.80,
             "history": [
                 {
                     "value": 6.50,
@@ -4552,10 +4556,14 @@
                 {
                     "value": 5.70,
                     "date": "2024-11-28"
+                },
+                {
+                    "value": 5.60,
+                    "date": "2025-08-20"
                 }
             ]
         },
-        "interest_after_min": 5.60,
+        "interest_after_min": 5.80,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 1,
@@ -4567,21 +4575,21 @@
         "bank_name": "Salt Bank",
         "bank_url": "https://salt.bank/depozite",
         "deposit_interest_rate": {
-            "value": 6.50,
+            "value": 6.25,
             "history": [
                 {
                     "value": 6.50,
-                    "date": "2025-07-09"
+                    "date": "2025-09-20"
                 }
             ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.25,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 10,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit standard\n<b>Depozit de vacanta, perioada limitata</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit standard\n<b>Depozit special, perioada limitata</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Vista Bank",
