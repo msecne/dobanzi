@@ -4147,7 +4147,7 @@
         "bank_name": "Unicredit",
         "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzidepozite_1",
         "deposit_interest_rate": {
-            "value": 5.00,
+            "value": 6.00,
             "history": [
                 {
                     "value": 6.00,
@@ -4168,10 +4168,14 @@
                 {
                     "value": 5.30,
                     "date": "2024-09-15"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2025-09-10"
                 }
             ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 6.00,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
