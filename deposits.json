@@ -470,7 +470,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 8.00,
+            "value": 7.40,
             "history": [
                 {
                     "value": 6.20,
@@ -499,10 +499,14 @@
                 {
                     "value": 6.60,
                     "date": "2025-05-12"
+                },
+                {
+                    "value": 8.00,
+                    "date": "2025-09-25"
                 }
             ]
         },
-        "interest_after_min": 8.00,
+        "interest_after_min": 7.40,
         "min_period": 1,
         "max_period": 1,
         "min_amount": 1,
@@ -3509,7 +3513,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 7.00,
+            "value": 7.50,
             "history": [
                 {
                     "value": 7.15,
@@ -3546,10 +3550,14 @@
                 {
                     "value": 6.60,
                     "date": "2025-05-12"
+                },
+                {
+                    "value": 7.00,
+                    "date": "2025-09-25"
                 }
             ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 7.50,
         "min_period": 3,
         "max_period": 4,
         "min_amount": 100,
@@ -3621,7 +3629,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 6.45,
+            "value": 7.50,
             "history": [
                 {
                     "value": 7.75,
@@ -3650,10 +3658,14 @@
                 {
                     "value": 6.50,
                     "date": "2024-07-20"
+                },
+                {
+                    "value": 6.45,
+                    "date": "2025-09-25"
                 }
             ]
         },
-        "interest_after_min": 6.45,
+        "interest_after_min": 7.50,
         "min_period": 6,
         "max_period": 8,
         "min_amount": 100,
@@ -4824,3 +4836,4 @@
         "extra_info": "Titluri de stat ce se pot cumpara de la trezorerie, posta sau online ANAF\n<b>Nu se retine si plateste impozit!</b>\nDobanda se plateste anual\nSe pot vinde inainte de termen, dar se pierde toata dobanda"
     }
 ]
+        
