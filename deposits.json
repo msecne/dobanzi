@@ -4496,6 +4496,21 @@
         "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta\nSe poate opta pentru plata dobanzii lunar in contul curent, cu o valoare mai mica a dobanzii\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
+        "bank_name": "BRD",
+        "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/depozite/depozitul-la-termen",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 9,
+        "max_period": 9,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Promotie depozit clasic online\nPana la data de 31.10.2025\nDobanda se calculeaza si se plateste la scadenta"
+    },
+    {
         "bank_name": "Salt Bank",
         "bank_url": "https://salt.bank/depozite",
         "deposit_interest_rate": {
@@ -4836,4 +4851,3 @@
         "extra_info": "Titluri de stat ce se pot cumpara de la trezorerie, posta sau online ANAF\n<b>Nu se retine si plateste impozit!</b>\nDobanda se plateste anual\nSe pot vinde inainte de termen, dar se pierde toata dobanda"
     }
 ]
-        
