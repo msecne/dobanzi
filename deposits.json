@@ -278,33 +278,16 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/planul-de-acumulare.html",
         "deposit_interest_rate": {
-            "value": 5.00,
-            "history": [
-                {
-                    "value": 5.25,
-                    "date": "2024-01-31"
-                },
-                {
-                    "value": 5.00,
-                    "date": "2024-11-10"
-                },
-                {
-                    "value": 4.00,
-                    "date": "2025-01-10"
-                },
-                {
-                    "value": 4.25,
-                    "date": "2026-06-22"
-                }
-            ]
+            "value": 2.50,
+            "history": []
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 2.50,
         "min_period": 1,
         "max_period": 999,
-        "min_amount": 150,
+        "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Necesita plan de depunere lunara de min 150 lei\nSuma lunară maximă de economisit 10000\n<b>Nu se pot depunde ulterior alti bani</b>\nSe pot retrage bani oricand cu conditia de a pastra minimul\nValoarea din planul de acumulare se poate modifica de max 3 ori pe an\nDobanda se plateste si capitalizeaza la final de luna"
+        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza lunar"
     },
     {
         "bank_name": "Intesa SanPaolo",
