@@ -4557,7 +4557,7 @@
         "bank_name": "Salt Bank",
         "bank_url": "https://salt.bank/depozite",
         "deposit_interest_rate": {
-            "value": 5.80,
+            "value": 6.25,
             "history": [
                 {
                     "value": 6.50,
@@ -4574,10 +4574,14 @@
                 {
                     "value": 5.60,
                     "date": "2025-08-20"
+                },
+                {
+                    "value": 5.80,
+                    "date": "2025-10-15"
                 }
             ]
         },
-        "interest_after_min": 5.80,
+        "interest_after_min": 6.25,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 1,
@@ -4749,7 +4753,7 @@
         "bank_name": "Ministerul Finantelor - Tezaur",
         "bank_url": "https://mfinante.gov.ro/web/trezor/titluri-de-stat-tezaur",
         "deposit_interest_rate": {
-            "value": 6.90,
+            "value": 6.95,
             "history": [
                 {
                     "value": 6.10,
@@ -4822,10 +4826,14 @@
                 {
                     "value": 6.75,
                     "date": "2025-06-06"
+                },
+                {
+                    "value": 6.90,
+                    "date": "2025-10-06"
                 }
             ]
         },
-        "interest_after_min": 6.90,
+        "interest_after_min": 6.95,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 100,
