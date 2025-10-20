@@ -2872,7 +2872,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2172",
+        "bank_url": "https://www.patriabank.ro/d/2206",
         "deposit_interest_rate": {
             "value": 6.57,
             "history": [
@@ -2908,7 +2908,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2172",
+        "bank_url": "https://www.patriabank.ro/d/2206",
         "deposit_interest_rate": {
             "value": 6.57,
             "history": [
@@ -2949,7 +2949,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2172",
+        "bank_url": "https://www.patriabank.ro/d/2206",
         "deposit_interest_rate": {
             "value": 6.75,
             "history": [
@@ -2997,7 +2997,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2172",
+        "bank_url": "https://www.patriabank.ro/d/2206",
         "deposit_interest_rate": {
             "value": 6.75,
             "history": [
@@ -3041,12 +3041,17 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2172",
+        "bank_url": "https://www.patriabank.ro/d/2206",
         "deposit_interest_rate": {
-            "value": 7.31,
-            "history": []
+            "value": 6.75,
+            "history": [
+                {
+                    "value": 7.31,
+                    "date": "2025-10-17"
+                }
+            ]
         },
-        "interest_after_min": 7.31,
+        "interest_after_min": 6.75,
         "min_period": 13,
         "max_period": 13,
         "min_amount": 100,
@@ -3056,7 +3061,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2172",
+        "bank_url": "https://www.patriabank.ro/d/2206",
         "deposit_interest_rate": {
             "value": 5.25,
             "history": [
@@ -3086,7 +3091,7 @@
         "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/landing/prosave/",
         "deposit_interest_rate": {
-            "value": 6.75,
+            "value": 7.00,
             "history": [
                 {
                     "value": 6.25,
@@ -3094,22 +3099,26 @@
                 },
                 {
                     "value": 7.00,
-                    "date": "2026-07-03"
+                    "date": "2025-07-03"
                 },
                 {
                     "value": 7.50,
-                    "date": "2026-07-26"
+                    "date": "2025-07-26"
                 },
                 {
                     "value": 7.00,
-                    "date": "2026-09-15"
+                    "date": "2025-09-15"
+                },
+                {
+                    "value": 6.75,
+                    "date": "2025-10-17"
                 }
             ]
         },
-        "interest_after_min": 6.75,
+        "interest_after_min": 7.00,
         "min_period": 3,
         "max_period": 3,
-        "min_amount": 5000,
+        "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 30 octombrie 2025</b>"
@@ -3157,7 +3166,7 @@
         "interest_after_min": 7.30,
         "min_period": 6,
         "max_period": 6,
-        "min_amount": 5000,
+        "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 30 octombrie 2025</b>"
@@ -3181,7 +3190,7 @@
         "interest_after_min": 7.00,
         "min_period": 12,
         "max_period": 12,
-        "min_amount": 5000,
+        "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 30 octombrie 2025</b>"
@@ -4058,7 +4067,7 @@
         "bank_name": "Banca Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
         "deposit_interest_rate": {
-            "value": 5.20,
+            "value": 5.50,
             "history": [
                 {
                     "value": 6.25,
@@ -4071,10 +4080,14 @@
                 {
                     "value": 5.50,
                     "date": "2024-07-26"
+                },
+                {
+                    "value": 5.20,
+                    "date": "2025-10-17"
                 }
             ]
         },
-        "interest_after_min": 5.20,
+        "interest_after_min": 5.50,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 100,
@@ -4086,7 +4099,7 @@
         "bank_name": "Banca Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
         "deposit_interest_rate": {
-            "value": 5.25,
+            "value": 6.35,
             "history": [
                 {
                     "value": 6.35,
@@ -4099,10 +4112,14 @@
                 {
                     "value": 5.55,
                     "date": "2024-07-26"
+                },
+                {
+                    "value": 5.25,
+                    "date": "2025-10-17"
                 }
             ]
         },
-        "interest_after_min": 5.25,
+        "interest_after_min": 6.35,
         "min_period": 24,
         "max_period": 35,
         "min_amount": 100,
@@ -4114,7 +4131,7 @@
         "bank_name": "Banca Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
         "deposit_interest_rate": {
-            "value": 5.35,
+            "value": 6.75,
             "history": [
                 {
                     "value": 6.45,
@@ -4127,10 +4144,14 @@
                 {
                     "value": 5.65,
                     "date": "2024-07-26"
+                },
+                {
+                    "value": 5.35,
+                    "date": "2025-10-17"
                 }
             ]
         },
-        "interest_after_min": 5.35,
+        "interest_after_min": 6.75,
         "min_period": 36,
         "max_period": 999,
         "min_amount": 100,
