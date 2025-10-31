@@ -3966,7 +3966,7 @@
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
+        "bank_url": "https://techventures.bank/persoane-fizice/depozite-cu-depuneri-ulteriorare",
         "deposit_interest_rate": {
             "value": 6.25,
             "history": []
@@ -4163,7 +4163,7 @@
         "bank_name": "Unicredit",
         "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzidepozite_1",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 5.20,
             "history": [
                 {
                     "value": 6.00,
@@ -4188,10 +4188,14 @@
                 {
                     "value": 5.00,
                     "date": "2025-09-10"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2025-10-30"
                 }
             ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 5.20,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
@@ -4203,7 +4207,7 @@
         "bank_name": "Unicredit",
         "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzidepozite_1",
         "deposit_interest_rate": {
-            "value": 6.50,
+            "value": 5.50,
             "history": [
                 {
                     "value": 6.20,
@@ -4228,10 +4232,14 @@
                 {
                     "value": 5.10,
                     "date": "2025-07-15"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2025-10-30"
                 }
             ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 5.50,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
@@ -4243,7 +4251,7 @@
         "bank_name": "Unicredit",
         "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzidepozite_1",
         "deposit_interest_rate": {
-            "value": 5.20,
+            "value": 5.50,
             "history": [
                 {
                     "value": 6.50,
@@ -4264,10 +4272,14 @@
                 {
                     "value": 5.50,
                     "date": "2024-09-15"
+                },
+                {
+                    "value": 5.20,
+                    "date": "2025-10-30"
                 }
             ]
         },
-        "interest_after_min": 5.20,
+        "interest_after_min": 5.50,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 100,
@@ -4512,7 +4524,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Promotie depozit clasic online\nPana la data de 31.10.2025\nDobanda se calculeaza si se plateste la scadenta"
+        "extra_info": "Promotie depozit clasic online\nPana la data de 30.01.2026\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "Salt Bank",
