@@ -276,21 +276,6 @@
     },
     {
         "bank_name": "Intesa SanPaolo",
-        "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/planul-de-acumulare.html",
-        "deposit_interest_rate": {
-            "value": 2.50,
-            "history": []
-        },
-        "interest_after_min": 2.50,
-        "min_period": 1,
-        "max_period": 999,
-        "min_amount": 1,
-        "max_amount": 999999,
-        "can_withdraw": "true",
-        "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza lunar"
-    },
-    {
-        "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/dam/jcr:a93256da-8cb5-4577-b0c7-0638a5418a84/Conditii%20oferta%20dobanda_cont%20curent_depozit%206%20luni.pdf",
         "deposit_interest_rate": {
             "value": 4.00,
@@ -1257,7 +1242,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\n<b>Promotie pana la 31 octombrie 2025 pentru sume noi aduse in cont si doar la ghiseu</b>"
+        "extra_info": "Depozit clasic\n<b>Promotie pana la 28 noiembrie 2025 pentru sume noi aduse in cont si doar la ghiseu</b>"
     },
     {
         "bank_name": "Exim",
@@ -3121,7 +3106,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 30 octombrie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 7 noiembrie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -3169,7 +3154,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 30 octombrie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 7 noiembrie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
@@ -3193,7 +3178,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 30 octombrie 2025</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 7 noiembrie 2025</b>"
     },
     {
         "bank_name": "ProCredit",
