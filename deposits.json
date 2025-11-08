@@ -2680,6 +2680,21 @@
         "extra_info": "Depozit clasic online\nPlata dobanzii se face la scadenta\n<b>Se pot retrage bani cu o penalizare de 75% din dobanda pina in acel moment</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
+    "bank_name": "Libra",
+        "bank_url": "https://www.librabank.ro/black-friday-2025",
+        "deposit_interest_rate": {
+            "value": 6.30,
+            "history": []
+        },
+        "interest_after_min": 6.30,
+        "min_period": 3,
+        "max_period": 3,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit promo online\nPlata dobanzii se face la scadenta\n<b>Promo in perioada 7.11.2025 - 14.11.2025</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
+    },
+    {
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
