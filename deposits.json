@@ -416,13 +416,17 @@
     },
     {
         "bank_name": "Raiffeisen",
-        "bank_url": "https://www.raiffeisen.ro/content/dam/rbi/retail/eu/ro/documents/regulamente/2025/20250819-regulament-promotie-card-debit-bonus-300.sv.pdf",
+        "bank_url": "https://www.raiffeisen.ro/content/dam/rbi/retail/eu/ro/documents/regulamente/2025/20251208-regulamentul-campaniei-promotionale-vino-la-raiffeisen-si-ai-5-pe-an-dobanda-la-contul-tau-de-economii-in-lei/20251208-regulamentul-campaniei-promotionale-vino-la-raiffeisen-si-ai-5-pe-an-dobanda-la-contul-tau-de-economii-in-lei.pdf",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 5.00,
             "history": [
                 {
                     "value": 5.00,
                     "date": "2025-09-01"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2025-12-08"
                 }
             ]
         },
@@ -432,7 +436,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont promotional de economii\n<b>Doar pentru clientii noi pana la 07.12.2025</b>\n<b>Dobanda garantata pe 1 an!</b>\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
+        "extra_info": "Cont promotional de economii\n<b>Doar pentru clientii noi pana la 02.02 2026</b>\n<b>Dobanda garantata pana la 31.05.2026</b>\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "TBI",
