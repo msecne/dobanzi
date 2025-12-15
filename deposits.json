@@ -1226,7 +1226,7 @@
     },
     {
         "bank_name": "Exim",
-        "bank_url": "https://www.eximbank.ro/2024/10/14/depozitul-plus-lei/",
+        "bank_url": "https://www.eximbank.ro/2025/12/12/depozitul-plus-lei/",
         "deposit_interest_rate": {
             "value": 7.00,
             "history": [
@@ -1246,7 +1246,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\n<b>Promotie pana la 28 noiembrie 2025 pentru sume noi aduse in cont si doar la ghiseu</b>"
+        "extra_info": "Depozit clasic\n<b>Promotie pana la 30 ianuarie 2026 pentru sume noi aduse in cont si doar la ghiseu</b>"
     },
     {
         "bank_name": "Exim",
