@@ -155,8 +155,8 @@
         "extra_info": "Nu se pot retrage banii fara a pierde dobanda\nCont cu depuneri ulterioare\nTrebuie facut online\nSe pot depunde bani suplimentar oricand\nDobanda se acorda la finalul perioadei de 12 luni\nsuma minimă constituire: 500 de lei\nsuma maximă constituire: 200.000 lei\nsuma minimă depunere ulterioară lunara: 100 de lei"
     },
     {
-        "bank_name": "Credit Europe Bank",
-        "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Contul-de-economii",
+        "bank_name": "Nexent Bank",
+        "bank_url": "https://www.nexentbank.ro/persoane-fizice/Economii/Contul-de-economii",
         "deposit_interest_rate": {
             "value": 3.50,
             "history": [
@@ -1034,8 +1034,8 @@
         "extra_info": "Depozit online\nDobanda se plateste si capitalizeaza anual"
     },
     {
-        "bank_name": "Credit Europe Bank",
-        "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
+        "bank_name": "Nexent Bank",
+        "bank_url": "https://www.nexentbank.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
             "value": 4.75,
             "history": [
@@ -1074,8 +1074,8 @@
         "extra_info": "Depozit online prin monet\nSe poate opta pentru plata dobanzii lunar"
     },
     {
-        "bank_name": "Credit Europe Bank",
-        "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
+        "bank_name": "Nexent Bank",
+        "bank_url": "https://www.nexentbank.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
             "value": 5.50,
             "history": [
@@ -1106,8 +1106,8 @@
         "extra_info": "Depozit online prin monet\nSe poate opta pentru plata dobanzii lunar"
     },
     {
-        "bank_name": "Credit Europe Bank",
-        "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
+        "bank_name": "Nexent Bank",
+        "bank_url": "https://www.nexentbank.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
             "value": 5.75,
             "history": [
@@ -1138,8 +1138,8 @@
         "extra_info": "Depozit online prin monet\nSe poate opta pentru plata dobanzii lunar"
     },
     {
-        "bank_name": "Credit Europe Bank",
-        "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
+        "bank_name": "Nexent Bank",
+        "bank_url": "https://www.nexentbank.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
             "value": 5.75,
             "history": [
@@ -1178,8 +1178,8 @@
         "extra_info": "Depozit online prin monet\nSe poate opta pentru plata dobanzii lunar"
     },
     {
-        "bank_name": "Credit Europe Bank",
-        "bank_url": "https://www.crediteurope.ro/persoane-fizice/Economii/Depozite-la-termen",
+        "bank_name": "Nexent Bank",
+        "bank_url": "https://www.nexentbank.ro/persoane-fizice/Economii/Depozite-la-termen",
         "deposit_interest_rate": {
             "value": 5.50,
             "history": [
