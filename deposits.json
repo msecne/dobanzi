@@ -272,7 +272,7 @@
         "min_amount": 150,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Doar pentru clientii noi care incaseaza salariul\nSuma maxima 10.000 lei\nPromotie pana la 31.12.2025"
+        "extra_info": "<b>Doar pentru clientii noi care incaseaza salariul</b>\nSuma maxima 10.000 lei\nPromotie pana la 31.12.2025"
     },
     {
         "bank_name": "Libra",
@@ -2829,6 +2829,22 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
+            "value": 5.70,
+            "history": [
+            ]
+        },
+        "interest_after_min": 5.70,
+        "min_period": 3,
+        "max_period": 3,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "<b>Doar pentru clientii ce incaseaza minim 2000 lei in cont</b>\nDepozit clasic online\nPlata dobanzii se face la scadenta"
+    },
+    {
+        "bank_name": "Raiffeisen",
+        "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
+        "deposit_interest_rate": {
             "value": 5.20,
             "history": [
                 {
@@ -2877,6 +2893,22 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
+            "value": 5.50,
+            "history": [
+            ]
+        },
+        "interest_after_min": 5.50,
+        "min_period": 12,
+        "max_period": 23,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "<b>Doar pentru clientii ce incaseaza minim 2000 lei in cont</b>\nDepozit clasic online\nPlata dobanzii se face la scadenta"
+    },
+    {
+        "bank_name": "Raiffeisen",
+        "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
+        "deposit_interest_rate": {
             "value": 6.30,
             "history": [
                 {
@@ -2909,10 +2941,15 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/ro/persoane-fizice/produsele-noastre/economii/depozit-fresh-money.html#mai-multe-despre-depozit",
         "deposit_interest_rate": {
-            "value": 6.50,
-            "history": []
+            "value": 6.30,
+            "history": [
+                {
+                    "value": 6.50,
+                    "date": "2025-12-15"
+                }
+            ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.30,
         "min_period": 4,
         "max_period": 4,
         "min_amount": 500,
@@ -2934,6 +2971,21 @@
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Flexidepozit online\nDepozit cu depuneri ulterioare\nPlata dobanzii se face la scadenta\nSe pot retrage maxim 20% din banii depusi o singura data"
+    },
+    {
+        "bank_name": "Raiffeisen",
+        "bank_url": "https://www.raiffeisen.ro/ro/persoane-fizice/produsele-noastre/economii/depozit-cu-depuneri-ulterioare.html",
+        "deposit_interest_rate": {
+            "value": 5.80,
+            "history": []
+        },
+        "interest_after_min": 5.80,
+        "min_period": 6,
+        "max_period": 6,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "<b>Doar pentru clientii ce incaseaza minim 2000 lei in cont</b>\nDepozit clasic online\nPlata dobanzii se face la scadenta"
     },
     {
         "bank_name": "TBI",
