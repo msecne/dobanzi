@@ -488,7 +488,7 @@
     },
     {
         "bank_name": "Banca Transilvania",
-        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/cont-de-economii",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
             "value": 3.00,
             "history": [
@@ -516,7 +516,7 @@
     },
     {
         "bank_name": "Banca Transilvania",
-        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/cont-de-economii",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
             "value": 3.10,
             "history": [
@@ -544,7 +544,7 @@
     },
     {
         "bank_name": "Banca Transilvania",
-        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/cont-de-economii",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
             "value": 3.20,
             "history": [
@@ -572,7 +572,7 @@
     },
     {
         "bank_name": "Banca Transilvania",
-        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/cont-de-economii",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
             "value": 3.35,
             "history": [
@@ -3467,7 +3467,7 @@
     },
     {
         "bank_name": "Banca Transilvania",
-        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
             "value": 4.20,
             "history": [
@@ -3495,7 +3495,7 @@
     },
     {
         "bank_name": "Banca Transilvania",
-        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
             "value": 4.70,
             "history": [
@@ -3523,7 +3523,7 @@
     },
     {
         "bank_name": "Banca Transilvania",
-        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
             "value": 4.95,
             "history": [
@@ -3551,7 +3551,7 @@
     },
     {
         "bank_name": "Banca Transilvania",
-        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
             "value": 5.50,
             "history": [
@@ -3583,7 +3583,7 @@
     },
     {
         "bank_name": "Banca Transilvania",
-        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
             "value": 6.35,
             "history": [
@@ -3615,7 +3615,7 @@
     },
     {
         "bank_name": "Banca Transilvania",
-        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/economii/depozit-la-termen",
+        "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
             "value": 6.75,
             "history": [
