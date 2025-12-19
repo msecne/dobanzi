@@ -2985,7 +2985,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "<b>Doar pentru clientii ce incaseaza minim 2000 lei in cont</b>\nDepozit clasic online\nPlata dobanzii se face la scadenta"
+        "extra_info": "<b>Doar pentru clientii Premium</b>\nDepozit clasic online\nPlata dobanzii se face la scadenta"
     },
     {
         "bank_name": "TBI",
