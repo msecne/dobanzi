@@ -16,7 +16,7 @@
     },
     {
         "bank_name": "BCR",
-        "bank_url": "https://cdn0.erstegroup.com/content/dam/ro/bcr/www_bcr_ro/Persoane-fizice/Documente-importante/BCR_Dobanzi_pentru_contul_curent_si_produsele_de_economisire_PF.pdf",
+        "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/contul-de-economii",
         "deposit_interest_rate": {
             "value": 2.0,
             "history": [
@@ -885,7 +885,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 6.10,
+            "value": 6.00,
             "history": [
                 {
                     "value": 6.10,
@@ -897,7 +897,7 @@
                 }
             ]
         },
-        "interest_after_min": 6.10,
+        "interest_after_min": 6.00,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 300,
