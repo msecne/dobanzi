@@ -598,6 +598,21 @@
         "extra_info": "Cont standard de economii"
     },
     {
+        "bank_name": "Unicredit",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/campanie-conturi-de-economii.html#contdeeconomiicufondurinoi_0",
+        "deposit_interest_rate": {
+            "value": 3.50,
+            "history": []
+        },
+        "interest_after_min": 3.50,
+        "min_period": 1,
+        "max_period": 999,
+        "min_amount": 1,
+        "max_amount": 999999,
+        "can_withdraw": "true",
+        "extra_info": "Cont promotional de economii\n<b>Doar pentru fonduri noi</b>\nPana la data de 31.03.2026"
+    },
+    {
         "bank_name": "BRD",
         "bank_url": "https://www.brd.ro/persoane-fizice/economisire-si-investitii/conturi-de-economii/yousave",
         "deposit_interest_rate": {
@@ -3684,7 +3699,7 @@
     },
     {
         "bank_name": "Unicredit",
-        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzidepozite_1",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/campanie-depozite-la-termen.html#dobanzistandarddepozitelatermen_1",
         "deposit_interest_rate": {
             "value": 5.50,
             "history": [
@@ -3721,6 +3736,36 @@
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
+    },
+    {
+        "bank_name": "Unicredit",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/campanie-depozite-la-termen.html#dobanzistandarddepozitelatermen_1",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 6,
+        "max_period": 6,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit promotional online\n<b>Doar pentru fonduri noi</b>\nPana la data de 31.03.2026\nDobanda se calculeaza si se plateste la scadenta"
+    },
+    {
+        "bank_name": "Unicredit",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/campanie-depozite-la-termen.html#dobanzistandarddepozitelatermen_1",
+        "deposit_interest_rate": {
+            "value": 6.30,
+            "history": []
+        },
+        "interest_after_min": 6.30,
+        "min_period": 12,
+        "max_period": 12,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit promotional online\n<b>Doar pentru fonduri noi</b>\nPana la data de 31.03.2026\nDobanda se calculeaza si se plateste la scadenta"
     },
     {
         "bank_name": "BRD",
