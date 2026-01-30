@@ -225,26 +225,6 @@
         "extra_info": "<b>Dobanda se calculeaza, capitalizeaza si livreaza zilnic!</b>\nNecesita plan de economisire lunara de min 50 lei"
     },
     {
-        "bank_name": "Garanti",
-        "bank_url": "https://youtu.be/OLgrkAjUAjM?t=74",
-        "deposit_interest_rate": {
-            "value": 3.0,
-            "history": [
-                {
-                    "value": 6.5,
-                    "date": "2023-10-19"
-                }
-            ]
-        },
-        "interest_after_min": 3.0,
-        "min_period": 6,
-        "max_period": 999,
-        "min_amount": 1,
-        "max_amount": 35000,
-        "can_withdraw": "true",
-        "extra_info": "Bonus economus nu mai exista\nDobanda bonus se da dupa 6 luni\nMaxim 35000 lei per cont\nSe pot deschide mai multe conturi bonus economus\nE nevoie de un plan de economisire lunara de min 50 lei, insa se pot adauga ulterior si alti bani oricand"
-    },
-    {
         "bank_name": "ING",
         "bank_url": "https://ing.ro/persoane-fizice/economii-si-investitii/ing-economii-si-depozite-la-termen",
         "deposit_interest_rate": {
@@ -1508,79 +1488,6 @@
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic"
-    },
-    {
-        "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-e-depozit-la-termen-prin-internet-si-mobile-banking/",
-        "deposit_interest_rate": {
-            "value": 9.644,
-            "history": [
-                {
-                    "value": 8.25,
-                    "date": "2025-05-27"
-                },
-                {
-                    "value": 8.55,
-                    "date": "2025-07-12"
-                }
-            ]
-        },
-        "interest_after_min": 9.644,
-        "min_period": 3,
-        "max_period": 5,
-        "min_amount": 5000,
-        "max_amount": 100000,
-        "can_withdraw": "false",
-        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 50.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 15 ianuarie 2026</b>"
-    },
-    {
-        "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-e-depozit-la-termen-prin-internet-si-mobile-banking/",
-        "deposit_interest_rate": {
-            "value": 7.472,
-            "history": [
-                {
-                    "value": 6.40,
-                    "date": "2025-05-27"
-                },
-                {
-                    "value": 6.70,
-                    "date": "2025-07-12"
-                }
-            ]
-        },
-        "interest_after_min": 7.472,
-        "min_period": 6,
-        "max_period": 11,
-        "min_amount": 5000,
-        "max_amount": 100000,
-        "can_withdraw": "false",
-        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 80.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 15 ianuarie 2026</b>"
-    },
-    {
-        "bank_name": "Garanti",
-        "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-e-depozit-la-termen-prin-internet-si-mobile-banking/",
-        "deposit_interest_rate": {
-            "value": 6.411,
-            "history": [
-                {
-                    "value": 5.50,
-                    "date": "2025-05-27"
-                },
-                {
-                    "value": 5.80,
-                    "date": "2025-07-12"
-                }
-            ]
-        },
-        "interest_after_min": 6.411,
-        "min_period": 12,
-        "max_period": 12,
-        "min_amount": 5000,
-        "max_amount": 100000,
-        "can_withdraw": "false",
-        "extra_info": "Promo pentru depozit facut online din aplicatie\n<b>Dobanda aplicabila la sume de max 80.000 lei</b>\nDobanda se acorda la scadenta\n<b>Pentru sumele noi pana la 15 ianuarie 2026</b>"
-
     },
     {
         "bank_name": "Garanti",
