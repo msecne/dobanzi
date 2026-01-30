@@ -584,7 +584,7 @@
     },
     {
         "bank_name": "Unicredit",
-        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/conturi-de-economii.html",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/campanie-conturi-de-economii.html#contdeeconomiicufondurinoi_0",
         "deposit_interest_rate": {
             "value": 2.50,
             "history": []
@@ -3588,9 +3588,9 @@
     },
     {
         "bank_name": "Unicredit",
-        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzidepozite_1",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/campanie-depozite-la-termen.html#dobanzistandarddepozitelatermen_1",
         "deposit_interest_rate": {
-            "value": 5.20,
+            "value": 5.00,
             "history": [
                 {
                     "value": 6.00,
@@ -3619,6 +3619,10 @@
                 {
                     "value": 6.00,
                     "date": "2025-10-30"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2026-01-29"
                 }
             ]
         },
@@ -3632,9 +3636,9 @@
     },
     {
         "bank_name": "Unicredit",
-        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/depozite-la-termen.html#dobanzidepozite_1",
+        "bank_url": "https://www.unicredit.ro/ro/persoane-fizice/Economisire-si-investitii/campanie-depozite-la-termen.html#dobanzistandarddepozitelatermen_1",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 5.30,
             "history": [
                 {
                     "value": 6.20,
@@ -3663,10 +3667,14 @@
                 {
                     "value": 6.50,
                     "date": "2025-10-30"
+                },
+                {
+                    "value": 5.50,
+                    "date": "2026-01-29"
                 }
             ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.30,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
