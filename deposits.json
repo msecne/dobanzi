@@ -2529,8 +2529,8 @@
             "history": []
         },
         "interest_after_min": 4.00,
-        "min_period": 12,
-        "max_period": 12,
+        "min_period": 24,
+        "max_period": 24,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
