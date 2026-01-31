@@ -2266,7 +2266,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\n<b>Se acorda doar pentru primul depozit deschis online!</b>\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit clasic online\n<b>Se acorda o singura data, doar pentru primul depozit deschis online!</b>\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Patria",
@@ -2311,7 +2311,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\n<b>Se acorda doar pentru primul depozit deschis online!</b>\nDobanda se acorda la scadenta\nSe poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
+        "extra_info": "Depozit clasic online\n<b>Se acorda o singura data, doar pentru primul depozit deschis online!</b>\nDobanda se acorda la scadenta\nSe poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Patria",
@@ -2363,7 +2363,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\n<b>Se acorda doar pentru primul depozit deschis online!</b>\nDobanda se acorda la scadenta\nSe poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
+        "extra_info": "Depozit clasic online\n<b>Se acorda o singura data, doar pentru primul depozit deschis online!</b>\nDobanda se acorda la scadenta\nSe poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Patria",
@@ -2411,7 +2411,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\n<b>Se acorda doar pentru primul depozit deschis online!</b>\nDobanda se acorda la scadenta\nSe poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
+        "extra_info": "Depozit clasic online\n<b>Se acorda o singura data, doar pentru primul depozit deschis online!</b>\nDobanda se acorda la scadenta\nSe poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Patria",
@@ -2459,7 +2459,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\n<b>Se acorda doar pentru primul depozit deschis online!</b>\nDobanda se acorda la scadenta\nSe poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
+        "extra_info": "Depozit clasic online\n<b>Se acorda o singura data, doar pentru primul depozit deschis online!</b>\nDobanda se acorda la scadenta\nSe poate opta pentru plata dobanzii lunar, cu o penalizare de 0,1% din dobanda\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
 {
         "bank_name": "Patria",
