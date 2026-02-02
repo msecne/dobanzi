@@ -884,7 +884,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 4.85,
             "history": [
                 {
                     "value": 6.10,
@@ -893,10 +893,14 @@
                 {
                     "value": 6.10,
                     "date": "2025-09-20"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2026-01-30"
                 }
             ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 4.85,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 300,
