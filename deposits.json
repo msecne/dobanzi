@@ -381,7 +381,7 @@
     },
     {
         "bank_name": "Raiffeisen",
-        "bank_url": "https://www.raiffeisen.ro/content/dam/rbi/retail/eu/ro/documents/regulamente/2025/20251208-regulamentul-campaniei-promotionale-vino-la-raiffeisen-si-ai-5-pe-an-dobanda-la-contul-tau-de-economii-in-lei/20251208-regulamentul-campaniei-promotionale-vino-la-raiffeisen-si-ai-5-pe-an-dobanda-la-contul-tau-de-economii-in-lei.pdf",
+        "bank_url": "https://www.raiffeisen.ro/content/dam/rbi/retail/eu/ro/documents/regulamente/2026/20260203-regulamentul-campaniei-promotionale-vino-la-raiffeisen-si-ai-5-procent-pe-an-dobanda-la-contul-tau-de-economii-in-lei/20260203-regulamentul-campaniei-promotionale-vino-la-raiffeisen-si-ai-5-procent-pe-an-dobanda-la-contul-tau-de-economii-in-lei.pdf",
         "deposit_interest_rate": {
             "value": 5.00,
             "history": [
@@ -401,7 +401,7 @@
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont promotional de economii\n<b>Doar pentru clientii noi pana la 02.02 2026</b>\n<b>Dobanda garantata pana la 31.05.2026</b>\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
+        "extra_info": "Cont promotional de economii\n<b>Doar pentru clientii noi pana la 20.05.2026</b>\n<b>Dobanda garantata pana la 31.08.2026</b>\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
         "bank_name": "TBI",
@@ -1216,7 +1216,7 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2025/12/12/depozitul-plus-lei/",
         "deposit_interest_rate": {
-            "value": 7.00,
+            "value": 6.60,
             "history": [
                 {
                     "value": 6.10,
@@ -1225,16 +1225,20 @@
                 {
                     "value": 6.25,
                     "date": "2025-05-27"
+                },
+                {
+                    "value": 7.00,
+                    "date": "2026-01-31"
                 }
             ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 6.60,
         "min_period": 7,
         "max_period": 7,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\n<b>Promotie pana la 30 ianuarie 2026 pentru sume noi aduse in cont si doar la ghiseu</b>"
+        "extra_info": "Depozit clasic\n<b>Promotie pana la 27 februarie 2026 pentru sume noi aduse in cont si doar la ghiseu</b>"
     },
     {
         "bank_name": "Exim",
