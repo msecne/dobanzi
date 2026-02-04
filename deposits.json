@@ -457,7 +457,7 @@
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
+        "bank_url": "https://techventures.bank/persoane-fizice/depozite-la-termen",
         "deposit_interest_rate": {
             "value": 1.20,
             "history": []
@@ -3371,7 +3371,7 @@
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
+        "bank_url": "https://techventures.bank/persoane-fizice/depozite-la-termen",
         "deposit_interest_rate": {
             "value": 4.75,
             "history": [
@@ -3399,7 +3399,7 @@
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
+        "bank_url": "https://techventures.bank/persoane-fizice/depozite-la-termen",
         "deposit_interest_rate": {
             "value": 5.25,
             "history": [
@@ -3427,7 +3427,7 @@
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
+        "bank_url": "https://techventures.bank/persoane-fizice/depozite-la-termen",
         "deposit_interest_rate": {
             "value": 7.00,
             "history": []
@@ -3442,7 +3442,7 @@
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
+        "bank_url": "https://techventures.bank/persoane-fizice/depozite-la-termen",
         "deposit_interest_rate": {
             "value": 6.25,
             "history": [
@@ -3474,7 +3474,7 @@
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
+        "bank_url": "https://techventures.bank/persoane-fizice/depozite-la-termen",
         "deposit_interest_rate": {
             "value": 6.25,
             "history": [
@@ -3502,7 +3502,7 @@
     },
     {
         "bank_name": "TechVentures",
-        "bank_url": "https://techventures.bank/storage/files/dobanzi-depozite-pf.pdf",
+        "bank_url": "https://techventures.bank/persoane-fizice/depozite-la-termen",
         "deposit_interest_rate": {
             "value": 5.50,
             "history": [
