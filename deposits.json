@@ -2814,7 +2814,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 5.40,
+            "value": 5.20,
             "history": [
                 {
                     "value": 6.30,
@@ -2859,10 +2859,14 @@
                 {
                     "value": 5.00,
                     "date": "2025-08-05"
+                },
+                {
+                    "value": 5.40,
+                    "date": "2026-02-02"
                 }
             ]
         },
-        "interest_after_min": 5.40,
+        "interest_after_min": 5.20,
         "min_period": 3,
         "max_period": 3,
         "min_amount": 500,
@@ -2874,11 +2878,15 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 5.70,
+            "value": 5.50,
             "history": [
+                {
+                    "value": 5.70,
+                    "date": "2026-02-02"
+                }
             ]
         },
-        "interest_after_min": 5.70,
+        "interest_after_min": 5.50,
         "min_period": 3,
         "max_period": 3,
         "min_amount": 500,
@@ -2954,7 +2962,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/persoane-fizice/produsele-noastre/economii/depozite-la-termen/",
         "deposit_interest_rate": {
-            "value": 6.30,
+            "value": 6.00,
             "history": [
                 {
                     "value": 6.20,
@@ -2971,10 +2979,14 @@
                 {
                     "value": 5.30,
                     "date": "2024-09-20"
+                },
+                {
+                    "value": 6.30,
+                    "date": "2026-02-02"
                 }
             ]
         },
-        "interest_after_min": 6.30,
+        "interest_after_min": 6.00,
         "min_period": 24,
         "max_period": 999,
         "min_amount": 500,
@@ -3021,10 +3033,15 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/ro/persoane-fizice/produsele-noastre/economii/depozit-cu-depuneri-ulterioare.html",
         "deposit_interest_rate": {
-            "value": 5.80,
-            "history": []
+            "value": 5.50,
+            "history": [
+                {
+                    "value": 5.80,
+                    "date": "2026-02-02"
+                }
+            ]
         },
-        "interest_after_min": 5.80,
+        "interest_after_min": 5.50,
         "min_period": 6,
         "max_period": 6,
         "min_amount": 500,
