@@ -2596,13 +2596,13 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 2 februarie 2026</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 20 februarie 2026</b>"
     },
     {
         "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/landing/prosave/",
         "deposit_interest_rate": {
-            "value": 7.00,
+            "value": 6.80,
             "history": [
                 {
                     "value": 7.00,
@@ -2639,22 +2639,26 @@
                 {
                     "value": 7.30,
                     "date": "2026-01-19"
+                },
+                {
+                    "value": 7.00,
+                    "date": "2026-02-02"
                 }
             ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 6.80,
         "min_period": 6,
         "max_period": 6,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 2 februarie 2026</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 20 februarie 2026</b>"
     },
     {
         "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/landing/prosave/",
         "deposit_interest_rate": {
-            "value": 7.00,
+            "value": 6.75,
             "history": [
                 {
                     "value": 6.35,
@@ -2663,16 +2667,20 @@
                 {
                     "value": 6.50,
                     "date": "2026-09-15"
+                },
+                {
+                    "value": 7.00,
+                    "date": "2026-02-02"
                 }
             ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 6.75,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 2 februarie 2026</b>"
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta\n<b>Campanie pana la 20 februarie 2026</b>"
     },
     {
         "bank_name": "ProCredit",
