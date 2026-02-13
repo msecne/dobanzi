@@ -12,7 +12,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "Cont standard de economii (spaces)\nDobanda se calculeaza zilnic si se plateste lunar\nTrebuie rulaj de min 1000 lei lunar"
+        "extra_info": "<b>Doar pentru clientii fondatori</b>\nDobanda se calculeaza zilnic si se plateste lunar\nTrebuie rulaj de min 1000 lei lunar"
     },
     {
         "bank_name": "BCR",
