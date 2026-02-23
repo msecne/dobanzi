@@ -3046,15 +3046,19 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/ro/persoane-fizice/produsele-noastre/economii/depozit-fresh-money.html#mai-multe-despre-depozit",
         "deposit_interest_rate": {
-            "value": 6.30,
+            "value": 6.00,
             "history": [
                 {
                     "value": 6.50,
                     "date": "2025-12-15"
+                },
+                {
+                    "value": 6.30,
+                    "date": "2026-02-22"
                 }
             ]
         },
-        "interest_after_min": 6.30,
+        "interest_after_min": 6.00,
         "min_period": 4,
         "max_period": 4,
         "min_amount": 500,
