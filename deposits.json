@@ -478,7 +478,7 @@
         "bank_name": "Banca Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
-            "value": 3.00,
+            "value": 2.75,
             "history": [
                 {
                     "value": 4.00,
@@ -491,10 +491,14 @@
                 {
                     "value": 3.25,
                     "date": "2024-07-26"
+                },
+                {
+                    "value": 3.00,
+                    "date": "2025-02-25"
                 }
             ]
         },
-        "interest_after_min": 3.00,
+        "interest_after_min": 2.75,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 1000,
@@ -506,7 +510,7 @@
         "bank_name": "Banca Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
-            "value": 3.10,
+            "value": 2.85,
             "history": [
                 {
                     "value": 4.10,
@@ -519,10 +523,14 @@
                 {
                     "value": 3.35,
                     "date": "2024-07-26"
+                },
+                {
+                    "value": 3.10,
+                    "date": "2025-02-25"
                 }
             ]
         },
-        "interest_after_min": 3.10,
+        "interest_after_min": 2.85,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 10000,
@@ -534,7 +542,7 @@
         "bank_name": "Banca Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
-            "value": 3.20,
+            "value": 3.00,
             "history": [
                 {
                     "value": 4.30,
@@ -547,10 +555,14 @@
                 {
                     "value": 3.50,
                     "date": "2024-07-26"
+                },
+                {
+                    "value": 3.20,
+                    "date": "2025-02-25"
                 }
             ]
         },
-        "interest_after_min": 3.20,
+        "interest_after_min": 3.00,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 100000,
@@ -562,7 +574,7 @@
         "bank_name": "Banca Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
-            "value": 3.35,
+            "value": 3.10,
             "history": [
                 {
                     "value": 4.50,
@@ -575,10 +587,14 @@
                 {
                     "value": 3.65,
                     "date": "2024-07-26"
+                },
+                {
+                    "value": 3.35,
+                    "date": "2025-02-25"
                 }
             ]
         },
-        "interest_after_min": 3.35,
+        "interest_after_min": 3.10,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 500000,
@@ -3599,7 +3615,7 @@
         "bank_name": "Banca Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
-            "value": 4.20,
+            "value": 4.00,
             "history": [
                 {
                     "value": 5.00,
@@ -3612,10 +3628,14 @@
                 {
                     "value": 4.50,
                     "date": "2024-07-26"
+                },
+                {
+                    "value": 4.20,
+                    "date": "2025-02-25"
                 }
             ]
         },
-        "interest_after_min": 4.20,
+        "interest_after_min": 4.00,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 100,
@@ -3627,7 +3647,7 @@
         "bank_name": "Banca Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
-            "value": 4.70,
+            "value": 4.50,
             "history": [
                 {
                     "value": 5.85,
@@ -3640,10 +3660,14 @@
                 {
                     "value": 5.00,
                     "date": "2024-07-26"
+                },
+                {
+                    "value": 4.70,
+                    "date": "2025-02-25"
                 }
             ]
         },
-        "interest_after_min": 4.70,
+        "interest_after_min": 4.50,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
@@ -3655,7 +3679,7 @@
         "bank_name": "Banca Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
-            "value": 4.95,
+            "value": 4.70,
             "history": [
                 {
                     "value": 6.00,
@@ -3668,10 +3692,14 @@
                 {
                     "value": 5.25,
                     "date": "2024-07-26"
+                },
+                {
+                    "value": 4.95,
+                    "date": "2025-02-25"
                 }
             ]
         },
-        "interest_after_min": 4.95,
+        "interest_after_min": 4.70,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
@@ -3683,7 +3711,7 @@
         "bank_name": "Banca Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 5.25,
             "history": [
                 {
                     "value": 6.25,
@@ -3700,10 +3728,14 @@
                 {
                     "value": 5.20,
                     "date": "2025-10-17"
+                },
+                {
+                    "value": 5.50,
+                    "date": "2025-02-25"
                 }
             ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.25,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 100,
@@ -3715,7 +3747,7 @@
         "bank_name": "Banca Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
-            "value": 6.35,
+            "value": 5.85,
             "history": [
                 {
                     "value": 6.35,
@@ -3732,10 +3764,14 @@
                 {
                     "value": 5.25,
                     "date": "2025-10-17"
+                },
+                {
+                    "value": 6.35,
+                    "date": "2025-02-25"
                 }
             ]
         },
-        "interest_after_min": 6.35,
+        "interest_after_min": 5.85,
         "min_period": 24,
         "max_period": 35,
         "min_amount": 100,
@@ -3747,7 +3783,7 @@
         "bank_name": "Banca Transilvania",
         "bank_url": "https://www.bancatransilvania.ro/economii-si-investitii/dobanzi",
         "deposit_interest_rate": {
-            "value": 6.75,
+            "value": 6.25,
             "history": [
                 {
                     "value": 6.45,
@@ -3764,10 +3800,14 @@
                 {
                     "value": 5.35,
                     "date": "2025-10-17"
+                },
+                {
+                    "value": 6.75,
+                    "date": "2025-02-25"
                 }
             ]
         },
-        "interest_after_min": 6.75,
+        "interest_after_min": 6.25,
         "min_period": 36,
         "max_period": 999,
         "min_amount": 100,
