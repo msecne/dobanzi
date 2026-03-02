@@ -1312,7 +1312,7 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 4.70,
+            "value": 5.00,
             "history": [
                 {
                     "value": 6.25,
@@ -1344,7 +1344,7 @@
                 }
             ]
         },
-        "interest_after_min": 4.70,
+        "interest_after_min": 5.00,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
@@ -1356,7 +1356,7 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 5.00,
+            "value": 5.30,
             "history": [
                 {
                     "value": 6.50,
@@ -1384,7 +1384,7 @@
                 }
             ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 5.30,
         "min_period": 6,
         "max_period": 8,
         "min_amount": 500,
@@ -1436,7 +1436,7 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 5.20,
+            "value": 5.40,
             "history": [
                 {
                     "value": 7.00,
@@ -1464,7 +1464,7 @@
                 }
             ]
         },
-        "interest_after_min": 5.20,
+        "interest_after_min": 5.40,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 500,
