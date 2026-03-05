@@ -513,7 +513,7 @@
         "interest_after_min": 2.75,
         "min_period": 1,
         "max_period": 999,
-        "min_amount": 1000,
+        "min_amount": 100,
         "max_amount": 9999,
         "can_withdraw": "true",
         "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
