@@ -686,6 +686,21 @@
     },
     {
         "bank_name": "BCR",
+        "bank_url": "https://cdn0.erstegroup.com/content/dam/ro/bcr/www_bcr_ro/Campanii/2026/pf-regulamente/Regulament-campanie-Depozitul-Promo-pe-5-luni-in-Lei-si-EUR_Sume-Noi-2026.pdf",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 5,
+        "max_period": 5,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit promotional online\n<b>Doar pentru fonduri noi</b>\nPana la data de 11.06.2026\n"
+    },
+    {
+        "bank_name": "BCR",
         "bank_url": "https://cdn0.erstegroup.com/content/dam/ro/bcr/www_bcr_ro/Persoane-fizice/Documente-importante/BCR_Dobanzi_pentru_contul_curent_si_produsele_de_economisire_PF.pdf",
         "deposit_interest_rate": {
             "value": 4.00,
@@ -760,7 +775,7 @@
         "bank_name": "BCR",
         "bank_url": "https://cdn0.erstegroup.com/content/dam/ro/bcr/www_bcr_ro/Persoane-fizice/Documente-importante/BCR_Dobanzi_pentru_contul_curent_si_produsele_de_economisire_PF.pdf",
         "deposit_interest_rate": {
-            "value": 4.80,
+            "value": 5.30,
             "history": [
                 {
                     "value": 6.50,
@@ -781,10 +796,14 @@
                 {
                     "value": 5.00,
                     "date": "2025-02-22"
+                },
+                {
+                    "value": 4.80,
+                    "date": "2026-03-11"
                 }
             ]
         },
-        "interest_after_min": 4.80,
+        "interest_after_min": 5.30,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 500,
