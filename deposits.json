@@ -243,10 +243,15 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/contul-de-economii.html",
         "deposit_interest_rate": {
-            "value": 2.50,
-            "history": []
+            "value": 2.00,
+            "history": [
+                {
+                    "value": 2.50,
+                    "date": "2026-03-01"
+                }
+            ]
         },
-        "interest_after_min": 2.50,
+        "interest_after_min": 2.00,
         "min_period": 1,
         "max_period": 6,
         "min_amount": 150,
@@ -1839,7 +1844,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
         "deposit_interest_rate": {
-            "value": 5.25,
+            "value": 4.75,
             "history": [
                 {
                     "value": 5.60,
@@ -1860,10 +1865,14 @@
                 {
                     "value": 5.75,
                     "date": "2026-01-20"
+                },
+                {
+                    "value": 5.25,
+                    "date": "2026-03-01"
                 }
             ]
         },
-        "interest_after_min": 5.25,
+        "interest_after_min": 4.75,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 500,
@@ -1875,7 +1884,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
         "deposit_interest_rate": {
-            "value": 5.70,
+            "value": 5.50,
             "history": [
                 {
                     "value": 5.50,
@@ -1892,10 +1901,14 @@
                 {
                     "value": 6.10,
                     "date": "2026-01-20"
+                },
+                {
+                    "value": 5.70,
+                    "date": "2026-03-01"
                 }
             ]
         },
-        "interest_after_min": 5.70,
+        "interest_after_min": 5.50,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 500,
@@ -1907,7 +1920,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
         "deposit_interest_rate": {
-            "value": 6.30,
+            "value": 6.00,
             "history": [
                 {
                     "value": 6.75,
@@ -1936,10 +1949,14 @@
                 {
                     "value": 6.50,
                     "date": "2026-01-20"
+                },
+                {
+                    "value": 6.30,
+                    "date": "2026-03-01"
                 }
             ]
         },
-        "interest_after_min": 6.30,
+        "interest_after_min": 6.00,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 500,
@@ -1951,7 +1968,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
         "deposit_interest_rate": {
-            "value": 6.25,
+            "value": 5.75,
             "history": [
                 {
                     "value": 7.25,
@@ -1976,10 +1993,14 @@
                 {
                     "value": 6.50,
                     "date": "2026-01-20"
+                },
+                {
+                    "value": 6.25,
+                    "date": "2026-03-01"
                 }
             ]
         },
-        "interest_after_min": 6.25,
+        "interest_after_min": 5.75,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 500,
@@ -1991,7 +2012,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
         "deposit_interest_rate": {
-            "value": 6.25,
+            "value": 5.50,
             "history": [
                 {
                     "value": 6.75,
@@ -2012,10 +2033,14 @@
                 {
                     "value": 6.50,
                     "date": "2026-01-20"
+                },
+                {
+                    "value": 6.25,
+                    "date": "2026-03-01"
                 }
             ]
         },
-        "interest_after_min": 6.25,
+        "interest_after_min": 5.50,
         "min_period": 18,
         "max_period": 24,
         "min_amount": 500,
@@ -2027,7 +2052,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
         "deposit_interest_rate": {
-            "value": 6.25,
+            "value": 5.50,
             "history": [
                 {
                     "value": 6.75,
@@ -2040,10 +2065,14 @@
                 {
                     "value": 5.75,
                     "date": "2026-06-22"
+                },
+                {
+                    "value": 6.25,
+                    "date": "2026-03-01"
                 }
             ]
         },
-        "interest_after_min": 6.25,
+        "interest_after_min": 5.50,
         "min_period": 25,
         "max_period": 999,
         "min_amount": 500,
