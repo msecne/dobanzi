@@ -1585,7 +1585,7 @@
         "min_amount": 200,
         "max_amount": 250000,
         "can_withdraw": "false",
-        "extra_info": "Depozit promo in agentie sau online pana la data de 15.04.2026\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit promo in agentie pana la data de 15.04.2026\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1600,7 +1600,7 @@
         "min_amount": 200,
         "max_amount": 250000,
         "can_withdraw": "false",
-        "extra_info": "Depozit promo in agentie sau online pana la data de 15.04.2026\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit promo in agentie pana la data de 15.04.2026\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1615,7 +1615,7 @@
         "min_amount": 200,
         "max_amount": 250000,
         "can_withdraw": "false",
-        "extra_info": "Depozit promo in agentie sau online pana la data de 15.04.2026\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit promo in agentie pana la data de 15.04.2026\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
@@ -1630,7 +1630,7 @@
         "min_amount": 200,
         "max_amount": 250000,
         "can_withdraw": "false",
-        "extra_info": "Depozit promo in agentie sau online pana la data de 15.04.2026\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit promo in agentie pana la data de 15.04.2026\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
