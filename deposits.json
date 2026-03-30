@@ -152,7 +152,7 @@
         "min_amount": 500,
         "max_amount": 200000,
         "can_withdraw": "false",
-        "extra_info": "Nu se pot retrage banii fara a pierde dobanda\nCont cu depuneri ulterioare\nTrebuie facut online\nSe pot depunde bani suplimentar oricand\nDobanda se acorda la finalul perioadei de 12 luni\nsuma minimă constituire: 500 de lei\nsuma maximă constituire: 200.000 lei\nsuma minimă depunere ulterioară lunara: 100 de lei"
+        "extra_info": "Nu se pot retrage banii fara a pierde dobanda\nCont cu depuneri ulterioare\nTrebuie facut online\nSe pot depune bani suplimentar oricand\nDobanda se acorda la finalul perioadei de 12 luni\nsuma minimă constituire: 500 de lei\nsuma maximă constituire: 200.000 lei\nsuma minimă depunere ulterioară lunara: 100 de lei"
     },
     {
         "bank_name": "Nexent Bank",
@@ -4439,7 +4439,7 @@
         "min_amount": 2000,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit deschis doar online pentru copii Vista Kids\nSe pot depunde bani ulterior oricand\nDobanda se acorda la scadenta anuala"
+        "extra_info": "Depozit deschis doar online pentru copii Vista Kids\nSe pot depune bani ulterior oricand\nDobanda se acorda la scadenta anuala"
     },
     {
         "bank_name": "Ministerul Finantelor - Tezaur",
