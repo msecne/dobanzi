@@ -1272,7 +1272,7 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2025/12/12/depozitul-plus-lei/",
         "deposit_interest_rate": {
-            "value": 6.40,
+            "value": 6.70,
             "history": [
                 {
                     "value": 6.10,
@@ -1289,10 +1289,14 @@
                 {
                     "value": 6.60,
                     "date": "2026-03-03"
+                },
+                {
+                    "value": 6.40,
+                    "date": "2026-05-05"
                 }
             ]
         },
-        "interest_after_min": 6.40,
+        "interest_after_min": 6.70,
         "min_period": 7,
         "max_period": 7,
         "min_amount": 500,
@@ -1414,7 +1418,7 @@
         },
         "interest_after_min": 5.30,
         "min_period": 6,
-        "max_period": 8,
+        "max_period": 6,
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -1424,7 +1428,22 @@
         "bank_name": "Exim",
         "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
         "deposit_interest_rate": {
-            "value": 5.10,
+            "value": 5.32,
+            "history": []
+        },
+        "interest_after_min": 5.32,
+        "min_period": 7,
+        "max_period": 7,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic. Permite plata dobanzii lunar dar cu o valoare mai mica."
+    },
+    {
+        "bank_name": "Exim",
+        "bank_url": "https://www.eximbank.ro/2022/11/09/si-mai-multe-depozite/",
+        "deposit_interest_rate": {
+            "value": 5.35,
             "history": [
                 {
                     "value": 6.75,
@@ -1449,10 +1468,14 @@
                 {
                     "value": 5.40,
                     "date": "2025-02-03"
+                },
+                {
+                    "value": 5.10,
+                    "date": "2026-06-05"
                 }
             ]
         },
-        "interest_after_min": 5.10,
+        "interest_after_min": 5.35,
         "min_period": 9,
         "max_period": 11,
         "min_amount": 500,
@@ -2268,7 +2291,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 6.25,
             "history": [
                 {
                     "value": 6.00,
@@ -2297,10 +2320,14 @@
                 {
                     "value": 6.50,
                     "date": "2026-01-26"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2026-05-05"
                 }
             ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 6.25,
         "min_period": 7,
         "max_period": 7,
         "min_amount": 100,
@@ -2422,7 +2449,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2299",
+        "bank_url": "https://www.patriabank.ro/d/2387",
         "deposit_interest_rate": {
             "value": 5.35,
             "history": [
@@ -2470,7 +2497,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2299",
+        "bank_url": "https://www.patriabank.ro/d/2387",
         "deposit_interest_rate": {
             "value": 6.10,
             "history": [
@@ -2519,7 +2546,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2299",
+        "bank_url": "https://www.patriabank.ro/d/2387",
         "deposit_interest_rate": {
             "value": 5.95,
             "history": [
@@ -2575,7 +2602,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2299",
+        "bank_url": "https://www.patriabank.ro/d/2387",
         "deposit_interest_rate": {
             "value": 5.90,
             "history": [
@@ -2627,7 +2654,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2299",
+        "bank_url": "https://www.patriabank.ro/d/2387",
         "deposit_interest_rate": {
             "value": 6.60,
             "history": []
@@ -2642,7 +2669,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2299",
+        "bank_url": "https://www.patriabank.ro/d/2387",
         "deposit_interest_rate": {
             "value": 5.25,
             "history": [
@@ -2670,7 +2697,7 @@
     },
 {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2319",
+        "bank_url": "https://www.patriabank.ro/d/2386",
         "deposit_interest_rate": {
             "value": 3.50,
             "history": []
@@ -2685,7 +2712,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2319",
+        "bank_url": "https://www.patriabank.ro/d/2386",
         "deposit_interest_rate": {
             "value": 4.00,
             "history": []
@@ -2700,7 +2727,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2319",
+        "bank_url": "https://www.patriabank.ro/d/2386",
         "deposit_interest_rate": {
             "value": 6.60,
             "history": []
@@ -2715,7 +2742,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2319",
+        "bank_url": "https://www.patriabank.ro/d/2386",
         "deposit_interest_rate": {
             "value": 4.25,
             "history": []
@@ -2730,7 +2757,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2319",
+        "bank_url": "https://www.patriabank.ro/d/2386",
         "deposit_interest_rate": {
             "value": 4.50,
             "history": []
@@ -2745,7 +2772,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2319",
+        "bank_url": "https://www.patriabank.ro/d/2386",
         "deposit_interest_rate": {
             "value": 4.00,
             "history": []
@@ -2790,7 +2817,7 @@
         "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/persoane-fizice/depozit-la-termen/",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 6.60,
             "history": [
                 {
                     "value": 7.30,
@@ -2811,10 +2838,14 @@
                 {
                     "value": 6.25,
                     "date": "2024-07-18"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2025-05-05"
                 }
             ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 6.60,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
@@ -2826,7 +2857,7 @@
         "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/persoane-fizice/depozit-la-termen/",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 6.50,
             "history": [
                 {
                     "value": 7.50,
@@ -2855,10 +2886,14 @@
                 {
                     "value": 6.10,
                     "date": "2024-08-02"
+                },
+                {
+                    "value": 6.00,
+                    "date": "2025-05-05"
                 }
             ]
         },
-        "interest_after_min": 6.00,
+        "interest_after_min": 6.50,
         "min_period": 12,
         "max_period": 17,
         "min_amount": 100,
@@ -3090,7 +3125,7 @@
         "bank_name": "Raiffeisen",
         "bank_url": "https://www.raiffeisen.ro/ro/persoane-fizice/produsele-noastre/economii/depozit-fresh-money.html#mai-multe-despre-depozit",
         "deposit_interest_rate": {
-            "value": 6.50,
+            "value": 6.00,
             "history": [
                 {
                     "value": 6.50,
@@ -3103,10 +3138,14 @@
                 {
                     "value": 6.00,
                     "date": "2026-04-01"
+                },
+                {
+                    "value": 6.50,
+                    "date": "2026-05-06"
                 }
             ]
         },
-        "interest_after_min": 6.50,
+        "interest_after_min": 6.00,
         "min_period": 4,
         "max_period": 4,
         "min_amount": 500,
@@ -3992,7 +4031,7 @@
         },
         "interest_after_min": 5.50,
         "min_period": 3,
-        "max_period": 999,
+        "max_period": 3,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
@@ -4012,7 +4051,7 @@
         },
         "interest_after_min": 5.80,
         "min_period": 6,
-        "max_period": 999,
+        "max_period": 6,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
