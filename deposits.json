@@ -1302,7 +1302,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit clasic\n<b>Promotie pana la 30 aprilie 2026 pentru sume noi aduse in cont</b>\nSe poate aplica si online"
+        "extra_info": "Depozit clasic\n<b>Promotie pana la data de 31.05.2026 pentru sume noi aduse in cont</b>\nSe poate aplica si online"
     },
     {
         "bank_name": "Exim",
@@ -3151,7 +3151,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Fresh Money\nDepozit din sumele noi aduse in cont\n<b>Soldul total astăzi – Soldul total la Soldul total la 03.02.2026 – Soldul depozitelor Fresh Money deja deschise</b>\nPlata dobanzii se face la scadenta"
+        "extra_info": "Fresh Money\nDepozit din sumele noi aduse in cont\n<b>Soldul total astăzi – Soldul total la Soldul total la 06.05.2026 – Soldul depozitelor Fresh Money deja deschise</b>\nPlata dobanzii se face la scadenta"
     },
     {
         "bank_name": "Raiffeisen",
