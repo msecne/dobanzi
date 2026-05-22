@@ -397,30 +397,6 @@
         "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
     },
     {
-        "bank_name": "Raiffeisen",
-        "bank_url": "https://www.raiffeisen.ro/content/dam/rbi/retail/eu/ro/documents/regulamente/2026/20260203-regulamentul-campaniei-promotionale-vino-la-raiffeisen-si-ai-5-procent-pe-an-dobanda-la-contul-tau-de-economii-in-lei/20260203-regulamentul-campaniei-promotionale-vino-la-raiffeisen-si-ai-5-procent-pe-an-dobanda-la-contul-tau-de-economii-in-lei.pdf",
-        "deposit_interest_rate": {
-            "value": 5.00,
-            "history": [
-                {
-                    "value": 5.00,
-                    "date": "2025-09-01"
-                },
-                {
-                    "value": 6.00,
-                    "date": "2025-12-08"
-                }
-            ]
-        },
-        "interest_after_min": 6.00,
-        "min_period": 1,
-        "max_period": 999,
-        "min_amount": 100,
-        "max_amount": 999999,
-        "can_withdraw": "true",
-        "extra_info": "Cont promotional de economii\n<b>Doar pentru clientii noi pana la 20.05.2026</b>\n<b>Dobanda garantata pana la 31.08.2026</b>\nDobanda se calculeaza zilnic si se plateste si capitalizeaza la final de luna"
-    },
-    {
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
