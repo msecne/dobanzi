@@ -2797,7 +2797,7 @@
         "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/persoane-fizice/depozit-la-termen/",
         "deposit_interest_rate": {
-            "value": 6.60,
+            "value": 7.00,
             "history": [
                 {
                     "value": 7.30,
@@ -2822,10 +2822,14 @@
                 {
                     "value": 6.00,
                     "date": "2025-05-05"
+                },
+                {
+                    "value": 6.60,
+                    "date": "2025-05-25"
                 }
             ]
         },
-        "interest_after_min": 6.60,
+        "interest_after_min": 7.00,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
