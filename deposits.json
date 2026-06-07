@@ -1579,27 +1579,31 @@
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-fonduri-noi-la-depozite-20-aprilie-20-iunie-2026/",
         "deposit_interest_rate": {
-            "value": 6.45,
+            "value": 6.60,
             "history": [
                 {
                     "value": 6.25,
                     "date": "2026-04-14"
+                },
+                {
+                    "value": 6.45,
+                    "date": "2026-06-01"
                 }
             ]
         },
-        "interest_after_min": 6.45,
+        "interest_after_min": 6.60,
         "min_period": 1,
         "max_period": 1,
         "min_amount": 200,
         "max_amount": 250000,
         "can_withdraw": "false",
-        "extra_info": "Depozit promo in agentie sau online pana la data de 20.06.2026\nPentru fonduri noi dupa 16.04.2026\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit promo in agentie sau online pana la data de 30.06.2026\nPentru fonduri noi dupa 15.05.2026\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-fonduri-noi-la-depozite-20-aprilie-20-iunie-2026/",
         "deposit_interest_rate": {
-            "value": 6.45,
+            "value": 6.60,
             "history": [
                 {
                     "value": 6.45,
@@ -1607,53 +1611,61 @@
                 }
             ]
         },
-        "interest_after_min": 6.45,
+        "interest_after_min": 6.60,
         "min_period": 3,
         "max_period": 3,
         "min_amount": 200,
         "max_amount": 250000,
         "can_withdraw": "false",
-        "extra_info": "Depozit promo in agentie sau online pana la data de 20.06.2026\nPentru fonduri noi dupa 16.04.2026\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit promo in agentie sau online pana la data de 30.06.2026\nPentru fonduri noi dupa 15.05.2026\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-fonduri-noi-la-depozite-20-aprilie-20-iunie-2026/",
         "deposit_interest_rate": {
-            "value": 6.25,
+            "value": 6.55,
             "history": [
                 {
                     "value": 6.10,
                     "date": "2026-04-14"
+                },
+                {
+                    "value": 6.25,
+                    "date": "2026-06-01"
                 }
             ]
         },
-        "interest_after_min": 6.25,
+        "interest_after_min": 6.55,
         "min_period": 6,
         "max_period": 6,
         "min_amount": 200,
         "max_amount": 250000,
         "can_withdraw": "false",
-        "extra_info": "Depozit promo in agentie sau online pana la data de 20.06.2026\nPentru fonduri noi dupa 16.04.2026\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit promo in agentie sau online pana la data de 30.06.2026\nPentru fonduri noi dupa 15.05.2026\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
         "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-fonduri-noi-la-depozite-20-aprilie-20-iunie-2026/",
         "deposit_interest_rate": {
-            "value": 6.25,
+            "value": 6.55,
             "history": [
                 {
                     "value": 6.10,
                     "date": "2026-04-14"
+                },
+                {
+                    "value": 6.25,
+                    "date": "2026-06-01"
                 }
             ]
         },
-        "interest_after_min": 6.25,
+        "interest_after_min": 6.55,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 200,
         "max_amount": 250000,
         "can_withdraw": "false",
-        "extra_info": "Depozit promo in agentie sau online pana la data de 20.06.2026\nPentru fonduri noi dupa 16.04.2026\nDobanda se acorda la scadenta"
+        "extra_info": "Depozit promo in agentie sau online pana la data de 30.06.2026\nPentru fonduri noi dupa 15.05.2026\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
