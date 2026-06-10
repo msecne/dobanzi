@@ -18,11 +18,15 @@
         "bank_name": "BCR",
         "bank_url": "https://www.bcr.ro/ro/persoane-fizice/economisire-si-investire/contul-de-economii",
         "deposit_interest_rate": {
-            "value": 2.0,
+            "value": 2.25,
             "history": [
                 {
-                    "value": 1.5,
+                    "value": 1.50,
                     "date": "2023-09-15"
+                },
+                {
+                    "value": 2.00,
+                    "date": "2026-06-09"
                 }
             ]
         },
@@ -682,7 +686,7 @@
         "min_amount": 500,
         "max_amount": 999999,
         "can_withdraw": "false",
-        "extra_info": "Depozit promotional online\n<b>Doar pentru fonduri noi</b>\nPana la data de 11.06.2026\n"
+        "extra_info": "Depozit promotional online\n<b>Doar pentru fonduri noi</b>\nPana la data de 11.08.2026\n"
     },
     {
         "bank_name": "BCR",
