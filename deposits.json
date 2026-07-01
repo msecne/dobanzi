@@ -226,7 +226,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "<b>Dobanda se calculeaza, capitalizeaza si livreaza zilnic!</b>\nNecesita plan de economisire lunara de min 50 lei"
+        "extra_info": "<b>Dobanda se calculeaza, capitalizeaza si plateste zilnic!</b>\nNecesita plan de economisire lunara de min 50 lei"
     },
     {
         "bank_name": "ING",
