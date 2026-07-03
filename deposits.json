@@ -2865,7 +2865,37 @@
         },
         "interest_after_min": 6.80,
         "min_period": 12,
+        "max_period": 13,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "ProCredit",
+        "bank_url": "https://www.procreditbank.ro/persoane-fizice/depozit-la-termen/",
+        "deposit_interest_rate": {
+            "value": 6.00,
+            "history": []
+        },
+        "interest_after_min": 6.00,
+        "min_period": 14,
         "max_period": 17,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "ProCredit",
+        "bank_url": "https://www.procreditbank.ro/persoane-fizice/depozit-la-termen/",
+        "deposit_interest_rate": {
+            "value": 5.50,
+            "history": []
+        },
+        "interest_after_min": 5.50,
+        "min_period": 18,
+        "max_period": 24,
         "min_amount": 100,
         "max_amount": 999999,
         "can_withdraw": "false",
