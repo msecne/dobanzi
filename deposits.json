@@ -12,7 +12,7 @@
         "min_amount": 1,
         "max_amount": 999999,
         "can_withdraw": "true",
-        "extra_info": "<b>Doar pentru clientii fondatori</b>\nDobanda se calculeaza zilnic si se plateste lunar\nTrebuie rulaj de min 1000 lei lunar"
+        "extra_info": "<b>Doar pentru clientii fondatori sau Premium</b>\nDobanda se calculeaza zilnic si se plateste lunar\nNecesita cheltuieli cu cardul de min 1000 lei lunar"
     },
     {
         "bank_name": "BCR",
@@ -102,7 +102,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-copii",
         "deposit_interest_rate": {
-            "value": 4.80,
+            "value": 4.60,
             "history": [
                 {
                     "value": 6.30,
@@ -115,10 +115,14 @@
                 {
                     "value": 5.30,
                     "date": "2024-10-20"
+                },
+                {
+                    "value": 4.80,
+                    "date": "2026-07-05"
                 }
             ]
         },
-        "interest_after_min": 4.80,
+        "interest_after_min": 4.60,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 500,
@@ -130,7 +134,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-depuneri-ulterioare",
         "deposit_interest_rate": {
-            "value": 4.50,
+            "value": 4.30,
             "history": [
                 {
                     "value": 6.20,
@@ -147,10 +151,14 @@
                 {
                     "value": 5.00,
                     "date": "2024-10-20"
+                },
+                {
+                    "value": 4.50,
+                    "date": "2026-07-05"
                 }
             ]
         },
-        "interest_after_min": 4.50,
+        "interest_after_min": 4.30,
         "min_period": 12,
         "max_period": 999,
         "min_amount": 500,
@@ -844,7 +852,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/dobanzi-depozite-copii",
         "deposit_interest_rate": {
-            "value": 4.80,
+            "value": 4.60,
             "history": [
                 {
                     "value": 6.30,
@@ -857,10 +865,14 @@
                 {
                     "value": 5.30,
                     "date": "2024-10-20"
+                },
+                {
+                    "value": 4.80,
+                    "date": "2026-07-05"
                 }
             ]
         },
-        "interest_after_min": 4.80,
+        "interest_after_min": 4.60,
         "min_period": 1,
         "max_period": 999,
         "min_amount": 500,
@@ -872,7 +884,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 4.25,
+            "value": 4.20,
             "history": [
                 {
                     "value": 5.20,
@@ -885,10 +897,14 @@
                 {
                     "value": 4.75,
                     "date": "2024-10-20"
+                },
+                {
+                    "value": 4.25,
+                    "date": "2026-07-05"
                 }
             ]
         },
-        "interest_after_min": 4.25,
+        "interest_after_min": 4.20,
         "min_period": 1,
         "max_period": 2,
         "min_amount": 300,
@@ -900,7 +916,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 4.70,
+            "value": 4.40,
             "history": [
                 {
                     "value": 6.00,
@@ -917,10 +933,14 @@
                 {
                     "value": 5.20,
                     "date": "2024-10-20"
+                },
+                {
+                    "value": 4.70,
+                    "date": "2026-07-05"
                 }
             ]
         },
-        "interest_after_min": 4.70,
+        "interest_after_min": 4.40,
         "min_period": 3,
         "max_period": 4,
         "min_amount": 300,
@@ -932,7 +952,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 4.85,
+            "value": 4.60,
             "history": [
                 {
                     "value": 6.10,
@@ -945,10 +965,14 @@
                 {
                     "value": 6.00,
                     "date": "2026-01-30"
+                },
+                {
+                    "value": 4.85,
+                    "date": "2026-07-05"
                 }
             ]
         },
-        "interest_after_min": 4.85,
+        "interest_after_min": 4.60,
         "min_period": 5,
         "max_period": 5,
         "min_amount": 300,
@@ -960,7 +984,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 4.95,
+            "value": 4.70,
             "history": [
                 {
                     "value": 6.20,
@@ -977,10 +1001,14 @@
                 {
                     "value": 5.40,
                     "date": "2024-10-20"
+                },
+                {
+                    "value": 4.95,
+                    "date": "2026-07-05"
                 }
             ]
         },
-        "interest_after_min": 4.95,
+        "interest_after_min": 4.70,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 300,
@@ -992,7 +1020,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 5.25,
+            "value": 5.05,
             "history": [
                 {
                     "value": 6.90,
@@ -1009,10 +1037,14 @@
                 {
                     "value": 5.70,
                     "date": "2024-10-20"
+                },
+                {
+                    "value": 5.25,
+                    "date": "2026-07-05"
                 }
             ]
         },
-        "interest_after_min": 5.25,
+        "interest_after_min": 5.05,
         "min_period": 12,
         "max_period": 23,
         "min_amount": 300,
@@ -1024,7 +1056,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 5.00,
+            "value": 4.80,
             "history": [
                 {
                     "value": 7.00,
@@ -1041,10 +1073,14 @@
                 {
                     "value": 5.50,
                     "date": "2024-10-20"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2026-07-05"
                 }
             ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 4.80,
         "min_period": 24,
         "max_period": 35,
         "min_amount": 300,
@@ -1056,7 +1092,7 @@
         "bank_name": "CEC",
         "bank_url": "https://www.cec.ro/persoane-fizice/depozite/dobanzi-depozite-lei",
         "deposit_interest_rate": {
-            "value": 5.00,
+            "value": 4.80,
             "history": [
                 {
                     "value": 7.10,
@@ -1073,10 +1109,14 @@
                 {
                     "value": 5.50,
                     "date": "2024-10-20"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2026-07-05"
                 }
             ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 4.80,
         "min_period": 36,
         "max_period": 999,
         "min_amount": 1000,
@@ -1586,6 +1626,98 @@
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit clasic"
+    },
+    {
+        "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-fonduri-noi-la-depozite-20-aprilie-20-iunie-2026/",
+        "deposit_interest_rate": {
+            "value": 6.60,
+            "history": [
+                {
+                    "value": 6.25,
+                    "date": "2026-04-14"
+                },
+                {
+                    "value": 6.45,
+                    "date": "2026-06-01"
+                }
+            ]
+        },
+        "interest_after_min": 6.60,
+        "min_period": 1,
+        "max_period": 1,
+        "min_amount": 200,
+        "max_amount": 250000,
+        "can_withdraw": "false",
+        "extra_info": "Depozit promo in agentie sau online pana la data de 31.08.2026\nPentru fonduri noi dupa 02.06.2026\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-fonduri-noi-la-depozite-20-aprilie-20-iunie-2026/",
+        "deposit_interest_rate": {
+            "value": 6.60,
+            "history": [
+                {
+                    "value": 6.45,
+                    "date": "2026-04-14"
+                }
+            ]
+        },
+        "interest_after_min": 6.60,
+        "min_period": 3,
+        "max_period": 3,
+        "min_amount": 200,
+        "max_amount": 250000,
+        "can_withdraw": "false",
+        "extra_info": "Depozit promo in agentie sau online pana la data de 31.08.2026\nPentru fonduri noi dupa 02.06.2026\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-fonduri-noi-la-depozite-20-aprilie-20-iunie-2026/",
+        "deposit_interest_rate": {
+            "value": 6.55,
+            "history": [
+                {
+                    "value": 6.10,
+                    "date": "2026-04-14"
+                },
+                {
+                    "value": 6.25,
+                    "date": "2026-06-01"
+                }
+            ]
+        },
+        "interest_after_min": 6.55,
+        "min_period": 6,
+        "max_period": 6,
+        "min_amount": 200,
+        "max_amount": 250000,
+        "can_withdraw": "false",
+        "extra_info": "Depozit promo in agentie sau online pana la data de 31.08.2026\nPentru fonduri noi dupa 02.06.2026\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "Garanti",
+        "bank_url": "https://www.garantibbva.ro/campanii-curente-online/campania-fonduri-noi-la-depozite-20-aprilie-20-iunie-2026/",
+        "deposit_interest_rate": {
+            "value": 6.55,
+            "history": [
+                {
+                    "value": 6.10,
+                    "date": "2026-04-14"
+                },
+                {
+                    "value": 6.25,
+                    "date": "2026-06-01"
+                }
+            ]
+        },
+        "interest_after_min": 6.55,
+        "min_period": 12,
+        "max_period": 12,
+        "min_amount": 200,
+        "max_amount": 250000,
+        "can_withdraw": "false",
+        "extra_info": "Depozit promo in agentie sau online pana la data de 31.08.2026\nPentru fonduri noi dupa 02.06.2026\nDobanda se acorda la scadenta"
     },
     {
         "bank_name": "Garanti",
