@@ -2073,6 +2073,21 @@
     },
     {
         "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/Campanie-Depozite-la-termen-9-luni-lei-Sume-noi.html",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 9,
+        "max_period": 9,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit deschis doar in sucursala\n<b>Depozitele se pot constitui exclusiv pentru sume noi</b>\nPerioada campanie pana la 30.09.2026"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
         "deposit_interest_rate": {
             "value": 6.00,
