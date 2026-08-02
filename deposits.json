@@ -2524,7 +2524,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2436",
+        "bank_url": "https://www.patriabank.ro/d/2453",
         "deposit_interest_rate": {
             "value": 5.35,
             "history": [
@@ -2572,7 +2572,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2436",
+        "bank_url": "https://www.patriabank.ro/d/2453",
         "deposit_interest_rate": {
             "value": 6.10,
             "history": [
@@ -2621,7 +2621,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2436",
+        "bank_url": "https://www.patriabank.ro/d/2453",
         "deposit_interest_rate": {
             "value": 5.95,
             "history": [
@@ -2677,7 +2677,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2436",
+        "bank_url": "https://www.patriabank.ro/d/2453",
         "deposit_interest_rate": {
             "value": 5.90,
             "history": [
@@ -2729,7 +2729,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2436",
+        "bank_url": "https://www.patriabank.ro/d/2453",
         "deposit_interest_rate": {
             "value": 6.60,
             "history": []
@@ -2744,7 +2744,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2436",
+        "bank_url": "https://www.patriabank.ro/d/2453",
         "deposit_interest_rate": {
             "value": 5.25,
             "history": [
@@ -2772,7 +2772,7 @@
     },
 {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2435",
+        "bank_url": "https://www.patriabank.ro/d/2452",
         "deposit_interest_rate": {
             "value": 3.50,
             "history": []
@@ -2787,7 +2787,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2435",
+        "bank_url": "https://www.patriabank.ro/d/2452",
         "deposit_interest_rate": {
             "value": 4.00,
             "history": []
@@ -2802,7 +2802,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2435",
+        "bank_url": "https://www.patriabank.ro/d/2452",
         "deposit_interest_rate": {
             "value": 6.60,
             "history": []
@@ -2817,7 +2817,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2435",
+        "bank_url": "https://www.patriabank.ro/d/2452",
         "deposit_interest_rate": {
             "value": 4.25,
             "history": []
@@ -2832,7 +2832,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2435",
+        "bank_url": "https://www.patriabank.ro/d/2452",
         "deposit_interest_rate": {
             "value": 4.50,
             "history": []
@@ -2847,7 +2847,7 @@
     },
     {
         "bank_name": "Patria",
-        "bank_url": "https://www.patriabank.ro/d/2435",
+        "bank_url": "https://www.patriabank.ro/d/2452",
         "deposit_interest_rate": {
             "value": 4.00,
             "history": []
@@ -2911,7 +2911,7 @@
         "bank_name": "ProCredit",
         "bank_url": "https://www.procreditbank.ro/persoane-fizice/depozit-la-termen/",
         "deposit_interest_rate": {
-            "value": 7.00,
+            "value": 6.80,
             "history": [
                 {
                     "value": 7.30,
@@ -2940,10 +2940,14 @@
                 {
                     "value": 6.60,
                     "date": "2025-05-25"
+                },
+                {
+                    "value": 7.00,
+                    "date": "2026-07-31"
                 }
             ]
         },
-        "interest_after_min": 7.00,
+        "interest_after_min": 6.80,
         "min_period": 6,
         "max_period": 11,
         "min_amount": 100,
