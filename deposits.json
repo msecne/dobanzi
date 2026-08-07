@@ -4276,6 +4276,21 @@
         "bank_name": "BRD",
         "bank_url": "https://www.brd.ro/depozitul-la-termen",
         "deposit_interest_rate": {
+            "value": 5.60,
+            "history": []
+        },
+        "interest_after_min": 5.60,
+        "min_period": 5,
+        "max_period": 5,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se calculeaza si se plateste la scadenta"
+    },
+    {
+        "bank_name": "BRD",
+        "bank_url": "https://www.brd.ro/depozitul-la-termen",
+        "deposit_interest_rate": {
             "value": 4.30,
             "history": [
                 {
