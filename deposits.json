@@ -1881,6 +1881,21 @@
     },
     {
         "bank_name": "ING",
+        "bank_url": "https://ing.ro/persoane-fizice/economii-si-investitii/depo-invest",
+        "deposit_interest_rate": {
+            "value": 7.00,
+            "history": []
+        },
+        "interest_after_min": 7.00,
+        "min_period": 6,
+        "max_period": 6,
+        "min_amount": 2000,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit combinat cu fonduri de investitii\n50% din suma merge in depozit, 50% in fonduri mutuale"
+    },
+    {
+        "bank_name": "ING",
         "bank_url": "https://ing.ro/persoane-fizice/economii-si-investitii/ing-economii-si-depozite-la-termen#depozite-la-termen",
         "deposit_interest_rate": {
             "value": 4.00,
@@ -2090,7 +2105,7 @@
         "bank_name": "Intesa SanPaolo",
         "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/depozite-la-termen.html",
         "deposit_interest_rate": {
-            "value": 6.00,
+            "value": 6.25,
             "history": [
                 {
                     "value": 6.75,
