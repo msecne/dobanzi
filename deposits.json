@@ -3638,7 +3638,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 5.70,
+            "value": 7.20,
             "history": [
                 {
                     "value": 7.45,
@@ -3659,10 +3659,14 @@
                 {
                     "value": 5.95,
                     "date": "2025-01-24"
+                },
+                {
+                    "value": 5.70,
+                    "date": "2026-08-25"
                 }
             ]
         },
-        "interest_after_min": 5.70,
+        "interest_after_min": 7.20,
         "min_period": 15,
         "max_period": 17,
         "min_amount": 100,
@@ -3674,7 +3678,7 @@
         "bank_name": "TBI",
         "bank_url": "https://tbibank.ro/product/depozitul-online/",
         "deposit_interest_rate": {
-            "value": 5.70,
+            "value": 7.30,
             "history": [
                 {
                     "value": 6.95,
@@ -3687,11 +3691,35 @@
                 {
                     "value": 5.95,
                     "date": "2025-01-24"
+                },
+                {
+                    "value": 5.70,
+                    "date": "2026-08-25"
                 }
             ]
         },
-        "interest_after_min": 5.70,
+        "interest_after_min": 7.30,
         "min_period": 18,
+        "max_period": 23,
+        "min_amount": 100,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit clasic online\nDobanda se acorda la scadenta"
+    },
+    {
+        "bank_name": "TBI",
+        "bank_url": "https://tbibank.ro/product/depozitul-online/",
+        "deposit_interest_rate": {
+            "value": 7.50,
+            "history": [
+                {
+                    "value": 5.70,
+                    "date": "2026-08-25"
+                }
+            ]
+        },
+        "interest_after_min": 7.50,
+        "min_period": 24,
         "max_period": 999,
         "min_amount": 100,
         "max_amount": 999999,
