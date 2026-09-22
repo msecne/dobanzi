@@ -2346,7 +2346,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 4.75,
+            "value": 4.50,
             "history": [
                 {
                     "value": 5.35,
@@ -2367,10 +2367,14 @@
                 {
                     "value": 5.25,
                     "date": "2026-08-17"
+                },
+                {
+                    "value": 4.75,
+                    "date": "2026-09-21"
                 }
             ]
         },
-        "interest_after_min": 4.75,
+        "interest_after_min": 4.50,
         "min_period": 3,
         "max_period": 5,
         "min_amount": 100,
@@ -2382,7 +2386,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 5.00,
+            "value": 4.75,
             "history": [
                 {
                     "value": 5.50,
@@ -2403,10 +2407,14 @@
                 {
                     "value": 5.50,
                     "date": "2026-08-17"
+                },
+                {
+                    "value": 5.00,
+                    "date": "2026-09-21"
                 }
             ]
         },
-        "interest_after_min": 5.00,
+        "interest_after_min": 4.75,
         "min_period": 6,
         "max_period": 8,
         "min_amount": 100,
@@ -2418,7 +2426,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 5.25,
+            "value": 5.00,
             "history": [
                 {
                     "value": 6.00,
@@ -2455,10 +2463,14 @@
                 {
                     "value": 6.25,
                     "date": "2026-08-17"
+                },
+                {
+                    "value": 5.25,
+                    "date": "2026-09-21"
                 }
             ]
         },
-        "interest_after_min": 5.25,
+        "interest_after_min": 5.00,
         "min_period": 7,
         "max_period": 7,
         "min_amount": 100,
@@ -2470,7 +2482,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 5.25,
+            "value": 5.00,
             "history": [
                 {
                     "value": 6.00,
@@ -2495,10 +2507,14 @@
                 {
                     "value": 5.75,
                     "date": "2026-08-17"
+                },
+                {
+                    "value": 5.25,
+                    "date": "2026-09-21"
                 }
             ]
         },
-        "interest_after_min": 5.25,
+        "interest_after_min": 5.00,
         "min_period": 9,
         "max_period": 11,
         "min_amount": 100,
@@ -2510,7 +2526,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 5.50,
+            "value": 5.25,
             "history": [
                 {
                     "value": 6.25,
@@ -2535,10 +2551,14 @@
                 {
                     "value": 5.80,
                     "date": "2026-08-17"
+                },
+                {
+                    "value": 5.50,
+                    "date": "2026-09-21"
                 }
             ]
         },
-        "interest_after_min": 5.50,
+        "interest_after_min": 5.25,
         "min_period": 12,
         "max_period": 12,
         "min_amount": 100,
@@ -2550,7 +2570,7 @@
         "bank_name": "Libra",
         "bank_url": "https://www.librabank.ro/dobanzi-depozite-persoane-fizice",
         "deposit_interest_rate": {
-            "value": 6.22,
+            "value": 5.95,
             "history": [
                 {
                     "value": 6.50,
@@ -2579,10 +2599,14 @@
                 {
                     "value": 6.60,
                     "date": "2026-08-17"
+                },
+                {
+                    "value": 6.22,
+                    "date": "2026-09-21"
                 }
             ]
         },
-        "interest_after_min": 6.22,
+        "interest_after_min": 5.95,
         "min_period": 13,
         "max_period": 13,
         "min_amount": 100,
