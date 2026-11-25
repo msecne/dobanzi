@@ -265,11 +265,26 @@
         },
         "interest_after_min": 2.00,
         "min_period": 1,
-        "max_period": 6,
+        "max_period": 12,
         "min_amount": 150,
         "max_amount": 999999,
         "can_withdraw": "true",
         "extra_info": "Cont standard de economii\nDobanda se calculeaza zilnic si se plateste si capitalizeaza lunar"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/super-dobanda-cont-de-economii-si-cafea-pentru-un-an.html",
+        "deposit_interest_rate": {
+            "value": 5.50,
+            "history": []
+        },
+        "interest_after_min": 5.50,
+        "min_period": 1,
+        "max_period": 12,
+        "min_amount": 150,
+        "max_amount": 999999,
+        "can_withdraw": "true",
+        "extra_info": "Cont promotional de economii\n<b>Doar pentru conturile noi deschise pana la data de 31.12.2026</b>"
     },
     {
         "bank_name": "Libra",
@@ -2235,6 +2250,21 @@
         "max_amount": 999999,
         "can_withdraw": "false",
         "extra_info": "Depozit deschis doar online\n<b>Se poate opta pentru plata dobanzii lunar in contul curent</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
+    },
+    {
+        "bank_name": "Intesa SanPaolo",
+        "bank_url": "https://www.intesasanpaolobank.ro/persoane-fizice/economii/Campanie-Depozite-la-termen-9-luni-lei-Sume-noi.html",
+        "deposit_interest_rate": {
+            "value": 6.50,
+            "history": []
+        },
+        "interest_after_min": 6.50,
+        "min_period": 9,
+        "max_period": 9,
+        "min_amount": 500,
+        "max_amount": 999999,
+        "can_withdraw": "false",
+        "extra_info": "Depozit deschis doar online\n<b>Promotie doar pentru sume noi pana la data de 26.02.2027</b>\nLa lichidarea depozitului inainte de termen se vor retine dobanzile lunare platite daca s-a optat pentru ele"
     },
     {
         "bank_name": "Intesa SanPaolo",
